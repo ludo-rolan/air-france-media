@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+// 1. Configuration and helpers
+@import
+'abstracts/variables',
+'abstracts/functions',
+'abstracts/mixins';
+
+// 2. Vendors
+@import
+'../../../../afcore/assets/stylesheets/scss/vendors/normalize',
+'../../../../afcore/assets/stylesheets/scss/vendors/bootstrap/bootstrap';
+
+
+// 3. Base stuff
+@import
+'../../../../afcore/assets/stylesheets/scss/base/base',
+'base/fonts',
+'../../../../afcore/assets/stylesheets/scss/base/typography',
+'../../../../afcore/assets/stylesheets/scss/base/helpers';
+
+// 4. Layout-related sections
+@import
+'layout/destinations_block',
+'layout/post_preview',
+'layout/destinations_search_block',
+'layout/select_destination',
+'layout/select_budget',
+'layout/bandeau_partners',
+'../../../../afcore/assets/stylesheets/scss/layout/header',
+'../../../../afcore/assets/stylesheets/scss/layout/burger',
+'../../../../afcore/assets/stylesheets/scss/layout/footer',
+'../../../../afcore/assets/stylesheets/scss/layout/visiter_endroit';
+
+
+// 5. Components
+@import
+'components/breadcrumb',
+'components/notice',
+'components/bandeau',
+'pages/country_page',
+'pages/city_page',
+'pages/adresse_page',
+'../../../../afcore/assets/stylesheets/scss/components/share',
+'../../../../afcore/assets/stylesheets/scss/components/button',
+'components/block_filters',
+'components/book_fly',
+'components/carte_address',
+'components/article_plus_lus',
+'components/destination_search_modal',
+'components/aftg_menu_nav',
+'components/breadcrumbs_adresses',
+'components/destination_search_modal',
+'components/carnet_voyage',
+'../../../../afcore/assets/stylesheets/scss/components/pagination',
+'../../../../afcore/assets/stylesheets/scss/layout/video_player',
+'components/bon_a_savoir',
+'../../../../afcore/assets/stylesheets/scss/components/ad_div';
+
+
+// 6. Page-specific styles
+@import
+'pages/single',
+'../../../../afcore/assets/stylesheets/scss/pages/single',
+'../../../../afcore/assets/stylesheets/scss/pages/page404',
+'pages/infos_pratiques',
+'pages/credit_photo';
+// 7. Forms
+
+
+@import '../../../../afcore/assets/stylesheets/scss/forms/embarquement';

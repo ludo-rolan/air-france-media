@@ -1,0 +1,113 @@
+.single{
+  &-sticky{
+    top : 120px;
+    margin-bottom: 150px;
+  }
+  
+  .hp_bandeau{
+    margin: 10px auto -90px auto;
+  }
+  .post{
+    &-excerpt{
+      text-align: center;
+      margin-top: 30px;
+      padding: 0 10px;
+      font-family: $raleway-regular;
+      font-size: 24px;
+      text-transform: uppercase;
+    }
+    //.post-read-time
+    &-read-time{
+      border-bottom: 2px solid #b2b2b2;
+      padding-top: 16px;
+      padding-bottom: 16px;
+      font-size: 12px;
+      font-family: $raleway-semibold;
+      .fa{
+        transform: rotate(99deg);
+      }
+    }
+    //.post-content
+    &-content{
+      text-align: left;
+      padding: 20px 0;
+      font-family: $playfair-regular;
+      h2, h3, h5, h6{
+        font-family: $raleway-medium;
+        color: $af-black;
+        text-transform: uppercase;
+      }
+      h1, .h1, h2, .h2, h3, .h3{
+        margin-top: 25px;
+        margin-bottom: 10px;
+        font-size: 24px;
+        line-height: 30px;
+        color: $af-black;
+        font-family: $raleway-bold;
+        text-transform: none;
+      }
+      img{
+        margin-bottom: 10px;
+        object-fit: cover;
+        &.pull-left{
+          //TODO: add styles to pull left images out of the container
+        }
+        &.pull-right{
+          //TODO: add styles to pull right images out of the container
+        }
+      }
+      a{
+        text-decoration: underline;
+        text-decoration-color: #0062e6;
+        &, &:hover{
+          color: $af-blue;
+        }
+      }
+      .wp-block-columns {
+        .wp-block-column {
+          &:first-child, &:last-child{
+            figure{
+              position: relative;
+              height: 400px;
+              img{
+                height: 100%;
+                position: absolute;
+                min-width: 50vw;
+              }
+            }
+          }
+          &:first-child figure img {
+            right: 0;
+          }
+          &:last-child figure img {
+            left: 0;
+          }
+        }
+      }
+    }
+    &-copyright {
+      float: right;
+    }
+  }
+  &.edito, &.travel-guide{
+    .post{
+      text-align: left;
+      &-excerpt{
+        padding: 0;
+      }
+    }
+  }
+}
+@media screen and (max-width:$breakpoints-md) {
+  .single{
+    &-sticky{
+      top : 0px;
+      margin-bottom: 20px;
+    }
+    .post{
+      &-read-time{
+       display: none;
+      }
+    }
+  }
+}

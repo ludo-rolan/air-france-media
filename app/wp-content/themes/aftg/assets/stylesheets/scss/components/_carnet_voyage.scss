@@ -1,0 +1,10 @@
+#carnet_voyage_block_0:hover{
+    background-color: $af-blue;
+    span{
+      color :$af-white !important;
+    }
+    img{
+      filter:invert(100%);
+      -webkit-filter: invert(100%);
+    }
+  }

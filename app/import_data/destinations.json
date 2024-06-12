@@ -1,0 +1,587 @@
+[
+    {
+        "code": "ABJ",
+        "label": "Abidjan",
+        "canonicalName": "abidjan"
+    },
+    {
+        "code": "AJA",
+        "label": "Ajaccio",
+        "canonicalName": "ajaccio"
+    },
+    {
+        "code": "ALG",
+        "label": "Alger",
+        "canonicalName": "alger"
+    },
+    {
+        "code": "AMS",
+        "label": "Amsterdam",
+        "canonicalName": "amsterdam"
+    },
+    {
+        "code": "TNR",
+        "label": "Antananarivo",
+        "canonicalName": "antananarivo"
+    },
+    {
+        "code": "ATH",
+        "label": "Athènes",
+        "canonicalName": "athenes"
+    },
+    {
+        "code": "BKK",
+        "label": "Bangkok",
+        "canonicalName": "bangkok"
+    },
+    {
+        "code": "BCN",
+        "label": "Barcelone",
+        "canonicalName": "barcelone"
+    },
+    {
+        "code": "BIA",
+        "label": "Bastia",
+        "canonicalName": "bastia"
+    },
+    {
+        "code": "BJS",
+        "label": "Beijing (Pékin)",
+        "canonicalName": "pekin"
+    },
+    {
+        "code": "BER",
+        "label": "Berlin",
+        "canonicalName": "berlin"
+    },
+    {
+        "code": "BEY",
+        "label": "Beyrouth",
+        "canonicalName": "beyrouth"
+    },
+    {
+        "code": "BIQ",
+        "label": "Biarritz",
+        "canonicalName": "biarritz"
+    },
+    {
+        "code": "BOG",
+        "label": "Bogota",
+        "canonicalName": "bogota"
+    },
+    {
+        "code": "BLQ",
+        "label": "Bologne",
+        "canonicalName": "bologne"
+    },
+    {
+        "code": "BOD",
+        "label": "Bordeaux",
+        "canonicalName": "bordeaux"
+    },
+    {
+        "code": "BOS",
+        "label": "Boston",
+        "canonicalName": "boston"
+    },
+    {
+        "code": "BES",
+        "label": "Brest",
+        "canonicalName": "brest"
+    },
+    {
+        "code": "BUD",
+        "label": "Budapest",
+        "canonicalName": "budapest"
+    },
+    {
+        "code": "BUE",
+        "label": "Buenos Aires",
+        "canonicalName": "buenos-aires"
+    },
+    {
+        "code": "CUN",
+        "label": "Cancun",
+        "canonicalName": "cancun"
+    },
+    {
+        "code": "CMN",
+        "label": "Casablanca",
+        "canonicalName": "casablanca"
+    },
+    {
+        "code": "CTA",
+        "label": "Catane",
+        "canonicalName": "catane"
+    },
+    {
+        "code": "CAY",
+        "label": "Cayenne",
+        "canonicalName": "cayenne"
+    },
+    {
+        "code": "CHI",
+        "label": "Chicago",
+        "canonicalName": "chicago"
+    },
+    {
+        "code": "CPH",
+        "label": "Copenhague",
+        "canonicalName": "copenhague"
+    },
+    {
+        "code": "DKR",
+        "label": "Dakar",
+        "canonicalName": "dakar"
+    },
+    {
+        "code": "DFW",
+        "label": "Dallas",
+        "canonicalName": "dallas"
+    },
+    {
+        "code": "DEL",
+        "label": "Delhi",
+        "canonicalName": "delhi"
+    },
+    {
+        "code": "DLA",
+        "label": "Douala",
+        "canonicalName": "douala"
+    },
+    {
+        "code": "DXB",
+        "label": "Dubai",
+        "canonicalName": "dubai"
+    },
+    {
+        "code": "DUB",
+        "label": "Dublin",
+        "canonicalName": "dublin"
+    },
+    {
+        "code": "EDI",
+        "label": "Edimbourg",
+        "canonicalName": "edimbourg"
+    },
+    {
+        "code": "FAO",
+        "label": "Faro",
+        "canonicalName": "faro"
+    },
+    {
+        "code": "FLR",
+        "label": "Florence",
+        "canonicalName": "florence"
+    },
+    {
+        "code": "FDF",
+        "label": "Fort-de-France",
+        "canonicalName": "fort-de-france"
+    },
+    {
+        "code": "FOR",
+        "label": "Fortaleza",
+        "canonicalName": "fortaleza"
+    },
+    {
+        "code": "FRA",
+        "label": "Francfort",
+        "canonicalName": "francfort"
+    },
+    {
+        "code": "GVA",
+        "label": "Genève",
+        "canonicalName": "geneve"
+    },
+    {
+        "code": "GLA",
+        "label": "Glasgow",
+        "canonicalName": "glasgow"
+    },
+    {
+        "code": "HAM",
+        "label": "Hambourg",
+        "canonicalName": "hambourg"
+    },
+    {
+        "code": "HAN",
+        "label": "Hanoi",
+        "canonicalName": "hanoi"
+    },
+    {
+        "code": "SGN",
+        "label": "Ho Chi Minh Ville (Saigon)",
+        "canonicalName": "ho-chi-minh-ville"
+    },
+    {
+        "code": "HKG",
+        "label": "Hong Kong",
+        "canonicalName": "hong-kong"
+    },
+    {
+        "code": "HOU",
+        "label": "Houston",
+        "canonicalName": "houston"
+    },
+    {
+        "code": "IST",
+        "label": "Istanbul",
+        "canonicalName": "istanbul"
+    },
+    {
+        "code": "JNB",
+        "label": "Johannesbourg",
+        "canonicalName": "johannesbourg"
+    },
+    {
+        "code": "HAV",
+        "label": "La Havane",
+        "canonicalName": "la-havane"
+    },
+    {
+        "code": "CAI",
+        "label": "Le Caire",
+        "canonicalName": "le-caire"
+    },
+    {
+        "code": "CPT",
+        "label": "Le Cap",
+        "canonicalName": "le-cap"
+    },
+    {
+        "code": "LIM",
+        "label": "Lima",
+        "canonicalName": "lima"
+    },
+    {
+        "code": "LIS",
+        "label": "Lisbonne",
+        "canonicalName": "lisbonne"
+    },
+    {
+        "code": "LON",
+        "label": "Londres",
+        "canonicalName": "londres"
+    },
+    {
+        "code": "LAX",
+        "label": "Los Angeles",
+        "canonicalName": "los-angeles"
+    },
+    {
+        "code": "LYS",
+        "label": "Lyon",
+        "canonicalName": "lyon"
+    },
+    {
+        "code": "MAD",
+        "label": "Madrid",
+        "canonicalName": "madrid"
+    },
+    {
+        "code": "SEZ",
+        "label": "Mahé",
+        "canonicalName": "mahe"
+    },
+    {
+        "code": "MLE",
+        "label": "Malé",
+        "canonicalName": "male"
+    },
+    {
+        "code": "MAN",
+        "label": "Manchester",
+        "canonicalName": "manchester"
+    },
+    {
+        "code": "RAK",
+        "label": "Marrakech",
+        "canonicalName": "marrakech"
+    },
+    {
+        "code": "MRS",
+        "label": "Marseille",
+        "canonicalName": "marseille"
+    },
+    {
+        "code": "MEX",
+        "label": "Mexico",
+        "canonicalName": "mexico"
+    },
+    {
+        "code": "MIA",
+        "label": "Miami",
+        "canonicalName": "miami"
+    },
+    {
+        "code": "MIL",
+        "label": "Milan",
+        "canonicalName": "milan"
+    },
+    {
+        "code": "MPL",
+        "label": "Montpellier",
+        "canonicalName": "montpellier"
+    },
+    {
+        "code": "YMQ",
+        "label": "Montréal",
+        "canonicalName": "montreal"
+    },
+    {
+        "code": "MOW",
+        "label": "Moscou",
+        "canonicalName": "moscou"
+    },
+    {
+        "code": "BOM",
+        "label": "Mumbai",
+        "canonicalName": "mumbai"
+    },
+    {
+        "code": "MUC",
+        "label": "Munich",
+        "canonicalName": "munich"
+    },
+    {
+        "code": "NBO",
+        "label": "Nairobi",
+        "canonicalName": "nairobi"
+    },
+    {
+        "code": "NTE",
+        "label": "Nantes",
+        "canonicalName": "nantes"
+    },
+    {
+        "code": "NAP",
+        "label": "Naples",
+        "canonicalName": "naples"
+    },
+    {
+        "code": "NYC",
+        "label": "New York",
+        "canonicalName": "new-york"
+    },
+    {
+        "code": "NCE",
+        "label": "Nice",
+        "canonicalName": "nice"
+    },
+    {
+        "code": "NOU",
+        "label": "Nouméa",
+        "canonicalName": "noumea"
+    },
+    {
+        "code": "ORN",
+        "label": "Oran",
+        "canonicalName": "oran"
+    },
+    {
+        "code": "OSA",
+        "label": "Osaka",
+        "canonicalName": "osaka"
+    },
+    {
+        "code": "OSL",
+        "label": "Oslo",
+        "canonicalName": "oslo"
+    },
+    {
+        "code": "PMI",
+        "label": "Palma de Majorque",
+        "canonicalName": "palma-de-majorque"
+    },
+    {
+        "code": "PTY",
+        "label": "Panama",
+        "canonicalName": "panama"
+    },
+    {
+        "code": "PAR",
+        "label": "Paris",
+        "canonicalName": "paris"
+    },
+    {
+        "code": "PUF",
+        "label": "Pau",
+        "canonicalName": "pau"
+    },
+    {
+        "code": "PTP",
+        "label": "Pointe-à-Pitre",
+        "canonicalName": "pointe-a-pitre"
+    },
+    {
+        "code": "OPO",
+        "label": "Porto",
+        "canonicalName": "porto"
+    },
+    {
+        "code": "PRG",
+        "label": "Prague",
+        "canonicalName": "prague"
+    },
+    {
+        "code": "UIO",
+        "label": "Quito",
+        "canonicalName": "quito"
+    },
+    {
+        "code": "RBA",
+        "label": "Rabat",
+        "canonicalName": "rabat"
+    },
+    {
+        "code": "RIO",
+        "label": "Rio de Janeiro",
+        "canonicalName": "rio-de-janeiro"
+    },
+    {
+        "code": "ROM",
+        "label": "Rome",
+        "canonicalName": "rome"
+    },
+    {
+        "code": "RUN",
+        "label": "Saint Denis",
+        "canonicalName": "saint-denis"
+    },
+    {
+        "code": "SDQ",
+        "label": "Saint-Domingue",
+        "canonicalName": "saint-domingue"
+    },
+    {
+        "code": "SXM",
+        "label": "Saint-Martin",
+        "canonicalName": "saint-martin-sxm"
+    },
+    {
+        "code": "LED",
+        "label": "Saint-Pétersbourg",
+        "canonicalName": "saint-petersbourg"
+    },
+    {
+        "code": "SFO",
+        "label": "San Francisco",
+        "canonicalName": "san-francisco"
+    },
+    {
+        "code": "SJO",
+        "label": "San José",
+        "canonicalName": "san-jose-sjo"
+    },
+    {
+        "code": "SCL",
+        "label": "Santiago",
+        "canonicalName": "santiago"
+    },
+    {
+        "code": "SAO",
+        "label": "Sao Paulo",
+        "canonicalName": "sao-paulo"
+    },
+    {
+        "code": "SEA",
+        "label": "Seattle",
+        "canonicalName": "seattle"
+    },
+    {
+        "code": "SHA",
+        "label": "Shanghai",
+        "canonicalName": "shanghai"
+    },
+    {
+        "code": "SIN",
+        "label": "Singapour",
+        "canonicalName": "singapour"
+    },
+    {
+        "code": "STO",
+        "label": "Stockholm",
+        "canonicalName": "stockholm"
+    },
+    {
+        "code": "SXB",
+        "label": "Strasbourg",
+        "canonicalName": "strasbourg"
+    },
+    {
+        "code": "SEL",
+        "label": "Séoul",
+        "canonicalName": "seoul"
+    },
+    {
+        "code": "PPT",
+        "label": "Tahiti",
+        "canonicalName": "tahiti"
+    },
+    {
+        "code": "TLV",
+        "label": "Tel-Aviv- Jaffa",
+        "canonicalName": "tel-aviv-yafo"
+    },
+    {
+        "code": "TYO",
+        "label": "Tokyo",
+        "canonicalName": "tokyo"
+    },
+    {
+        "code": "YTO",
+        "label": "Toronto",
+        "canonicalName": "toronto"
+    },
+    {
+        "code": "TLN",
+        "label": "Toulon/Hyères",
+        "canonicalName": "toulon-hyeres"
+    },
+    {
+        "code": "TLS",
+        "label": "Toulouse",
+        "canonicalName": "toulouse"
+    },
+    {
+        "code": "TUN",
+        "label": "Tunis",
+        "canonicalName": "tunis"
+    },
+    {
+        "code": "YVR",
+        "label": "Vancouver",
+        "canonicalName": "vancouver"
+    },
+    {
+        "code": "WAW",
+        "label": "Varsovie",
+        "canonicalName": "varsovie"
+    },
+    {
+        "code": "VCE",
+        "label": "Venise",
+        "canonicalName": "venise"
+    },
+    {
+        "code": "VIE",
+        "label": "Vienne",
+        "canonicalName": "vienne"
+    },
+    {
+        "code": "WAS",
+        "label": "Washington",
+        "canonicalName": "washington"
+    },
+    {
+        "code": "ZRH",
+        "label": "Zurich",
+        "canonicalName": "zurich"
+    },
+    {
+        "code": "MRU",
+        "label": "Île Maurice",
+        "canonicalName": "ile-maurice"
+    }
+]

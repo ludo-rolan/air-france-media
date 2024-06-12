@@ -1,0 +1,29 @@
+.static-af{
+    font-family: $raleway-regular;
+    &-header-title{
+        font-size: 22px;
+        font-family: $raleway-bold;
+        text-transform: uppercase;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    &-subtitle{
+        font-size: 18px; 
+        font-family: $raleway-bold;
+        text-transform: uppercase; 
+        margin-bottom: 30px;
+    }
+    &-link{
+        text-decoration: underline;
+        &:hover{
+            text-decoration-color : $af-red
+        }
+    }
+    &-end{
+        margin-bottom: 80px;
+    }
+    &-contact{
+        margin-bottom: 30px;
+        margin-top:30px
+    }
+}

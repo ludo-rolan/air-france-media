@@ -1,0 +1,22 @@
+// -----------------------------------------------------------------------------
+// This file contains all @font-face declarations, if any.
+// -----------------------------------------------------------------------------
+
+@import '../../../../../afcore/assets/stylesheets/scss/base/fonts';
+
+@font-face {
+  font-family: 'Montserrat-Black';
+  src:  url('../../../assets/stylesheets/fonts/Montsserat/Montsserat-Black/Montserrat-Black.ttf') format('truetype'),
+        url('../../../assets/stylesheets/fonts/Montsserat/Montsserat-Black/Montserrat-Black.eot') format('embedded-opentype'),
+        url('../../../assets/stylesheets/fonts/Montsserat/Montsserat-Black/Montserrat-Black.woff') format('woff'),
+        url('../../../assets/stylesheets/fonts/Montsserat/Montsserat-Black/Montserrat-Black.woff2') format('woff2'),
+        url('../../../assets/stylesheets/fonts/Montsserat/Montsserat-Black/Montserrat-Black.svg')format('svg');
+}
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src:  url('../../../assets/stylesheets/fonts/Montsserat/Montsserat-Bold/Montserrat-Bold.ttf') format('truetype'),
+        url('../../../assets/stylesheets/fonts/Montsserat/Montsserat-Bold/Montserrat-Bold.eot') format('embedded-opentype'),
+        url('../../../assets/stylesheets/fonts/Montsserat/Montsserat-Bold/Montserrat-Bold.woff') format('woff'),
+        url('../../../assets/stylesheets/fonts/Montsserat/Montsserat-Bold/Montserrat-Bold.woff2') format('woff2'),
+        url('../../../assets/stylesheets/fonts/Montsserat/Montsserat-Bold/Montserrat-Bold.svg')format('svg');
+}

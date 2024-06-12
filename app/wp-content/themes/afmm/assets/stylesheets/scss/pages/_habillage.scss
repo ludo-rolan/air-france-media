@@ -1,0 +1,100 @@
+.skin_size_1000 {
+    .container {
+        max-width: 1000px;
+        background-color: white;
+        
+    }
+    .container-fluid  .a-bord  {
+        max-width: 1000px;
+        background-color: $af-blue;
+        margin-top: 0  !important;
+        margin-bottom: 0 !important;
+        
+    }
+    .bandeau_name {
+        font-size: 24px;
+    }
+    .bandeau .container {
+        background: fixed;
+    }
+    .post-link  {
+        z-index: 1;
+    }
+    section.container-fluid {
+        margin-top: 0  !important;
+        margin-bottom: 0 !important;
+    }
+    .skin_size_1000 .post {
+        z-index: 1 !important;
+    }
+
+    .container-fluid {
+        max-width: 1000px;
+        &.video{
+            .owl {
+                &-item {
+                    &:first-child:before {
+                        @include flipped-text("vidéos",-175px, 115px, 200px, $playfair-regular);
+                    }
+                    &:first-child:lang(en):before {
+                        @include flipped-text("videos",-175px, 115px, 200px, $playfair-regular);
+                    }
+                }
+            }
+        }
+        &.podcast {
+            .owl {
+                &-item {
+                    &:first-child:before {
+                        @include flipped-text("à visiter", -200px, 115px, 100px, $playfair-regular);
+                    }
+                    &:first-child:lang(en):before{
+                        @include flipped-text("to visit", -200px, 115px, 100px, $playfair-regular);
+                    }
+                }
+            }
+        }
+    }
+
+    .pagination {      
+        li {
+          margin-left: 10px;
+          margin-right: 10px;
+        }
+    }
+
+    @media screen and (min-width: $breakpoints-md) {
+        .post {
+            padding: 8px 15px;
+            &-link{
+                z-index: 1;
+            }
+        }
+        .inspirations-form  {
+            margin: 8px 15px;
+        }
+    }
+
+    footer, .hp_bandeau_image, .rwm-podcast-player{
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    @media screen and (max-width: $breakpoints-lg) {
+        .container-fluid {
+            &.video .owl, &.podcast .owl {
+                &-item {
+                    &:first-child:before {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (min-width: 1200px) {
+        .video-carousel-article__img {
+            height: 358px;
+        }
+    }
+}

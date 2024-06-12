@@ -1,0 +1,18 @@
+.menu-header {
+    li.nav_item_tg {
+        a{
+          color: $af-red;
+          &:before {
+            content: '[';
+            color: $af-black;
+            opacity: 1;
+          }
+      
+          &:after {
+            content: ']';
+            color: $af-black;
+            opacity: 1;
+          }
+        }
+    }
+}

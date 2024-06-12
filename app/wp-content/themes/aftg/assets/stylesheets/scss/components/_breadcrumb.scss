@@ -1,0 +1,102 @@
+.crumbs{
+    display: flex;
+    position: relative;
+    top: 50px;
+    z-index: 1;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: $raleway-bold;
+    &-nospace{
+        position: relative;
+        top: -25px;
+        margin-top: 80px;
+    }
+    &-elements {
+        background-color: $af-white;
+        padding: 40px 90px;
+        padding-top: 0px !important;
+        a{
+            padding : 0 5px;
+        }
+        .page-name{
+            font-size: 37px;
+            font-family: $raleway-black;
+            margin-top: 12px;
+            &-adresse{
+                font-family: "PlayfairDisplay-Bold";
+                text-align: center;
+                padding: 0 40px 22px 40px;
+                font-size: 52px;
+            }
+            &:after {
+                content: url("/wp-content/themes/aftg/assets/img/category_prefix.png");
+                -webkit-text-stroke-width: 0px;
+            }
+        }
+    }
+
+    &-separated {
+        position: static;
+        & .crumbs-elements {
+            padding-bottom: 20px;
+        }
+    }
+}
+@media screen and (max-width:$breakpoints-lg) {
+    .crumbs{
+        &-elements a {
+            font-size: 12px;
+        }
+        .page-name-adresse{
+            font-size: 24px; 
+        }
+    }
+}
+.adr {
+    &_bandeau {
+        width: 90%;
+        background: $af-white;
+        display: flex;
+        color: $af-black;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 auto -90px auto;
+        padding: 0;
+        &_image {
+            position: relative;
+            z-index: -1;
+            width: 100%;
+            flex: 0 0 auto;
+            height: 530px;
+            padding: 0;
+            overflow-x: hidden;
+            transition: 0s linear;
+            transition-property: background-position;
+            background-size: cover;
+        }
+        &_cat {
+            font-family: $raleway-bold;
+            font-size: 12px;
+            text-transform: uppercase;
+        }
+        
+    }
+}
+
+@media screen and (max-width: $breakpoints-md) {
+    .adr {
+        &_bandeau {
+            &_cat {
+                width: 100%;
+                .crumbs{
+                    &-elements {
+                        padding: 0px;
+                    }
+                }
+            }
+        }
+    }
+}

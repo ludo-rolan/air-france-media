@@ -1,0 +1,167 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass mixins.
+// -----------------------------------------------------------------------------
+/// Event wrapper
+/// @author Harry Roberts
+/// @param {Bool} $self [false] - Whether or not to include current selector
+/// @link https://twitter.com/csswizardry/status/478938530342006784 Original tweet from Harry Roberts
+@mixin on-event($self: false) {
+    @if $self {
+        &,
+        &:hover,
+        &:active,
+        &:focus {
+            @content;
+        }
+    }
+    @else {
+        &:hover,
+        &:active,
+        &:focus {
+            @content;
+        }
+    }
+}
+
+/// Make a context based selector a little more friendly
+/// @author Kitty Giraudel
+/// @param {String} $context
+@mixin when-inside($context) {
+    #{$context} & {
+        @content;
+    }
+}
+
+@mixin af-btn($background-color: $af-red, $color: $af-white, $fontSize: 14px, $margin-top: 0) {
+    font-family: $raleway-bold;
+    background-color: $background-color;
+    text-transform: uppercase;
+    color: $color;
+    padding: 8px 16px;
+    margin-top: $margin-top;
+    font-size: $fontSize;
+    border-radius: 0;
+    &:hover{
+        color:$color;
+    }
+}
+//TODO: Leave just the flipping functionality in this mixin (no spacings or styles )
+@mixin flipped-text($content: '', $left: -145px, $font-size: 115px, $padding-bottom: 100px, $font-family: $raleway-regular) {
+    content: $content;
+    position: absolute;
+    display: block;
+    color: white;
+    font-family: $font-family;
+    font-size: $font-size;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    transform: scale(-1, -1);
+    //TODO: test if the commented lines works instead of padding bottom for your use case
+    padding-bottom: $padding-bottom;
+    //height: 100%;
+    //text-align: center;
+    left: $left;
+}
+
+
+@mixin icon-form ( $border-bottom: 1px solid $af-black,$padding: 5px,$margin-right: -6px ){
+    border-bottom: $border-bottom;
+    padding:$padding;
+    margin-right: $margin-right;
+}
+
+@mixin animation($animation, $duration, $method, $times: 0s) {
+    animation: $animation $duration $method $times;
+}
+
+@mixin preview-title( $color: $af-black, $fontSize: 24px, $font-family:$playfair-bold) {
+    color:$color;
+    font-family: $font-family;
+    text-align: center;
+    font-size: $fontSize;
+}
+
+@mixin cat-title( $color: $af-black, $fontSize: 16px, $font-family: $raleway-bold) {
+    color:$color;
+    font-family: $font-family;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: $fontSize;
+
+}
+
+@mixin keyframes($name) {
+    @keyframes #{$name} {
+        @content;
+    }
+    @-webkit-keyframes #{$name} {
+        @content;
+    }
+    @-moz-keyframes #{$name} {
+        @content;
+    }
+    @-ms-keyframes #{$name} {
+        @content;
+    }
+}
+
+@mixin animation($animation, $duration, $method, $times: 0s) {
+    animation: $animation $duration $method $times;
+}
+
+@mixin keyframes($name) {
+    @keyframes #{$name} {
+        @content;
+    }
+    @-webkit-keyframes #{$name} {
+        @content;
+    }
+    @-moz-keyframes #{$name} {
+        @content;
+    }
+    @-ms-keyframes #{$name} {
+        @content;
+    }
+}
+
+@mixin looped-fadeIn($class_name, $count: 2) {
+  @for $i from 0 through $count {
+      #{$class_name}-#{$i}{
+          @content($i)
+      }
+  }
+}
+
+@mixin placeholder-color($color) {
+    &::-webkit-input-placeholder { /* WebKit browsers */
+        color: $color;
+    }
+    &::-moz-placeholder { /* Mozilla Firefox 19+ */
+        color: $color;
+        opacity: 1;
+    }
+}
+
+@mixin carnet-link-mixin() {
+    position: relative;
+    font-family: $raleway-bold;
+    font-size: 12px;
+    color: $af-red;
+    &::before{
+      content: url('/wp-content/themes/afcore/assets/img/carnet-icon.png');
+      position: absolute;
+      right: 0px;
+      top: -8px;
+     
+    }
+    &::after{
+      content: url('/wp-content/themes/afcore/assets/img/plus_one_notif.png');
+      position: absolute;
+      top: 18px;
+      left: -10px;
+    }
+    &.hidden::after{
+      display: none;
+    }
+}

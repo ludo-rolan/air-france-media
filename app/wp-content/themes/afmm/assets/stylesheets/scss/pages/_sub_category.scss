@@ -1,0 +1,9 @@
+.sub-category_most_visited {
+    display: none;
+}
+
+@media screen and (min-width: $medium-width) {
+  .sub-category_most_visited {
+    display: block;
+  }
+}

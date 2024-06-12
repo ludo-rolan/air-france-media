@@ -1,0 +1,143 @@
+{
+    "AFR": {
+        "code": "AFR",
+        "label": "Afrique / Océan Indien",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/inspiration/regions/AFR.svg",
+        "latitude": "5",
+        "longitude": "18",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/afrique-ocean-indien"
+        },
+        "countries": [
+            "CI",
+            "DZ",
+            "MG",
+            "MA",
+            "SN",
+            "CM",
+            "ZA",
+            "EG",
+            "SC",
+            "KE",
+            "RE",
+            "TN",
+            "MU"
+        ]
+    },
+    "FRA": {
+        "code": "FRANCE",
+        "label": "France",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/inspiration/regions/FRA.svg",
+        "latitude": "44",
+        "longitude": "2",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/france"
+        },
+        "countries": [
+            "FR"
+        ]
+    },
+    "EUR": {
+        "code": "EUR",
+        "label": "Europe",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/inspiration/regions/EUR.svg",
+        "latitude": "56",
+        "longitude": "25",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/europe"
+        },
+        "countries": [
+            "NL",
+            "GR",
+            "ES",
+            "DE",
+            "IT",
+            "HU",
+            "DK",
+            "IE",
+            "GB",
+            "PT",
+            "CH",
+            "TR",
+            "RU",
+            "NO",
+            "CZ",
+            "SE",
+            "PL",
+            "AT"
+        ]
+    },
+    "ASI": {
+        "code": "ASI",
+        "label": "Asie / Moyen Orient",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/inspiration/regions/ASI.svg",
+        "latitude": "45",
+        "longitude": "90",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/asie-moyen-orient"
+        },
+        "countries": [
+            "TH",
+            "CN",
+            "LB",
+            "IN",
+            "AE",
+            "VN",
+            "HK",
+            "MV",
+            "NC",
+            "JP",
+            "SG",
+            "KR",
+            "IL"
+        ]
+    },
+    "AME": {
+        "code": "AME",
+        "label": "Amériques",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/inspiration/regions/AME.svg",
+        "latitude": "45",
+        "longitude": "-98",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/ameriques"
+        },
+        "countries": [
+            "CO",
+            "US",
+            "AR",
+            "MX",
+            "GF",
+            "BR",
+            "PE",
+            "CA",
+            "PA",
+            "EC",
+            "CR",
+            "CL",
+            "PF"
+        ]
+    },
+    "CAR": {
+        "code": "CAR",
+        "label": "Caraïbes",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/inspiration/regions/CAR.svg",
+        "latitude": "19",
+        "longitude": "-71",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/caraibes"
+        },
+        "countries": [
+            "MQ",
+            "CU",
+            "GP",
+            "DO",
+            "SX"
+        ]
+    }
+}

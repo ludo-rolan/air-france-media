@@ -1,0 +1,37 @@
+.page {
+    padding-top: 20px;
+    &_lang {
+        background-color: white;
+        border: 0;
+        width: 50px;
+        margin: 10px;
+
+        & option {
+            padding: 4px 18px;
+            border: 0;
+            
+        }
+      
+    }
+    &_dailyfeed {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 50px;
+        margin-top: 0px;
+        &_img {
+            margin-bottom: 50px;
+        }
+        &_h1 {
+            text-align: center;
+            padding: 10px;
+        }
+        &_dest {
+            text-align: center;
+            margin-top: 10px;
+        }
+        &_row{
+            width: 100%;
+        }
+    }
+}

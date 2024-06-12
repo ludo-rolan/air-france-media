@@ -1,0 +1,40 @@
+.dest-search-form {
+  opacity: 0.96;
+  margin-top: 0;
+  padding-right: 0 !important;
+
+  & .modal {
+    &-content {
+      height: auto;
+      min-height: 100%;
+      border: 0;
+      border-radius: 0;
+
+    }
+
+    &-dialog {
+      width: 100%;
+      max-width: none;
+      height: 100%;
+      margin: 0;
+      border-radius: 0;
+      border: none;
+    }
+
+    &-header {
+      width: 100%;
+      border: none;
+      margin-top:8rem;
+    }
+  }
+
+  & .close {
+    display: block;
+    margin-right: 15px;
+    font-size: 28px;
+  }
+
+  &-btn {
+    display: block !important;
+  }
+}

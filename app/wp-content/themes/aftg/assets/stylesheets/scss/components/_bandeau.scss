@@ -1,0 +1,94 @@
+.destination{
+    &_image{
+        position: relative;
+        width: 100% !important;
+        flex: 0 0 auto;
+        height: 530px;
+        padding: 0;
+        overflow-x: hidden;
+        transition: 3s linear;
+        transition-property: background-position;
+        background-size: cover;
+    }
+    &_video{
+        position: relative; 
+        height: 530px;
+        overflow: hidden; 
+        max-width: 100%;
+        &_container{
+            position: absolute;
+            width: 100%;
+            height: 9000px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            pointer-events: none;
+             & iframe {
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                pointer-events: none;
+             }
+        }   
+    }
+    &_city {
+        &_infos {
+            &_single {
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+                background-color: $af-white;
+                text-align: center;
+                padding-top: 16px;
+                
+                & span {
+                    font-family: $raleway-bold;
+                    font-size: 12px;
+                }
+
+                &_image,
+                &_image img{
+                    width: 24px;
+                    height: 24px;
+                }
+            }
+
+            &_container {
+                position: absolute;
+                max-width: 310px;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                height: min-content;
+                & a {
+                    margin-top: 15px;
+                    width: 95%;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: $medium-width){
+    .destination{
+        &_image{
+            height: 330px;
+            background-size: cover;
+            overflow: hidden;
+        }
+        &_video {
+            height: 330px;
+        }
+
+        &_city_infos {
+            &_single {
+                width: 60px;
+                height: 60px;
+            }   
+
+            &_container {
+                top: 100%;
+            }
+        }
+    }
+}

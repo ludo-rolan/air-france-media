@@ -1,0 +1,1380 @@
+{
+  "origin": {
+    "code": "PAR",
+    "label": "Paris",
+    "canonicalName": "paris"
+  },
+  "destination": {
+    "code": "ABJ",
+    "label": "Abidjan",
+    "pictureUrl": "https://img.static-af.com/images/meta/IDname/CITY-ABJ-1",
+    "pictureCaption": "",
+    "pictureAccessibility": "Abidjan",
+    "travelGuide": {
+      "isTravelGuideAvailable": false,
+      "travelGuideUrl": "",
+      "flightBookingUrl": "",
+      "practicalInformationUrl": ""
+    },
+    "latitude": "5.2542334",
+    "longitude": "-3.9247609",
+    "countryCode": "CI",
+    "regionCode": "AFR",
+    "title": "Abidjan, une cité à la vitalité communicative",
+    "content": {
+      "travelGuideName": "Abidjan",
+      "intro": "<p>Capitale économique de la Côte d'Ivoire, celle que ses cinq millions d'habitants surnomment affectueusement « Babi » déborde d'énergie et de créativité, du matin jusqu'au bout de la nuit.</p>\n<p>Abidjan ne tardera pas à figurer en tête des destinations favorites des globe-trotteurs tant les expériences à vivre dans ce « Manhattan des tropiques » sont uniques en leur genre. Il suffit de vous éloigner du centre d'affaires pour découvrir les multiples autres visages de la capitale « aux dix communes », entre boutiques tendance et <em>concept stores</em> branchés, galeries d'art foisonnantes et expositions de <em>street art</em>. Qu'ils soient en construction, reconstruction ou rénovation, les quartiers d'Abidjan ne connaissent jamais le repos. Admirez l'étonnante et avant-gardiste cathédrale Saint-Paul d'Abidjan, signée de l'architecte italien Aldo Spirito, d'où vous profitez d'une vue incomparable sur la cité. Ensuite, prenez la température de la vie abidjanaise en parcourant les nombreux marchés, ceux de Treichville et de Cocody Saint-Jean, ou encore le CAVA, où vous dénichez ce qui se fait de mieux en matière d'artisanat local.<br />\nDans les restaurants d'Abidjan, vous dégustez de savoureux mets, d'ici et d'ailleurs : une carpe ou un capitaine (poisson typique de l'Afrique occidentale) braisé ou frit, un <em>kédjénou</em> (sorte de ragoût) de poisson ou de poulet, des fruits de mer à foison (gambas, langoustes, crevettes…), un <em>alloco</em> (bananes plantain frites) ou un <em>attiéké</em> (couscous de manioc).<br />\nBiosphère unique au monde et paradis pour les amateurs d'écotourisme, la réserve d'Abokouamékro, à trois heures et demie de route au nord-ouest de la métropole, regorge d'une multitude d'espèces endémiques, notamment des hippopotames pygmées, des céphalophes de Jentink et des cercopithèques Diane. Les plus aventureux ne manquent pas de faire le trajet jusqu'à Man, surnommée la « ville aux 18 montagnes », pour une expédition « 100 % nature » avec, au programme, l'ascension de la dent de Man, du mont Tonkpi ou - encore mieux ! - du mont Nimba, le plus haut sommet de la Côte d'Ivoire.<br />\nSi vous êtes amoureux de rivages bordés de cocotiers sous un ciel bleu azur, la région d'Abidjan est faite pour vous. Des étendues sableuses de la plage d'Assouindé (à 80 km de la capitale) à la baie enchanteresse d'Assinie, vous avez tout loisir de vous adonner au <em>farniente</em> ou de vous dépenser sans compter dans de nombreuses activités nautiques.<br />\nQuant aux nuits abidjanaises, elles sont parmi les plus vibrantes du continent. Bars, restaurants, clubs où se retrouvent amateurs de musiques afro, tout respire une envie éperdue de liberté ! Quoi de plus normal dans un pays où les deux tiers de la population ont moins de 35 ans ?</p>",
+      "paragraph": [
+        {
+          "title": "",
+          "text": ""
+        }
+      ],
+      "slideShow": {
+        "topic": "",
+        "title": "",
+        "pictures": [
+          {
+            "imageUrl": "https://img.static-af.com/images/meta/IDname/CITY-ABJ-2",
+            "imageAccessibility": "Abidjan 2"
+          },
+          {
+            "imageUrl": "https://img.static-af.com/images/meta/IDname/CITY-ABJ-3",
+            "imageAccessibility": "Abidjan 3"
+          },
+          {
+            "imageUrl": "https://img.static-af.com/images/meta/IDname/CITY-ABJ-4",
+            "imageAccessibility": "Abidjan 4"
+          },
+          {
+            "imageUrl": "https://img.static-af.com/images/meta/IDname/CITY-ABJ-5",
+            "imageAccessibility": "Abidjan 5"
+          },
+          {
+            "imageUrl": "https://img.static-af.com/images/meta/IDname/CITY-ABJ-6",
+            "imageAccessibility": "Abidjan 6"
+          },
+          {
+            "imageUrl": "https://img.static-af.com/images/meta/IDname/CITY-ABJ-7",
+            "imageAccessibility": "Abidjan 7"
+          },
+          {
+            "imageUrl": "https://img.static-af.com/images/meta/IDname/CITY-ABJ-8",
+            "imageAccessibility": "Abidjan 8"
+          },
+          {
+            "imageUrl": "https://img.static-af.com/images/meta/IDname/CITY-ABJ-9",
+            "imageAccessibility": "Abidjan 9"
+          },
+          {
+            "imageUrl": "https://img.static-af.com/images/meta/IDname/CITY-ABJ-10",
+            "imageAccessibility": "Abidjan 10"
+          }
+        ]
+      },
+      "mainVideo": {
+        "videoTitle": "",
+        "introduction": "",
+        "videoPlayerId": "394896687",
+        "sizes": [
+          {
+            "height": "360",
+            "url": "https://player.vimeo.com/external/394896687.sd.mp4?s=b87118c94ef44a60a5f8302abdd3d5a0fb35f1b3&profile_id=164&oauth2_token_id=911185232"
+          },
+          {
+            "height": "720",
+            "url": "https://player.vimeo.com/external/394896687.hd.mp4?s=1b3f10d254059ab7086df6da8639dfc8ff6e26a4&profile_id=174&oauth2_token_id=911185232"
+          },
+          {
+            "height": "1080",
+            "url": "https://player.vimeo.com/external/394896687.hd.mp4?s=1b3f10d254059ab7086df6da8639dfc8ff6e26a4&profile_id=175&oauth2_token_id=911185232"
+          }
+        ],
+        "videoSource": "VIMEO",
+        "videoTopic": "",
+        "videoAccessibility": ""
+      },
+      "otherVideos": [
+        {
+          "videoTitle": "Notre tour d'horizon d'Abidjan et sa région",
+          "introduction": "",
+          "videoPlayerId": "HihCf2u7OHE",
+          "sizes": [
+            {
+              "url": "https://www.youtube.com/embed/HihCf2u7OHE?loop=0&rel=0"
+            }
+          ],
+          "videoSource": "YOUTUBE",
+          "videoTopic": "Vidéo découverte",
+          "videoAccessibility": "",
+          "videoImageUrl": "/FR/common/common/img/tbaf/destinations/ABJ/video/ABJ-video-1_1-1024x1024.jpg"
+        }
+      ],
+      "map": {
+        "introduction": "",
+        "mapTitle": "Notre sélection d'adresses à Abidjan",
+        "mapId": "https://api.getwemap.com/customers/tbaf/points?destination=ABJ&language=fr&market=FR",
+        "mapUrl": "https://objects.airfrance.com/FR/common/common/img/tbaf/destinations/ABJ/map/ABJ-map.jpeg",
+        "mapTopic": "Carte découverte",
+        "mapSource": "1",
+        "mapAccessibility": ""
+      },
+      "seoData": {
+        "seoTitle": "Abidjan, une cité à la vitalité communicative - Guide de voyage Abidjan",
+        "seoDescription": "Capitale économique de la Côte d'Ivoire, celle que ses huit millions d'habitants surnomment affectueusement « Babi » déborde d'énergie et de créativité, du matin jusqu'au bout de la nuit.",
+        "seoKeywords": "Abidjan, Côte d'Ivoire, Air France, Avion, Voyage, Tourisme, Visite, Guide, Babi, Boutiques, Tendance, Concept stores, Branchés, galeries d'art, Street art, cathédrale Saint-Paul, Marché de de Treichville, Marché de de Cocody Saint-Jean, CAVA, Carpe, Capitaine, Kédjénou, Fruits de mer, Gambas, Langoustes, Crevettes, Allocos, Bananes Plantain, Attiéké, Manioc, Riz, Réserve d'Abokouamékro, Man, Dent de Man, Mont Tonkpi, Mont Nimba, Plages, Assouindé, Assinie, Bars, Restaurants, Clubs, Musiques afro.",
+        "seoFooter": ""
+      }
+    },
+    "newDestination": false
+  },
+  "practicalInformationCategories": {
+    "destinationTime": "11:17",
+    "destinationWeather": {
+      "weatherUnit": "CELSIUS",
+      "temperatureValue": "29",
+      "pictogramUrlSvg": "",
+      "pictogramUrl": "https://img.static-af.com/images/media/3646B953-6931-4D2F-97886B69A3CF7E33"
+    },
+    "destinationSpokenLanguages": [
+      {
+        "code": "fr",
+        "label": "français"
+      }
+    ],
+    "destinationFlightTime": "6H20",
+    "titles": {
+      "medical": {
+        "title": "Informations santé"
+      },
+      "goodToKnow": {
+        "title": "Bon à savoir"
+      },
+      "localCalendar": {
+        "title": "CALENDRIER DES FÊTES ET ÉVÉNEMENTS À Abidjan"
+      },
+      "weather": {
+        "title": "CLIMAT &amp; MÉTÉO À Abidjan"
+      },
+      "currency": {
+        "title": "Devise et Taux de change"
+      },
+      "touristInformation": {
+        "title": "Informations touristiques"
+      },
+      "airports": {
+        "title": "Aéroport international Félix Houphouët-Boigny"
+      },
+      "transportation": {
+        "title": "SE DÉPLACER À Abidjan"
+      }
+    },
+    "currency": {
+      "data": {
+        "label": "Franc CFA BCEAO ",
+        "symbol": "XOF"
+      }
+    }
+  },
+  "lowestPrice": 576,
+  "alternateDestinations": [
+    {
+      "code": "ATH",
+      "label": "Athènes",
+      "lowestPrice": 106,
+      "canonicalName": "athenes"
+    },
+    {
+      "code": "BCN",
+      "label": "Barcelone",
+      "lowestPrice": 99,
+      "canonicalName": "barcelone"
+    },
+    {
+      "code": "BOD",
+      "label": "Bordeaux",
+      "lowestPrice": 101,
+      "canonicalName": "bordeaux"
+    },
+    {
+      "code": "BOG",
+      "label": "Bogota",
+      "lowestPrice": 481,
+      "canonicalName": "bogota"
+    }
+  ],
+  "destinationCountry": {
+    "code": "CI",
+    "label": "Côte D'ivoire",
+    "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/CI/CI-1_1-768x768.jpg",
+    "latitude": "8",
+    "longitude": "-5",
+    "travelGuide": {
+      "isTravelGuideAvailable": false,
+      "travelGuideUrl": ""
+    }
+  },
+  "destinationRegion": {
+    "code": "AFR",
+    "label": "Afrique / Océan Indien",
+    "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/inspiration/regions/AFR.svg",
+    "latitude": "5",
+    "longitude": "18",
+    "travelGuide": {
+      "isTravelGuideAvailable": false,
+      "travelGuideUrl": ""
+    }
+  },
+  "articles": [
+    {
+      "type": "POI",
+      "id": "194980",
+      "city": "ABJ",
+      "country": "CI",
+      "region": "AFR",
+      "filters": [
+        {
+          "code": "OUTTINGS",
+          "label": "Sorties"
+        }
+      ],
+      "topic": "rooftop - bar lounge",
+      "publicationDate": "2020-01-02",
+      "isHidden": false,
+      "isPartner": false,
+      "isCrush": false,
+      "content": {
+        "title": "Bienvenue au Toa, le « lounge » qui fait fureur",
+        "introduction": {
+          "small": "Pour un rendez-vous en couple ou entre amis, Le Tôa Esprit Lounge va vite devenir votre quartier général."
+        },
+        "mainPicture": {
+          "url": "/FR/common/common/img/tbaf/news/ABJ/bienvenue-au-toa-le-lounge-qui-fait-fureur/ABJ-bienvenue-au-toa-le-lounge-qui-fait-fureur-1_1-1024x1024.jpg",
+          "accessibilityDescription": "Bienvenue au Toa, le « lounge » qui fait fureur"
+        },
+        "paragraphs": [
+          {
+            "text": "<p>Connu de tous les Abidjanais pour sa vue panoramique, Le Tôa vous convie sur son élégant <em>rooftop</em> afin d'admirer « Babi » - entendez « Abidjan en dialecte nouchi - sous un angle inédit. Dans ce lieu à la fois convivial et sophistiqué, vous êtes tout de suite charmé par la décoration apaisante, directement importée de Bali : cascades d'eau, statues de Bouddha, palmiers, bambous, parasols indonésiens ou encore fauteuils en rotin blanc, tout invite au calme et à la tranquillité. Que vous choisissiez de vous installer à l'intérieur ou sur la terrasse plein ciel, vous serez bercé par une ambiance sonore éclectique, avec des airs de jazz, de musique latine ou électronique, en fonction de la thématique de la soirée.<br />\nCôté carte, c'est un tour du monde des saveurs qui vous attend grâce à un savant mélange des cultures. Tapas à partager, crevettes thaïlandaises, <em>ribs</em> et frites de patate douce ou encore bœuf au saté, vous ne saurez où donner de la tête. Et pourquoi ne pas accompagner le tout d'une coupe de champagne ou d'un cocktail création - à consommer avec modération, bien sûr - avant de vous diriger vers la piste de danse où les jeux de lumière feront de vous le roi ou la reine de la soirée !</p>\n<p><strong>Le Tôa Esprit Lounge Bar</strong><br />\nImmeuble Le Massaï<br />\n3e étage<br />\nBoulevard Valéry Giscard d'Estaing<br />\nAbidjan</p>\n<p>Tel : +225 07 07 44 44 52</p>\n<p><a href=\"https://www.facebook.com/toaespritloungebar/\" target=\"_blank\" rel=\"noopener\">https://www.facebook.com/Toaespritloungebar/</a></p>\n<p>Carte : environ 16 350 XOF</p>",
+            "moreInfo": [
+              {
+                "geoCoordinates": {
+                  "longitude": "3°58'48.869\"W",
+                  "latitude": "5°17'44.879\"N"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "POI",
+      "id": "194982",
+      "city": "ABJ",
+      "country": "CI",
+      "region": "AFR",
+      "filters": [
+        {
+          "code": "GOURMET_ADVENTURES",
+          "label": "Balades Gourmandes"
+        },
+        {
+          "code": "OUTTINGS",
+          "label": "Sorties"
+        }
+      ],
+      "topic": "cuisine locale - bon plan",
+      "publicationDate": "2020-01-02",
+      "isHidden": false,
+      "isPartner": false,
+      "isCrush": false,
+      "content": {
+        "title": "Chez Ambroise, le rendez-vous des aficionados de la cuisine ivoirienne",
+        "introduction": {
+          "small": "Profitez d'une soirée avec le Tout-Abidjan, les pieds dans le sable et les yeux rivés sur les fourneaux."
+        },
+        "mainPicture": {
+          "url": "/FR/common/common/img/tbaf/news/ABJ/chez-ambroise-le-rendez-vous-des-aficionados-de-la-cuisine-ivoirienne/ABJ-chez-ambroise-le-rendez-vous-des-aficionados-de-la-cuisine-ivoirienne-1_1-1024x1024.jpg",
+          "accessibilityDescription": "Chez Ambroise, le rendez-vous des aficionados de la cuisine ivoirienne"
+        },
+        "paragraphs": [
+          {
+            "text": "<p>Si les maquis - petits restaurants familiaux très populaires en Côte d'Ivoire - sont des lieux propices aux belles découvertes, en voici un que vous n'êtes pas près d'oublier. Au milieu d'une décoration quasi inexistante, quelques dizaines de tables se disputent l'espace sous une grande tente, dans une ruelle perpendiculaire au boulevard principal. Non loin, des groupes de chanteurs locaux, des joueurs de tam-tam ou encore des troupes d'acrobates se succèdent afin d'enflammer votre soirée.<br />\nL'ambiance devient très vite festive et les sourires s'affichent sur tous les visages. Au menu, ne manquez pas les brochettes, considérées par tous les habitués comme les « meilleures d'Abidjan », au même titre que le poisson grillé ou le poulet braisé accompagné d'<em>attiéké</em> (couscous de manioc), de frites d'ignames ou d'un <em>alloco</em> (bananes plantain frites dans l'huile). Et si l'attente peut s'avérer un peu longue, patientez avec une bière locale - à consommer avec modération -, car les généreuses portions raviront le plus fin des gourmets !</p>\n<p><strong>Chez Ambroise</strong><br />\n44 rue F28<br />\n(à gauche sur le boulevard Lorraine en allant vers la paroisse Sainte-Thérèse de Marcory)<br />\nAbidjan</p>\n<p>Tel : +225 05 05 78 36 00</p>\n<p><a href=\"https://www.facebook.com/pages/Restaurant-Chez-Ambroise/318206364992909\" target=\"_blank\" rel=\"noopener\">https://www.facebook.com/pages/Restaurant-Chez-Ambroise/</a></p>\n<p>Carte : environ 5 640 XOF</p>",
+            "moreInfo": [
+              {
+                "geoCoordinates": {
+                  "longitude": "3°59'22.138\"W",
+                  "latitude": "5°18'7.834\"N"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "POI",
+      "id": "194970",
+      "city": "ABJ",
+      "country": "CI",
+      "region": "AFR",
+      "filters": [
+        {
+          "code": "MUST_SEE",
+          "label": "A Découvrir"
+        },
+        {
+          "code": "ARTS_AND_CULTURE",
+          "label": "Arts et Culture"
+        }
+      ],
+      "topic": "musée - patrimoine",
+      "publicationDate": "2020-01-02",
+      "isHidden": false,
+      "isPartner": false,
+      "isCrush": false,
+      "content": {
+        "title": "L'histoire régionale décryptée au Musée des Civilisations",
+        "introduction": {
+          "small": "Le Musée des Civilisations vous fait découvrir un large pan de l'histoire de la Côte d'Ivoire."
+        },
+        "mainPicture": {
+          "url": "/FR/common/common/img/tbaf/news/ABJ/l-histoire-regionale-decryptee-au-musee-des-civilisations/ABJ-l-histoire-regionale-decryptee-au-musee-des-civilisations-1_1-1024x1024.jpg",
+          "accessibilityDescription": "L'histoire régionale décryptée au Musée des Civilisations"
+        },
+        "paragraphs": [
+          {
+            "text": "<p>Autrefois centre artisanal ouvert à l'initiative de l'administration coloniale, le Musée des Civilisations de Côte d'Ivoire est aujourd'hui la mémoire vivante du patrimoine régional. Avec ses quelque 15 000 objets authentiques, datant de 10 000 ans avant notre ère jusqu'au XXI<sup>e</sup> siècle, l'établissement, qui dépend du ministère ivoirien de la Culture et de la Francophonie, est une véritable institution - l'ancien président sénégalais Léopold Sédar Senghor le décrivait comme « l'un des musées d'art nègre les plus riches du monde ».<br />\nBien que sa collection ait souffert de la disparition de 120 pièces précieuses au cours de la crise ivoirienne de 2010-2011, il a rouvert ses portes au public en 2017, plus ambitieux que jamais. Entièrement rénové, le Musée des Civilisations présente des œuvres de toutes les régions ivoiriennes, témoignages uniques de l'histoire du pays : masques, parures, instruments de musique, outils paléolithiques et même buste doré de Félix Houphouët-Boigny, père de l'indépendance de la Côte d'Ivoire. Dans le hall trône un colossal crâne d'éléphant qui ne manque pas de fasciner petits et grands.</p>\n<p><strong>Musée des Civilisations de Côte d'Ivoire</strong><br />\n32 boulevard Carde<br />\nAbidjan</p>\n<p>Tel : +225 27 20 22 20 56</p>\n<p><a href=\"https://fr-fr.facebook.com/museeciv.renaissance1942/\" target=\"_blank\" rel=\"noopener\">https://fr-fr.facebook.com/museeciv.renaissance1942/</a></p>",
+            "moreInfo": [
+              {
+                "geoCoordinates": {
+                  "longitude": "4°1'27.012\"W",
+                  "latitude": "5°20'0.766\"N"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "POI",
+      "id": "195002",
+      "city": "ABJ",
+      "country": "CI",
+      "region": "AFR",
+      "filters": [
+        {
+          "code": "ACCOMODATION",
+          "label": "Hébergements"
+        }
+      ],
+      "topic": "design - nature",
+      "publicationDate": "2020-01-02",
+      "isHidden": false,
+      "isPartner": false,
+      "isCrush": false,
+      "content": {
+        "title": "L'Hôtel Particulier Abidjan, un singulier hôtel-jardin",
+        "introduction": {
+          "small": "Cachée par une haie de bambous, une maison familiale de Cocody s'est muée en un boutique-hôtel ouvert sur la nature."
+        },
+        "mainPicture": {
+          "url": "/FR/common/common/img/tbaf/news/ABJ/l-hotel-particulier-abidjan-un-singulier-hotel-jardin/ABJ-l-hotel-particulier-abidjan-un-singulier-hotel-jardin-1_1-1024x1024.jpg",
+          "accessibilityDescription": "L'Hôtel Particulier Abidjan, un singulier hôtel-jardin"
+        },
+        "paragraphs": [
+          {
+            "text": "<p>Un calme imperturbable règne dans le jardin, juste rompu par le vol d'un colibri. Pourtant, quelques mètres avant de passer le péristyle, le tumulte de la ville retentissait encore à vos oreilles ! Rassurez-vous, vous n'avez pas été téléporté dans un univers parallèle, vous avez seulement franchi l'enceinte de l'Hôtel Particulier. Loin du béton du Vieux-Cocody, cet établissement a été pensé comme une parenthèse urbaine, un refuge apaisant entièrement dédié à la nature.<br />\nÀ l'accueil, des senteurs boisées vous chatouillent les narines, en accord avec les teintes vertes et marron omniprésentes dans le décor environnant. Quant aux 16 chambres et suites de l'Hôtel Particulier, dont certaines possèdent un jardin privatif, elles évoquent les couleurs de la diversité africaine, de Marrakech à Zanzibar. Infusions maison, cosmétiques bio et douche à ciel ouvert parachèvent l'ambiance si ensorcelante de cette charmante maison familiale devenue boutique-hôtel. Au creux de votre nid douillet, nul doute que vos nuits seront peuplées de rêves de voyage et d'aventure.</p>\n<p><strong>Hôtel Particulier Abidjan</strong><br />\n52 route du Lycée Technique<br />\nVieux-Cocody<br />\nAbidjan</p>\n<p>Tel : +225 27 22 44 16 16</p>\n<p><a href=\"https://www.hotelparticulierabidjan.com/\" target=\"_blank\" rel=\"noopener\">https://www.hotelparticulierabidjan.com</a></p>\n<p>Chambre : à partir de 112 450 XOF</p>",
+            "moreInfo": [
+              {
+                "geoCoordinates": {
+                  "longitude": "4°0'13.865\"W",
+                  "latitude": "5°21'1.063\"N"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "POI",
+      "id": "194973",
+      "city": "ABJ",
+      "country": "CI",
+      "region": "AFR",
+      "filters": [
+        {
+          "code": "MUST_SEE",
+          "label": "A Découvrir"
+        },
+        {
+          "code": "ARTS_AND_CULTURE",
+          "label": "Arts et Culture"
+        }
+      ],
+      "topic": "galeries d'art",
+      "publicationDate": "2020-01-02",
+      "isHidden": false,
+      "isPartner": false,
+      "isCrush": false,
+      "content": {
+        "title": "De l'art en veux-tu en voilà",
+        "introduction": {
+          "small": "La scène culturelle d'Abidjan regorge de galeries aussi remarquables les unes que les autres. Sillonnez sans attendre ces lieux hors du commun !"
+        },
+        "mainPicture": {
+          "url": "/FR/common/common/img/tbaf/news/ABJ/de-l-art-en-veux-tu-en-voila/ABJ-de-l-art-en-veux-tu-en-voila-1_1-1024x1024.jpg",
+          "accessibilityDescription": "De l'art en veux-tu en voilà"
+        },
+        "paragraphs": [
+          {
+            "text": "<p>Abidjan se révèle l'endroit rêvé pour tous les amoureux du beau. Chez Cécile Fakhoury, les œuvres du continent africain sont à l'honneur avec de nombreuses expositions où les artistes se distinguent par leurs identités fortes et leurs univers poétiques. LouiSimone Guirandou Gallery, de son côté, met en avant les arts contemporains en prônant un avant-gardisme qui vaut à sa fondatrice, Simone Guirandou N'Diaye, une notoriété dépassant les frontières. Houkami Guyzagn se charge de promouvoir de jeunes plasticiens de Côte d'Ivoire et organise régulièrement des vernissages, des conférences et des « apéros-art » dans le but de faire de ce lieu un espace unique de rencontres et d'échanges. À la galerie M'Pataô, 1 200 m² de surface abritent plus de 1 600 pièces exceptionnelles des arts traditionnels et ethniques pour vous faire découvrir l'incroyable variété du patrimoine culturel africain. Enfin, la fondation Donwahi prône un amour des arts sans frontière : sculptures, peintures, graffitis, photographies, courts et longs métrages cinématographiques, la programmation revendique éclectisme et subjectivité. Vous pouvez même y boire un verre et goûter la cuisine inventive du jeune chef Julien Coulibaly.</p>\n<p><strong>Galerie Cécile Fakhoury</strong><br />\nBoulevard Latrille (entre Sodemi et immeuble Carbone)<br />\nAbidjan<br />\nTel : + 225 27 22 44 66 77<br />\n<a href=\"https://cecilefakhoury.com/\" target=\"_blank\" rel=\"noopener\">https://cecilefakhoury.com</a></p>\n<p><strong>LouiSimone Guirandou Gallery</strong><br />\nRue C27 Cocody Mermoz (derrière la Cité Universitaire Mermoz et mitoyen au Goethe Institut Cocody)<br />\nAbidjan<br />\nTel : +225 27 22 54 04 61<br />\n<a href=\"https://louisimoneguirandou.gallery/\" target=\"_blank\" rel=\"noopener\">https://louisimoneguirandou.gallery/</a></p>\n<p><strong>Galerie Houkami Guyzagn</strong><br />\nCocody Riviera Bonoumin<br />\nAbidjan<br />\nTel : +225 27 22 43 55 12<br />\n<a href=\"https://houkamiguyzagn.com/accueil.php\" target=\"_blank\" rel=\"noopener\">https://houkamiguyzagn.com/accueil.php</a></p>\n<p><strong>Galerie M'Pataô</strong><br />\nRond-point de la Riviera Palmeraie<br />\nRésidence Plein Sud<br />\nCocody<br />\nAbidjan<br />\nTel : +225 07 07 42 61 42<br />\n<a href=\"https://fr-fr.facebook.com/Galeriempatao/\" target=\"_blank\" rel=\"noopener\">https://fr-fr.facebook.com/Galeriempatao/</a></p>\n<p><strong>Fondation Donwahi</strong><br />\nBoulevard des Martyrs<br />\nAbidjan<br />\nTel : +225 27 22 41 45 49<br />\n<a href=\"https://www.facebook.com/FondationDonwahi/\" target=\"_blank\" rel=\"noopener\">https://www.facebook.com/FondationDonwahi/</a></p>"
+          }
+        ]
+      }
+    },
+    {
+      "type": "POI",
+      "id": "194965",
+      "city": "ABJ",
+      "country": "CI",
+      "region": "AFR",
+      "filters": [
+        {
+          "code": "MUST_SEE",
+          "label": "A Découvrir"
+        }
+      ],
+      "topic": "marchés",
+      "publicationDate": "2020-01-02",
+      "isHidden": false,
+      "isPartner": false,
+      "isCrush": false,
+      "content": {
+        "title": "Instants shopping à Abidjan",
+        "introduction": {
+          "small": "Qu'ils soient petits ou grands, modernes ou traditionnels, artisanaux ou alimentaires, les marchés sont une étape obligatoire pour mieux connaître la ville."
+        },
+        "mainPicture": {
+          "url": "/FR/common/common/img/tbaf/news/ABJ/instants-shopping-a-abidjan/ABJ-instants-shopping-a-abidjan-1_1-1024x1024.jpg",
+          "accessibilityDescription": "Instants shopping à Abidjan"
+        },
+        "paragraphs": [
+          {
+            "text": "<p>Rien de mieux pour prendre le pouls d'Abidjan que d'explorer ses marchés, aussi divers que ses quartiers. Tête de proue de l'artisanat local, le CAVA (Centre Artisanal de la Ville d'Abidjan) est sans conteste le rendez-vous à ne manquer pour rien au monde dans la capitale économique de la Côte d'Ivoire. Une cinquantaine d'échoppes, installées dans des cases en brique et terre rouges, composent une sorte de village où chaque créateur a sa spécialité, de la bijouterie à la sculpture, de la mode à la peinture, des instruments de musique au travail du cristal.<br />\nPour un marché plus classique, mais non moins prisé par les Ivoiriens, prenez la direction de la commune voisine de Treichville, surnommée la « cité <em>n'zassa</em> » (mot qui signifie « mélange » en langue akan). Vous y trouvez un concentré chaotique de la diversité abidjanaise, des fripes aux petits objets high-tech en passant par les étals de poissons fumés.<br />\nAu cœur du quartier cossu des ambassades, à mi-chemin entre le CAVA et le marché de Treichville, celui de Cocody Saint-Jean attire également de nombreux Abidjanais. Dans cet immense labyrinthe moderne de plus de 400 boutiques, vous avez tout loisir de profiter de denrées alimentaires de première qualité, de produits de mode et de beauté ou encore de restaurants traditionnels.</p>\n<p><strong>CAVA (Centre Artisanal de la Ville d'Abidjan)</strong><br />\nBoulevard du Canal (non loin de l'espace Abidjan Karting)<br />\nAbidjan<br />\nTe : +225 07 77 48 93 17<br />\n<a href=\"https://www.facebook.com/lecavadabidjan/\">https://www.facebook.com/lecavadabidjan/</a></p>\n<p><strong>Marché de Treichville</strong><br />\nAvenue Victor Biaka<br />\nAbidjan<br />\nTel : +225 01 03 28 18 49</p>\n<p><strong>Marché de Cocody Saint-Jean</strong><br />\nBoulevard de France<br />\nAbidjan<br />\nTel : +225 01 03 22 22 69</p>"
+          }
+        ]
+      }
+    },
+    {
+      "type": "POI",
+      "id": "194964",
+      "city": "ABJ",
+      "country": "CI",
+      "region": "AFR",
+      "filters": [
+        {
+          "code": "MUST_SEE",
+          "label": "A Découvrir"
+        },
+        {
+          "code": "ARTS_AND_CULTURE",
+          "label": "Arts et Culture"
+        }
+      ],
+      "topic": "monument - exploration",
+      "publicationDate": "2020-01-02",
+      "isHidden": false,
+      "isPartner": false,
+      "isCrush": false,
+      "content": {
+        "title": "La cathédrale Saint-Paul d'Abidjan, sanctuaire moderniste",
+        "introduction": {
+          "small": "Surplombant le littoral lagunaire ivoirien avec son clocher de 70 m de haut, la cathédrale Saint-Paul d'Abidjan surprend par sa majesté et l'audace de son architecture."
+        },
+        "mainPicture": {
+          "url": "/FR/common/common/img/tbaf/news/ABJ/la-cathedrale-saint-paul-d-abidjan-sanctuaire-moderniste/ABJ-la-cathedrale-saint-paul-d-abidjan-sanctuaire-moderniste-1_1-1024x1024.jpg",
+          "accessibilityDescription": "La cathédrale Saint-Paul d'Abidjan, sanctuaire moderniste"
+        },
+        "paragraphs": [
+          {
+            "text": "<p>Son allure contemporaine tranche radicalement avec le style traditionnel des lieux de culte catholiques. Terminée en 1985 après cinq ans de travaux, la cathédrale Saint-Paul d'Abidjan est rapidement devenue l'un des emblèmes de la ville, notamment grâce à une structure hors normes. Sa construction avant-gardiste, où domine la figure du triangle, joue avec les symboles, comme celui de la Sainte Trinité ou encore de la tente - métaphore de l'hospitalité - à travers l'immense voile de béton qui recouvre le sommet.</p>\n<p>En façade, les murs plongent vers l'avant et évoquent les défenses d'un éléphant s'enfonçant dans la terre. Néanmoins, le plus impressionnant reste le clocher principal, face au littoral : il dessine la silhouette d'un géant de 70 m de haut qui, telle une allégorie de l'homme africain, semble capable de tracter une montagne. En peu de temps, la cathédrale Saint-Paul d'Abidjan, la plus grande d'Afrique, a définitivement conquis le cœur de tous les habitants.</p>\n<p><strong>Cathédrale Saint-Paul d'Abidjan</strong><br />\nAbidjan</p>\n<p>Tel : +225 27 20 21 20 26</p>",
+            "moreInfo": [
+              {
+                "geoCoordinates": {
+                  "longitude": "4°1'12.264\"W",
+                  "latitude": "5°19'58.448\"N"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "POI",
+      "id": "194966",
+      "city": "ABJ",
+      "country": "CI",
+      "region": "AFR",
+      "filters": [
+        {
+          "code": "MUST_SEE",
+          "label": "A Découvrir"
+        }
+      ],
+      "topic": "réserve naturelle",
+      "publicationDate": "2020-01-02",
+      "isHidden": false,
+      "isPartner": false,
+      "isCrush": false,
+      "content": {
+        "title": "La réserve d'Abokouamékro, un site d'exception",
+        "introduction": {
+          "small": "Entre forêts et savanes, partez à la découverte du patrimoine naturel d'Abokouamékro et profitez de paysages époustouflants."
+        },
+        "mainPicture": {
+          "url": "/FR/common/common/img/tbaf/news/ABJ/la-reserve-d-abokouamekro-un-site-d-exception/ABJ-la-reserve-d-abokouamekro-un-site-d-exception-1_1-1024x1024.jpg",
+          "accessibilityDescription": "La réserve d'Abokouamékro, un site d'exception"
+        },
+        "paragraphs": [
+          {
+            "text": "<p>À une cinquantaine de kilomètres au nord d'Abidjan s'étend un site naturel des plus remarquables. Longeant la frontière du Ghana, la réserve d'Abokouamékro a été créée en 1986 pour valoriser la région des Lacs. Plus de 20 000 hectares accueillent une faune pour la majeure partie issue des parcs nationaux de la Comoé et de la Marahoué (situés respectivement à 500 km au nord-est et 100 km à l'ouest), ainsi que de réserves sud-africaines - certaines espèces étant considérées comme disparues de Côte d'Ivoire il y a encore quelques décennies.<br />\nParmi les variétés réintroduites, des antilopes, des buffles, des bubales et des girafes évoluent en totale liberté, même si le braconnage a, ces dernières années, mis parfois en péril l'écosystème du parc. Les autorités ivoiriennes ayant pris la mesure du problème, la visite se fait en 4x4 en compagnie d'un guide ou d'un garde forestier, qui vous aident à vous repérer dans la forêt-savane et les palmiers rôniers. Cependant, même sans la certitude d'apercevoir les animaux, la réserve d'Abokouamékro vaut le détour grâce à ses splendides paysages jalonnés de rivières, au milieu desquels vous pouvez établir un campement. Les vallées verdoyantes, dominées par la colline dite « des Ambassadeurs », vous promettent des panoramas à couper le souffle.</p>\n<p><strong>Réserve de Faune d'Abokouamékro (RAF)</strong><br />\nYamoussoukro</p>\n<p><a href=\"https://www.oipr.ci/index.php/parcs-reserves/reserves-naturelles/reserve-de-faune-d-abokouamekro\" target=\"_blank\" rel=\"noopener\">https://www.oipr.ci/index.php/parcs-reserves/reserves-naturelles/reserve-de-faune-d-abokouamekro</a></p>"
+          }
+        ]
+      }
+    },
+    {
+      "type": "POI",
+      "id": "194968",
+      "city": "ABJ",
+      "country": "CI",
+      "region": "AFR",
+      "filters": [
+        {
+          "code": "MUST_SEE",
+          "label": "A Découvrir"
+        },
+        {
+          "code": "SPORTS_AND_WELL_BEING",
+          "label": "Sport et Bien-Etre"
+        }
+      ],
+      "topic": "plage - baignade <br >",
+      "publicationDate": "2020-01-02",
+      "isHidden": false,
+      "isPartner": false,
+      "isCrush": false,
+      "content": {
+        "title": "Assinie et Assouindé, les royaumes du farniente",
+        "introduction": {
+          "small": "À 100 km d'Abidjan s'étendent les plages paradisiaques de la lagune d'Aby, entre villages traditionnels et stations balnéaires."
+        },
+        "mainPicture": {
+          "url": "/FR/common/common/img/tbaf/news/ABJ/assinie-et-assouinde-les-royaumes-du-farniente/ABJ-assinie-et-assouinde-les-royaumes-du-farniente-1_1-1024x1024.jpg",
+          "accessibilityDescription": "Assinie et Assouindé, les royaumes du farniente"
+        },
+        "paragraphs": [
+          {
+            "text": "<p>La Côte d'Ivoire a aussi sa Riviera ! À une heure et demie de route d'Abidjan, la presqu'île d'Assinie dévoile un décor spectaculaire où le rivage se prolonge sur une trentaine de kilomètres. Entre authenticité et tourisme haut de gamme, Assinie est à la fois une bourgade de pêcheurs et une station balnéaire très prisée par l'élite abidjanaise. Jet-ski, balades en pirogue, bouée tractée, croisières… les activités ne manquent pas, même si rien ne vous empêche de simplement étendre votre serviette ou votre transat sur le sable blanc de cette plage idyllique. Surnommé le « Saint-Tropez d'Afrique », le village d'Assinie attire de plus en plus de voyageurs depuis que l'artiste de reggae ivoirien Alpha Blondy lui a dédié une chanson , mais le lieu est aussi internationalement connu grâce au film <em>Les Bronzés</em> (1978), comédie culte du cinéma français<em>.</em><br />\nÀ moins de 20 km de là, n'hésitez pas à aller explorer la ravissante bourgade d'Assouindé, avec ses maisons aux toits de chaume, ses boutiques multicolores et ses rues en latérite rouge encadrées de cocotiers. Dans cette station moins fréquentée que sa voisine, mais tout aussi enchanteresse, vous profitez à la fois d'une exquise pause détente et du charme préservé des maquis de bord de mer.</p>\n<p><strong>Plage d'Assinie</strong><br />\nAssinie<br />\n<a href=\"https://www.tourisme.gouv.ci/accueil/sitetourdetail/les-lieux-touristiques-d-assinie255\" target=\"_blank\" rel=\"noopener\">https://www.tourisme.gouv.ci/accueil/sitetourdetail/les-lieux-touristiques-d-assinie255</a></p>\n<p><strong>Plage d'Assouindé</strong><br />\nAssouindé</p>"
+          }
+        ]
+      }
+    },
+    {
+      "type": "POI",
+      "id": "194972",
+      "city": "ABJ",
+      "country": "CI",
+      "region": "AFR",
+      "filters": [
+        {
+          "code": "MUST_SEE",
+          "label": "A Découvrir"
+        },
+        {
+          "code": "ARTS_AND_CULTURE",
+          "label": "Arts et Culture"
+        }
+      ],
+      "topic": "shopping",
+      "publicationDate": "2020-01-02",
+      "isHidden": false,
+      "isPartner": false,
+      "isCrush": false,
+      "content": {
+        "title": "À la découverte des « concept stores » d'Abidjan",
+        "introduction": {
+          "small": "Pour dénicher quelques trésors locaux inimitables, passez la porte des boutiques les plus tendance de la ville."
+        },
+        "mainPicture": {
+          "url": "/FR/common/common/img/tbaf/news/ABJ/a-la-decouverte-des-concept-stores-d-abidjan/ABJ-a-la-decouverte-des-concept-stores-d-abidjan-1_1-1024x1024.jpg",
+          "accessibilityDescription": "À la découverte des « concept stores » d'Abidjan"
+        },
+        "paragraphs": [
+          {
+            "text": "<p>Quoi de plus stimulant que de parcourir les <em>concept stores</em> d'Abidjan pour rapporter dans ses bagages de charmants souvenirs ? Si vous êtes en quête de produits locaux, ne manquez pas le Comptoir des Artisans. De la mode à la déco en passant par le chocolat haut de gamme, vous y trouvez tout, même un salon de thé. Pour ceux qui se montrent attentifs au développement durable, un crochet par NOTA BENE s'impose pour mettre la main sur des objets uniques en wax « made in » Côte d'Ivoire tels des coussins, des pochettes, des vêtements pour enfants ou encore des accessoires de plage.</p>\n<p>Les amateurs du style <em>trendy</em>-chic ressortent ravis de chez Ettyka, avec ses 200 m² de surface et ses 50 marques de prêt-à-porter, de parures et de linge de maison, le tout exclusivement fabriqué sur le continent africain. Pour un feu d'artifice de couleurs, grimpez un étage et découvrez « l'Espace des Créateurs », où vous avez un aperçu de la virtuosité des couturiers locaux, de Ethnic Sikka à Nadia Druide en passant par Naïma Dolls. Enfin, si vous êtes sensible aux thématiques du voyage et du bien-être, Dozo vous promet une expérience shopping des plus enthousiasmantes ! À vous, sandales en cuir, sacs à main faits maison ou encore produits cosmétiques d'origine naturelle !</p>\n<p><strong>Comptoirs des Artisans</strong><br />\n15 rue du Lycée Technique<br />\nCocody<br />\nAbidjan<br />\nTel : +225 07 78 22 22 08<br />\n<a href=\"https://comptoirdesartisans.ci/\" target=\"_blank\" rel=\"noopener\">https://comptoirdesartisans.ci</a></p>\n<p><strong>NOTA BENE Créations</strong><br />\nRue Lumière<br />\nAbidjan<br />\nTel : +225 07 58 78 74 48<br />\n<a href=\"https://fr-fr.facebook.com/benedicte.meurant/\" target=\"_blank\" rel=\"noopener\">https://fr-fr.facebook.com/benedicte.meurant/</a></p>\n<p><strong>Ettyka L'Espace des Créateurs</strong><br />\nRue du Commerce<br />\nAbidjan<br />\nTel : +225 07 09 44 72 27<br />\n<a href=\"https://www.facebook.com/ettykalespacedescreateurs/\" target=\"_blank\" rel=\"noopener\">https://www.facebook.com/ettykalespacedescreateurs/</a></p>\n<p><strong>Dozo - Abidjan</strong><br />\n24 avenue Boga Doudou<br />\nAbidjan<br />\nTel : +225 07 88 39 43 50<br />\n<a href=\"https://www.facebook.com/dozo.abidjan/\" target=\"_blank\" rel=\"noopener\">https://www.facebook.com/dozo.abidjan/</a></p>"
+          }
+        ]
+      }
+    },
+    {
+      "type": "POI",
+      "id": "194975",
+      "city": "ABJ",
+      "country": "CI",
+      "region": "AFR",
+      "filters": [
+        {
+          "code": "ACCOMODATION",
+          "label": "Hébergements"
+        }
+      ],
+      "topic": "incontournable",
+      "publicationDate": "2020-01-02",
+      "isHidden": false,
+      "isPartner": false,
+      "isCrush": false,
+      "content": {
+        "title": "Sofitel Abidjan Hôtel Ivoire, le phénix du luxe",
+        "introduction": {
+          "small": "Entièrement rénové, le Sofitel Abidjan Hôtel Ivoire a retrouvé son faste d'autrefois et s'impose comme l'un des établissements incontournables du pays."
+        },
+        "mainPicture": {
+          "url": "/FR/common/common/img/tbaf/news/ABJ/sofitel-abidjan-hotel-ivoire-le-phenix-du-luxe/ABJ-sofitel-abidjan-hotel-ivoire-le-phenix-du-luxe-1_1-1024x1024.jpg",
+          "accessibilityDescription": "Sofitel Abidjan Hôtel Ivoire, le phénix du luxe"
+        },
+        "paragraphs": [
+          {
+            "text": "<p>Symbole du « miracle ivoirien » lors de son inauguration dans le quartier huppé d'Abidjan en 1963, l'Hôtel Ivoire vit au rythme des événements nationaux. Longtemps considéré comme l'un des édifices les plus modernes de tout le continent africain, il a vu passer des stars de la variété internationale telles que Michael Jackson, Barry White, Stevie Wonder ou encore Rihanna. Aujourd'hui, après une réfection de fond en comble, ce gratte-ciel de 100 m de haut a retrouvé son lustre d'antan. Désormais géré par le Groupe Sofitel, l'hôtel cinq étoiles allie culture africaine, avec de nombreuses œuvres réalisées par de talentueux artistes locaux, et luxe à la française, avec son spa haut de gamme. Ses 423 chambres à balcon et 41 suites dominent le Plateau et la lagune Ébrié, mais vous profitez aussi d'une vue exceptionnelle sur Cocody depuis le Toit d'Abidjan, l'un des quatre restaurants de l'établissement. Le chef Jérôme Cartailler y revisite pour vous les saveurs authentiques de la gastronomie française le temps d'une soirée unique.</p>\n<p><strong>Sofitel Abidjan Hôtel Ivoire</strong><br />\nBoulevard Hassan II<br />\nAbidjan</p>\n<p>Tel : +225 27 22 48 26 26</p>\n<p><a href=\"https://sofitel.accor.com/hotel/8844/index.fr.shtml#origin=sofitel\" target=\"_blank\" rel=\"noopener\">https://sofitel.accor.com/hotel/8844/index.fr.shtml#origin=sofitel</a></p>\n<p>Chambre : à partir de 148 240 XOF</p>",
+            "moreInfo": [
+              {
+                "geoCoordinates": {
+                  "longitude": "4°0'16.637\"W",
+                  "latitude": "5°19'37.359\"N"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "POI",
+      "id": "194977",
+      "city": "ABJ",
+      "country": "CI",
+      "region": "AFR",
+      "filters": [
+        {
+          "code": "ACCOMODATION",
+          "label": "Hébergements"
+        }
+      ],
+      "topic": "insolite - écoresponsable",
+      "publicationDate": "2020-01-02",
+      "isHidden": false,
+      "isPartner": false,
+      "isCrush": false,
+      "content": {
+        "title": "Quai 40, l'esprit récup'",
+        "introduction": {
+          "small": "Au Quai 40, tentez cette expérience insolite et écologique de dormir au creux d'un conteneur… en plein centre-ville d'Abidjan !"
+        },
+        "mainPicture": {
+          "url": "/FR/common/common/img/tbaf/news/ABJ/quai-40-l-esprit-recup/ABJ-quai-40-l-esprit-recup-1_1-1024x1024.jpg",
+          "accessibilityDescription": "Quai 40, l'esprit récup'"
+        },
+        "paragraphs": [
+          {
+            "text": "<p>Dans le jardin de Yasmine Hussein Farhat reposent cinq conteneurs, comme si l'océan, à 150 m à vol d'oiseau, les avait déplacés là après une marée hors du commun. Transformés en cinq chambres d'hôtes de 25 m<sup>2</sup> pourvues de tout le confort - lit de standing, salle de bains, kitchenette -, ces géants des mers, somptueusement repeints couleur bleu roi, possèdent chacun leur histoire et portent le nom de leur ultime port d'attache : Charleston, en Caroline du Sud, Ningbo, en Chine, Nhava Sheva, en Inde, Las Palmas, dans les îles Canaries, et Jebel Ali, aux Émirats arabes unis…<br />\nEn leur donnant ainsi droit à une seconde vie, la maîtresse des lieux rend hommage à l'activité portuaire de la région tout en mettant en avant une philosophie écoresponsable pour rendre l'empreinte écologique de Quai 40 la plus minime possible - emploi d'un éclairage LED à très faible consommation, réutilisation des eaux de pluie pour l'arrosage… Dans un jardin apaisant aux chemins dessinés par des galets et des coques de noix de coco, chaque chambre a sa propre terrasse et ressemble à un îlot de tranquillité, le tout en plein centre-ville d'Abidjan !</p>\n<p><strong>Quai 40</strong><br />\nRuelle Asna<br />\nBoulevard de Marseille<br />\nZone 3<br />\nAbidjan</p>\n<p>Tel : +225 01 02 84 32 20</p>\n<p><a href=\"https://www.quai40.com/\" target=\"_blank\" rel=\"noopener\">https://www.quai40.com</a></p>\n<p>Chambre : à partir de 70 843 XOF</p>",
+            "moreInfo": [
+              {
+                "geoCoordinates": {
+                  "longitude": "3°59'41.286\"W",
+                  "latitude": "5°17'25.197\"N"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "POI",
+      "id": "194967",
+      "city": "ABJ",
+      "country": "CI",
+      "region": "AFR",
+      "filters": [
+        {
+          "code": "MUST_SEE",
+          "label": "A Découvrir"
+        },
+        {
+          "code": "ARTS_AND_CULTURE",
+          "label": "Arts et Culture"
+        }
+      ],
+      "topic": "nature - famille",
+      "publicationDate": "2020-01-02",
+      "isHidden": false,
+      "isPartner": false,
+      "isCrush": false,
+      "content": {
+        "title": "Se mettre au vert loin de la frénésie citadine",
+        "introduction": {
+          "small": "Faites une pause au parc national du Banco, en plein cœur de la ville, ou au Jardin botanique de Bingerville."
+        },
+        "mainPicture": {
+          "url": "/FR/common/common/img/tbaf/news/ABJ/se-mettre-au-vert-loin-de-la-frenesie-citadine/ABJ-se-mettre-au-vert-loin-de-la-frenesie-citadine-1_1-1024x1024.jpg",
+          "accessibilityDescription": "Se mettre au vert loin de la frénésie citadine"
+        },
+        "paragraphs": [
+          {
+            "text": "<p>Avec son énergie débordante et son statut de capitale économique du pays - le centre politique et administratif étant établi à Yamoussoukro -, Abidjan porte bien son surnom de « Manhattan des tropiques ». Aussi, parfois, ressentez-vous l'envie de vous éloigner de la frénésie ambiante pour vous octroyer une parenthèse de sérénité. À Abidjan, les amoureux de la nature vont se ressourcer au parc national du Banco, à la fois poumon vert de la ville et réservoir hydraulique. En bordure de l'autoroute du Nord, ces 3 500 hectares de forêt primaire abritent de nombreux spécimens de chimpanzés, antilopes naines, oiseaux et papillons. À noter qu'avec Rio de Janeiro, Abidjan est la seule métropole au monde dans laquelle s'épanouit une véritable forêt vierge.<br />\nPlus à l'est, à moins de 20 km du centre-ville, rendez-vous au séculaire Jardin botanique de Bingerville, classé monument historique depuis 1991, pour un moment de récréation et de découverte. D'abord laboratoire scientifique en sa qualité de jardin d'essai, à l'origine de l'introduction de la culture des plants de cacaoyers, caféiers et palmiers en Côte d'Ivoire, il est aujourd'hui la vitrine du prospère écosystème ivoirien. Avec ses chemins de promenade accessibles à vélo, le Jardin botanique est un endroit privilégié pour les familles à la recherche de calme et de fraîcheur.</p>\n<p><strong>Parc national du Banco</strong><br />\nAbidjan<br />\nTel : +225 27 22 41 40 59<br />\n<a href=\"https://www.oipr.ci/index.php/parcs-reserves/parcs-nationaux/parc-national-du-banco\" target=\"_blank\" rel=\"noopener\">https://www.oipr.ci/index.php/parcs-reserves/parcs-nationaux/parc-national-du-banco</a></p>\n<p><strong>Jardin botanique de Bingerville</strong><br />\nBingerville<br />\nTel : +225 01 03 44 33 43<br />\n<a href=\"https://www.facebook.com/JardinBotaniqueBingerville/\" target=\"_blank\" rel=\"noopener\">https://www.facebook.com/JardinBotaniqueBingerville/</a></p>"
+          }
+        ]
+      }
+    },
+    {
+      "type": "POI",
+      "id": "194971",
+      "city": "ABJ",
+      "country": "CI",
+      "region": "AFR",
+      "filters": [
+        {
+          "code": "MUST_SEE",
+          "label": "A Découvrir"
+        },
+        {
+          "code": "ARTS_AND_CULTURE",
+          "label": "Arts et Culture"
+        }
+      ],
+      "topic": "street art",
+      "publicationDate": "2020-01-02",
+      "isHidden": false,
+      "isPartner": false,
+      "isCrush": false,
+      "content": {
+        "title": "Messages artistiques engagés sur les murs d'Abidjan",
+        "introduction": {
+          "small": "Le street art se développe dans les rues, porté par la puissante aspiration des Ivoiriens à l'art et à la création, au-delà des frontières sociales et culturelles."
+        },
+        "mainPicture": {
+          "url": "/FR/common/common/img/tbaf/news/ABJ/messages-artistiques-engages-sur-les-murs-d-abidjan/ABJ-messages-artistiques-engages-sur-les-murs-d-abidjan-1_1-1024x1024.jpg",
+          "accessibilityDescription": "Messages artistiques engagés sur les murs d'Abidjan"
+        },
+        "paragraphs": [
+          {
+            "text": "<p>Peu développé il y a encore quelques années, le <em>street art</em> affirme de plus en plus sa présence sur les murs d'Abidjan. Partez à la chasse aux fresques géantes et cherchez à reconnaître parmi les différentes œuvres celles de l'artiste YZ. Avec son projet <em>Street Vendors</em>, la célèbre Franco-Britannique allie art et politique en brossant le portrait de vendeuses de rues dans différents quartiers de la ville. Loin de la précarité de leur condition sociale – elles sont toutes marchandes ambulantes, recycleuses d'objets usagers, laveuses de pare-brise –, ces femmes sont ici représentées de façon sensible et digne.</p>\n<p>Autre grande réussite artistique, les murs peints de l'ancien Village des Partenaires à Treichville méritent eux aussi le détour. En 2017, à l'occasion des Jeux de la Francophonie qui se tenaient à Abidjan, de jeunes graffeurs ont été invités à exercer leur créativité sur d'immenses façades. Résultat, plusieurs dizaines d'œuvres colorées, sur le thème de l'engagement, de la solidarité et de l'expression artistique, ont métamorphosé le paysage urbain, le projet s'étant montré précurseur dans le domaine de la culture alternative à Abidjan.</p>"
+          }
+        ]
+      }
+    },
+    {
+      "type": "POI",
+      "id": "194979",
+      "city": "ABJ",
+      "country": "CI",
+      "region": "AFR",
+      "filters": [
+        {
+          "code": "GOURMET_ADVENTURES",
+          "label": "Balades Gourmandes"
+        }
+      ],
+      "topic": "cuisine ivoirienne",
+      "publicationDate": "2020-01-02",
+      "isHidden": false,
+      "isPartner": false,
+      "isCrush": false,
+      "content": {
+        "title": "Le Saakan, meilleur restaurant d'Abidjan",
+        "introduction": {
+          "small": "Adresse emblématique de la ville, le Saakan vous séduira à coup sûr grâce à ses plats typiques revisités."
+        },
+        "mainPicture": {
+          "url": "/FR/common/common/img/tbaf/news/ABJ/le-saakan-meilleur-restaurant-d-abidjan/ABJ-le-saakan-meilleur-restaurant-d-abidjan-1_1-1024x1024.jpg",
+          "accessibilityDescription": "Le Saakan, meilleur restaurant d'Abidjan"
+        },
+        "paragraphs": [
+          {
+            "text": "<p>Après avoir effectué plusieurs voyages à travers le monde, la cheffe Christelle Vougo décide d'expérimenter une nouvelle alliance en revisitant la cuisine de son pays tout en s'inspirant des traditions culinaires du Japon ou de la Thaïlande, contrées qu'elle a souvent arpentées. Assistée de son époux Frank Anet, qui officie en salle, elle a obtenu trois récompenses lors de la première édition des Abidjan Restaurant Awards et ils sont à eux deux considérés comme le couple phare de la gastronomie ivoirienne.<br />\nDans une décoration sobre, mais élégante, la cheffe joue la carte d'une assiette généreuse et pleine de saveurs. En entrée, la salade de mérou, mangue et avocat ou les tripes au gingembre et à la citronnelle vous mettront l'eau à la bouche avant que vous ne testiez le bœuf <em>n'damla</em> et sa purée de patate douce, le ragoût de champignons à la sauce chocolat épicée ou encore le <em>choukouya</em> de langoustes et gambas, à accompagner d'un <em>alloco</em> (bananes plantain frites dans l'huile) ou d'un <em>attiéké</em> (couscous de manioc). Et, puisqu'il n'est nul besoin d'avoir faim pour succomber à un dessert, la crème de baobab, la <em>malinké</em> - un gâteau de mil et de banane avec une glace à la vanille - ou le yaourt <em>grotto</em> (spécialité glacée ivoirienne à base de lait caillé) feront leur effet. Épicuriens, épicuriennes, c'est ici que vous devez venir !</p>\n<p><strong>Saakan</strong><br />\nPlateau<br />\nAvenue Chardy (face à l'AIP Abidjan)<br />\nAbidjan</p>\n<p>Tel : +225 27 20 32 13 58</p>\n<p><a href=\"http://saakan.ci/\" target=\"_blank\" rel=\"noopener\">saakan.ci</a></p>\n<p>Carte : environ 30 000 XOF</p>",
+            "moreInfo": [
+              {
+                "geoCoordinates": {
+                  "longitude": "4°0'59.585\"W",
+                  "latitude": "5°19'24.979\"N"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "POI",
+      "id": "194978",
+      "city": "ABJ",
+      "country": "CI",
+      "region": "AFR",
+      "filters": [
+        {
+          "code": "GOURMET_ADVENTURES",
+          "label": "Balades Gourmandes"
+        }
+      ],
+      "topic": "tendance - salon de thé",
+      "publicationDate": "2020-01-02",
+      "isHidden": false,
+      "isPartner": false,
+      "isCrush": false,
+      "content": {
+        "title": "Le Manawa Café, le rendez-vous détente",
+        "introduction": {
+          "small": "Pour une pause gourmande ou uniquement pour le plaisir des yeux, ce coffee shop, à la fois café, boutique et galerie, vous en met plein la vue."
+        },
+        "mainPicture": {
+          "url": "/FR/common/common/img/tbaf/news/ABJ/manawa-cafe-le-rendez-vous-detente/ABJ-manawa-cafe-le-rendez-vous-detente-1_1-1024x1024.jpg",
+          "accessibilityDescription": "Le Manawa Café, le rendez-vous détente"
+        },
+        "paragraphs": [
+          {
+            "text": "<p>Dans un mélange extravagant de styles et d'époques, les objets trônent telles de véritables œuvres d'art au Manawa Café, et il y en a pour tous les goûts ! Si vous êtes d'humeur gourmande, commencez par une pause rafraîchissante en dégustant un jus de bissap - élaboré à partir de fleurs d'hibiscus séchées - que vous accompagnez, par exemple, d'une délicieuse gaufre au miel. Pendant ce temps, confortablement installé sur votre banquette, votre œil d'artiste se régale en contemplant le mobilier rétro-chic, les bibelots décoratifs, les coussins imprimés afro et la vaisselle <em>made in Africa</em>. Pour les accros au shopping, ils sont à la fête car, ici, tout s'achète ! Selon vos envies, vous pouvez craquer pour un tableau, un magnifique fauteuil en rotin ou encore une statuette. Il y a même un espace dédié aux produits artisanaux, exclusivement confectionnés par les artistes du continent. Alors, pourquoi se priver quand vous pouvez allier culture et plaisir gustatif ?</p>\n<p><strong>Le Manawa Café</strong><br />\nRiviera 3 (en face du Lycée Américain)<br />\nAbidjan</p>\n<p>Tel : +225 05 04 16 16 16</p>\n<p><a href=\"https://fr-fr.facebook.com/manawacafe/\" target=\"_blank\" rel=\"noopener\">https://fr-fr.facebook.com/manawacafe/</a></p>\n<p>Carte : environ 5 480 XOF</p>",
+            "moreInfo": [
+              {
+                "geoCoordinates": {
+                  "longitude": "3°57'8.716\"W",
+                  "latitude": "5°20'55.465\"N"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "POI",
+      "id": "194974",
+      "city": "ABJ",
+      "country": "CI",
+      "region": "AFR",
+      "filters": [
+        {
+          "code": "ACCOMODATION",
+          "label": "Hébergements"
+        }
+      ],
+      "topic": "bon plan - branché",
+      "publicationDate": "2020-01-02",
+      "isHidden": false,
+      "isPartner": false,
+      "isCrush": false,
+      "content": {
+        "title": "Le Bushman Café Hôtel, le rendez-vous culturel d'Abidjan",
+        "introduction": {
+          "small": "Bien plus qu'un café-hôtel, ce lieu d'exception valorise avec passion les métissages de la culture africaine. Bienvenue dans l'un des endroits les plus en vogue de la ville !"
+        },
+        "mainPicture": {
+          "url": "/FR/common/common/img/tbaf/news/ABJ/le-bushman-cafe-hotel-le-rendez-vous-culturel-d-abidjan/ABJ-le-bushman-cafe-hotel-le-rendez-vous-culturel-d-abidjan-1_1-1024x1024.jpg",
+          "accessibilityDescription": "Le Bushman Café Hôtel, le rendez-vous culturel d'Abidjan"
+        },
+        "paragraphs": [
+          {
+            "text": "<p>Devenu incontournable dans le paysage abidjanais depuis son ouverture , le Bushman Café Hôtel n'est pas un établissement comme les autres. Cet étonnant lieu de vie prône en effet l'art dans toute sa diversité en mélangeant sans complexe plusieurs styles venus de toutes les époques. Si vous êtes passionné d'art, vous avez sonné à la bonne porte : le Bushman Café Hôtel expose ses œuvres - peintures, sculptures, mais aussi meubles artisanaux - au contact direct de ses hôtes, tel un musée vivant.<br />\nÀ l'étage, huit chambres lumineuses et spacieuses, avec lits à baldaquin, fresques murales et salles de bains en pierre, accueillent tous les amoureux de culture africaine. Direction ensuite le restaurant Wêlé pour goûter à la cuisine afro-fusion du chef Dieuveil Malonga et vous désaltérer avec un café ivoirien avant de poursuivre au Shakara Lounge pour une soirée Afro House. Petit plus - s'il en était besoin ! -, l'endroit dispose d'une piscine naturelle, d'un sauna et d'une salle de sport où vous pouvez même profiter de cours de yoga personnalisés.</p>\n<p><strong>Bushman Café Hôtel</strong><br />\nRiviera M'Pouto<br />\nCocody<br />\nAbidjan</p>\n<p>Tel : +225 07 59 49 66 51</p>\n<p><a href=\"https://www.bushmancafe.com/\" target=\"_blank\" rel=\"noopener\">https://www.bushmancafe.com</a></p>\n<p>Chambre : à partir de 58 500 XOF</p>",
+            "moreInfo": [
+              {
+                "geoCoordinates": {
+                  "longitude": "3°57'15.138\"W",
+                  "latitude": "5°19'48.99\"N"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "POI",
+      "id": "194969",
+      "city": "ABJ",
+      "country": "CI",
+      "region": "AFR",
+      "filters": [
+        {
+          "code": "MUST_SEE",
+          "label": "A Découvrir"
+        }
+      ],
+      "topic": "site naturel",
+      "publicationDate": "2020-01-02",
+      "isHidden": false,
+      "isPartner": false,
+      "isCrush": false,
+      "content": {
+        "title": "Man, la « ville aux 18 montagnes »",
+        "introduction": {
+          "small": "À l'ouest de la Côte d'Ivoire, encerclée par de majestueux reliefs, Man vous promet des escapades magiques en pleine nature."
+        },
+        "mainPicture": {
+          "url": "/FR/common/common/img/tbaf/news/ABJ/man-la-ville-aux-18-montagnes/ABJ-man-la-ville-aux-18-montagnes-1_1-1024x1024.jpg",
+          "accessibilityDescription": "Man, la « ville aux 18 montagnes »"
+        },
+        "paragraphs": [
+          {
+            "text": "<p>Pour changer de décor, il vous suffit de partir sillonner la zone ouest de la Côte d'Ivoire, dont les paysages diffèrent radicalement de ceux du sud. En particulier, prenez la direction de la ville de Man, chef-lieu de la région de Tonkpi, entièrement dominée par les montagnes et qui fait la joie des adeptes d'activités de plein air. Depuis cette ville de 150 000 habitants, d'innombrables sites naturels sont à portée de bâton de randonnée.<br />\nAu cœur de la forêt, où évoluent des centaines d'espèces rares de papillons et de libellules, d'impressionnants ponts de lianes vous aident à franchir des cascades d'une beauté stupéfiante. Partez ensuite à la rencontre des singes de la forêt sacrée de Gbêpleu qui, même en votre présence, continuent de vaquer à leurs activités comme si de rien n'était.<br />\nSi vous êtes amateur d'altitude, vous devez consacrer au moins une demi-journée à l'exploration de la dent de Man. Pour atteindre la crête, vous serez amené à escalader quelques petits rochers, pour le grand bonheur des plus jeunes. À l'arrivée, en guise de récompense, le sommet vous offre un panorama incroyable sur la ville de Man, au creux de la vallée, et sur les montagnes environnantes dont les silhouettes se dévoilent peu à peu dans la brume.</p>\n<p><strong>Dent de Man</strong><br />\nCôte d'Ivoire</p>\n<p><a href=\"http://www.tourisme-ci.com/Man.htm\" target=\"_blank\" rel=\"noopener\">www.tourisme-ci.com/Man.htm</a></p>",
+            "moreInfo": [
+              {
+                "geoCoordinates": {
+                  "longitude": "7°32'37\"W",
+                  "latitude": "7°27'30\"N"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "POI",
+      "id": "194976",
+      "city": "ABJ",
+      "country": "CI",
+      "region": "AFR",
+      "filters": [
+        {
+          "code": "ACCOMODATION",
+          "label": "Hébergements"
+        }
+      ],
+      "topic": "boutique-hôtel",
+      "publicationDate": "2020-01-02",
+      "isHidden": false,
+      "isPartner": false,
+      "isCrush": false,
+      "content": {
+        "title": "Lepic Villa Hotel, personnalisation et esthétique épurée",
+        "introduction": {
+          "small": "Dans le quartier huppé de Cocody, cette villa à l'architecture contemporaine, ancienne résidence du premier gouverneur d'Abidjan, abrite un boutique-hôtel luxueux."
+        },
+        "mainPicture": {
+          "url": "/FR/common/common/img/tbaf/news/ABJ/lepic-villa-hotel-personnalisation-et-esthetique-epuree/ABJ-lepic-villa-hotel-personnalisation-et-esthetique-epuree-1_1-1024x1024.jpg",
+          "accessibilityDescription": "Lepic Villa Hotel, personnalisation et esthétique épurée"
+        },
+        "paragraphs": [
+          {
+            "text": "<p>Au cœur d'un jardin tropical, loin de la frénésie urbaine d'Abidjan, la bâtisse du bout de la rue Lepic, construite en 1980, reprend tous les codes de l'architecture contemporaine avec ses lignes épurées et sa piscine à débordement. Entre son spa, son bar, son restaurant, mais également sa salle de sport, difficile d'imaginer au premier abord que le Lepic Villa est un confortable boutique-hôtel de 18 chambres, lumineuses et <em>design</em>. S'il réussit l'exploit de fournir un service digne des plus grands établissements, il n'en oublie pas pour autant de rester à chaque instant attentif au moindre de vos désirs. Au restaurant, le chef demeure à votre écoute en vous concoctant une cuisine savoureuse qui combine les produits frais et locaux. Les familles, quant à elles, sont particulièrement choyées, avec des équipements pour bébé, des coffres à jouets et des consoles de jeux vidéo pour les moments de détente des enfants et des ados. Un service de baby-sitting vous offre également l'occasion d'une soirée pour vous retrouver en amoureux.</p>\n<p><strong>Lepic Villa Hotel</strong><br />\nRue Lepic<br />\nCocody<br />\nAbidjan</p>\n<p>Tel : +225 27 22 46 34 57</p>\n<p><a href=\"https://www.hotel-lepic.com/english.html\" target=\"_blank\" rel=\"noopener\">https://www.hotel-lepic.com/english.html</a></p>\n<p>Chambre : à partir de 152 831 XOF</p>",
+            "moreInfo": [
+              {
+                "geoCoordinates": {
+                  "longitude": "4°0'40.764\"W",
+                  "latitude": "5°20'25.243\"N"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "POI",
+      "id": "194981",
+      "city": "ABJ",
+      "country": "CI",
+      "region": "AFR",
+      "filters": [
+        {
+          "code": "GOURMET_ADVENTURES",
+          "label": "Balades Gourmandes"
+        },
+        {
+          "code": "OUTTINGS",
+          "label": "Sorties"
+        }
+      ],
+      "topic": "insolite - terrasse",
+      "publicationDate": "2020-01-02",
+      "isHidden": false,
+      "isPartner": false,
+      "isCrush": false,
+      "content": {
+        "title": "Une parenthèse zen au Kajazoma Concept",
+        "introduction": {
+          "small": "Dans cet espace atypique et multifonctions, vous vivez, la journée comme le soir, une expérience des plus originales."
+        },
+        "mainPicture": {
+          "url": "/FR/common/common/img/tbaf/news/ABJ/une-parenthese-zen-au-kajazoma-concept/ABJ-une-parenthese-zen-au-kajazoma-concept-1_1-1024x1024.jpg",
+          "accessibilityDescription": "Une parenthèse zen au Kajazoma Concept"
+        },
+        "paragraphs": [
+          {
+            "text": "<p>À l'abri de l'effervescence de la ville, il existe un havre de paix que seuls les plus curieux connaissent. Derrière un grand mur gris, quelques bananiers et une modeste porte se cache l'une des adresses les plus insolites du quartier de Cocody. Le lieu se dévoile telle une villa-témoin, aménagée en différents espaces de vie, allant de l'<em>apatam</em> - cabane typique avec un toit de palmes -, à la galerie d'art, en passant par le jardin et les petits salons répartis autour de la piscine. Dans une décoration éclectique, les peintures contemporaines côtoient les tabourets Ashanti et les masques du Mali, au milieu de matériaux de récupération, d'objets rénovés et de meubles anciens.<br />\nÉlégante et raffinée, la partie restaurant, quant à elle, propose un subtil mélange d'influences ivoiriennes, camerounaises et européennes. Pour le déjeuner comme pour le dîner, les crevettes sautées aux épices ou la salade de lentilles au vinaigre de framboise vous mettent l'eau à la bouche. Ensuite, vous succombez aux brochettes de poisson pili-pili (variété de piments rouges) ou au confit de canard et son gratin d'ignames, le tout accompagné de bâtons de manioc, avant de finir avec une salade d'agrumes à la cannelle.<br />\nÀ noter qu'au Kajazoma Concept, tous les éléments de décoration sont proposés à la vente. Une aubaine pour les amoureux de la culture ivoirienne !</p>\n<p><strong>Kajazoma Concept</strong><br />\nDeux Plateaux<br />\nBoulevard Latrille<br />\nAbidjan</p>\n<p>Tel : +225 07 77 31 43 55</p>\n<p><a href=\"https://www.facebook.com/kajazomaconcept/\" target=\"_blank\" rel=\"noopener\">https://www.facebook.com/kajazomaconcept/</a></p>\n<p>Carte : environ 15 670 XOF</p>",
+            "moreInfo": [
+              {
+                "geoCoordinates": {
+                  "longitude": "4°0'6.74\"W",
+                  "latitude": "5°21'27.303\"N"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "articlesSort": {
+    "ALL": [
+      "194980",
+      "194982",
+      "194970",
+      "195002",
+      "194973",
+      "194965",
+      "194964",
+      "194966",
+      "194968",
+      "194972",
+      "194975",
+      "194977",
+      "194967",
+      "194971",
+      "194979",
+      "194978",
+      "194974",
+      "194969",
+      "194976",
+      "194981"
+    ],
+    "RECENT_NEWS": [],
+    "UNCATEGORIZED": [
+      "194980"
+    ],
+    "activity": [
+      "194970",
+      "194973",
+      "194965",
+      "194964",
+      "194966",
+      "194968",
+      "194972",
+      "194967",
+      "194971",
+      "194969"
+    ],
+    "Gastronomy": [
+      "194982",
+      "194979",
+      "194978",
+      "194981"
+    ],
+    "Hotel": [
+      "195002",
+      "194975",
+      "194977",
+      "194974",
+      "194976"
+    ]
+  },
+  "desktopSettings": {
+    "initialNumber": 5,
+    "paginationNumber": 10
+  },
+  "mobileSettings": {
+    "initialNumber": 15,
+    "paginationNumber": 20
+  },
+  "priceCurrency": {
+    "code": "EUR",
+    "symbol": "&euro;"
+  },
+  "practicalInfos": {
+    "origin": {
+      "code": "ABJ",
+      "label": "Abidjan",
+      "canonicalName": "abidjan"
+    },
+    "destination": {
+      "code": "PAR",
+      "label": "Paris"
+    },
+    "effectiveFlightDuration": "PT6H20M",
+    "spokenLanguages": [
+      {
+        "code": "fr",
+        "language": "Français"
+      }
+    ],
+    "time": {
+      "jetLag": "-01:00",
+      "timeZone": "GMT+00:00"
+    },
+    "weather": {
+      "pictogramLabel": "éclaircies",
+      "temperature": [
+        {
+          "value": 29,
+          "unit": "CELSIUS"
+        }
+      ],
+      "pictogramCode": "sunny_intervals",
+      "pictogramUrlSvg": "",
+      "pictogramUrl": "https://img.static-af.com/images/media/3646B953-6931-4D2F-97886B69A3CF7E33",
+      "description": "",
+      "content": {
+        "cityName": "Abidjan",
+        "title": "CLIMAT &amp; MÉTÉO À Abidjan",
+        "introduction": "Par sa situation géographique à proximité de la ligne imaginaire de l'Équateur, Abidjan, le cœur économique de la Côte d'Ivoire, possède un climat de type équatorial caractérisé par une forte chaleur, uniformément répartie sur toute l'année, ainsi qu'un taux d'humidité élevé.",
+        "monthInformation": [
+          {
+            "month": "JANUARY",
+            "isBestMonth": true,
+            "minTempCelsius": "24",
+            "maxTempCelsius": "31",
+            "rainMm": "25",
+            "bestMonth": true
+          },
+          {
+            "month": "FEBRUARY",
+            "isBestMonth": true,
+            "minTempCelsius": "25",
+            "maxTempCelsius": "32",
+            "rainMm": "40",
+            "bestMonth": true
+          },
+          {
+            "month": "MARCH",
+            "isBestMonth": true,
+            "minTempCelsius": "25",
+            "maxTempCelsius": "32",
+            "rainMm": "99",
+            "bestMonth": true
+          },
+          {
+            "month": "APRIL",
+            "isBestMonth": false,
+            "minTempCelsius": "25",
+            "maxTempCelsius": "32",
+            "rainMm": "112",
+            "bestMonth": false
+          },
+          {
+            "month": "MAY",
+            "isBestMonth": false,
+            "minTempCelsius": "25",
+            "maxTempCelsius": "31",
+            "rainMm": "235",
+            "bestMonth": false
+          },
+          {
+            "month": "JUNE",
+            "isBestMonth": false,
+            "minTempCelsius": "24",
+            "maxTempCelsius": "29",
+            "rainMm": "358",
+            "bestMonth": false
+          },
+          {
+            "month": "JULY",
+            "isBestMonth": false,
+            "minTempCelsius": "23",
+            "maxTempCelsius": "28",
+            "rainMm": "113",
+            "bestMonth": false
+          },
+          {
+            "month": "AUGUST",
+            "isBestMonth": true,
+            "minTempCelsius": "22",
+            "maxTempCelsius": "27",
+            "rainMm": "43",
+            "bestMonth": true
+          },
+          {
+            "month": "SEPTEMBER",
+            "isBestMonth": false,
+            "minTempCelsius": "23",
+            "maxTempCelsius": "28",
+            "rainMm": "108",
+            "bestMonth": false
+          },
+          {
+            "month": "OCTOBER",
+            "isBestMonth": false,
+            "minTempCelsius": "24",
+            "maxTempCelsius": "29",
+            "rainMm": "127",
+            "bestMonth": false
+          },
+          {
+            "month": "NOVEMBER",
+            "isBestMonth": false,
+            "minTempCelsius": "24",
+            "maxTempCelsius": "31",
+            "rainMm": "118",
+            "bestMonth": false
+          },
+          {
+            "month": "DECEMBER",
+            "isBestMonth": true,
+            "minTempCelsius": "24",
+            "maxTempCelsius": "31",
+            "rainMm": "85",
+            "bestMonth": true
+          }
+        ]
+      }
+    },
+    "currency": {
+      "data": {
+        "code": "XOF",
+        "label": "Franc CFA BCEAO ",
+        "rate": 656,
+        "symbol": "XOF"
+      },
+      "content": {
+        "title": "Devise et Taux de change",
+        "description": "<p>La devise en Côte d'Ivoire est le Franc CFA (XOF). </p>",
+        "validity": "Le taux de conversion ci-dessus est communiqué à titre indicatif car variable."
+      }
+    },
+    "airports": {
+      "title": "Aéroport international Félix Houphouët-Boigny",
+      "description": "L'aéroport est situé dans la commune de Port-Bouët, à 19 km au sud-est du centre-ville d'Abidjan.<br />\n<ul>\n<li><strong>1 terminal</strong></li>\n</ul>\n<br />Pour aller à Abidjan et revenir à l'aéroport :<br />\n<ul>\n<li><strong>Voiture</strong>\n<ul>\n<li>Accès par l'autoroute A-100 Abidjan-Mbour (compter environ 30 minutes).</li>\n<li>Deux parkings (P1 et P2), ouverts 24 heures sur 24 et 7 jours sur 7, sont à disposition des voyageurs pour une capacité totale de 610 places (comptez 500 XOF pour 1 heure et 5 000 XOF pour 24 heures).</li>\n<li>Un dépose-minute est également mis à disposition des voyageurs et accompagnants devant l'aérogare.</li>\n<li>Plusieurs agences de location de véhicules sont situées à la sortie du terminal.</li>\n</ul>\n</li>\n<li><strong>Navettes hôtel</strong></li>\n</ul>\n<br />Certains établissements proposent un service de navettes reliant l'hôtel et l'aéroport. Contactez votre hôtel pour en savoir plus sur ce service et sur les horaires.<br />\n<ul>\n<li><strong>Taxi</strong></li>\n</ul>\n<br />Des taxis relient l'aéroport international à toutes les communes d'Abidjan et sa banlieue. Disponibles 24 heures sur 24, ils sont reconnaissables à leur couleur orange et stationnent à la sortie de l'aéroport. La tarification s'exerce au compteur, mais la course peut être négociée avec le chauffeur avant de pénétrer dans le véhicule. Abidjan étant une ville très étendue, le prix et la durée du trajet (de 15 à 40 minutes) dépendent donc de l'éloignement du quartier de destination et de la fluidité de la circulation. Comptez entre 2 000 XOF et 5 000 XOF pour le trajet de l'aéroport au centre-ville d'Abidjan.\n<ul>\n<li><strong>Services </strong>: boutiques, restaurant-bar, <em>duty</em> free, accès internet gratuit (Wi-Fi) dans l'aéroport.</li>\n<li><strong>Téléphone </strong>: +225 21 75 79 00</li>\n<li><strong>Site internet</strong> : <a href=\"http://www.abidjan-aeroport.com\" target=\"_blank\" rel=\"noopener\">www.abidjan-aeroport.com</a></li>\n</ul>"
+    },
+    "transportation": {
+      "title": "SE DÉPLACER À Abidjan",
+      "description": "Composée de 10 communes (Le Plateau, Abobo, Adjamé, Attécoubé, Cocody, Koumassi, Marcory, Port-Bouët, Treichville, Yopougon), l'agglomération d'Abidjan bénéficie de nombreux moyens de transports en commun pour se déplacer d'une commune à une autre ou à l'intérieur d'une même commune."
+    },
+    "touristInformation": {
+      "title": "Informations touristiques",
+      "description": "Une fois à Abidjan, n'hésitez pas à vous rapprocher des professionnels du tourisme pour vous informer et organiser votre séjour.",
+      "information": [
+        {
+          "title": "Côte d'Ivoire Tourisme (office national du tourisme)",
+          "description": "<p>Informations pratiques et conseils utiles (hébergement, restauration, transports, fêtes, manifestations culturelles, etc.)</p>\n<ul>\n<li><strong>Adresse :</strong> Place de la République, Abidjan</li>\n<li><strong>Téléphone :</strong> +225 20 25 16 00</li>\n<li><strong>Page Facebook :</strong> <a href=\"https://www.facebook.com/cotedivoiretourisme.ci/\" target=\"_blank\" rel=\"noopener\">https://www.facebook.com/cotedivoiretourisme.ci/</a></li>\n</ul>"
+        }
+      ]
+    },
+    "medical": {
+      "title": "Informations santé",
+      "description": "Afin de voyager dans les meilleures conditions de sécurité sanitaire, nous vous invitons à consulter les informations relatives aux dispositions préventives et aux bonnes pratiques à respecter sur le site officiel du ministère français des Affaires étrangères<a href=\"https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/\" target=\"_blank\" rel=\"noopener\"> https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/</a>.<br />\n<br />Votre confort, votre bien-être et votre santé sont au cœur des préoccupations d'Air France qui souhaite vous accompagner au mieux dans la préparation de votre voyage. Retrouvez les mesures engagées pour des déplacements en toute sécurité sur <a href=\"https://www.airfrance.fr/FR/fr/common/page_flottante/information/coronavirus.htm\" target=\"_blank\" rel=\"noopener\">https://www.airfrance.fr/FR/fr/common/page_flottante/information/coronavirus.htm</a>.<br />\n<br />Consultez votre médecin avant de partir et souscrivez à une assurance couvrant les frais médicaux et le rapatriement sanitaire. Abidjan compte plusieurs hôpitaux et cliniques, ainsi que de nombreux médecins et spécialistes de santé.",
+      "information": [
+        {
+          "title": "Vaccination",
+          "description": "<p>N'oubliez pas de munir de votre carnet de vaccinations, celui-ci pouvant être réclamé par les autorités. Outre la vaccination à la fièvre jaune, obligatoire pour entrer sur le territoire ivoirien, il est également recommandé de procéder aux vaccins suivants avant le départ :</p>\n<ul>\n<li>méningite</li>\n<li>poliomyélite</li>\n</ul>\n<p>Pour plus d'informations, contactez votre centre de vaccinations<br />\ninternationales Air France :</p>\n<ul>\n<li><strong>Adresse :</strong> 38 quai de Jemmapes, 75010 Paris</li>\n<li><strong>Site internet :</strong> <a href=\"https://www.vaccinations-airfrance.fr\" target=\"_blank\" rel=\"noopener\">https://www.vaccinations-airfrance.fr</a></li>\n<li><strong>Téléphone :</strong> +33 (0)1 43 17 22 00</li>\n<li>Prendre rendez-vous pour une vaccination :\n<ul>\n<li>par internet (<a href=\"https://www.doctolib.fr/centre-de-vaccinations-internationales/paris/centre-de-vaccinations-internationales-air-france-par-a-v-s\" target=\"_blank\" rel=\"noopener\">cliquer ici</a>)</li>\n<li>au +33 (0)1 43 17 22 00</li>\n</ul>\n</li>\n</ul>"
+        },
+        {
+          "title": "Sécurité alimentaire",
+          "description": "<p><span style=\"font-weight: 400;\">Pour éviter tout désagrément, veillez à :</span></p>\n<ul>\n<li style=\"font-weight: 400;\">Il est recommandé de veiller à une bonne hygiène alimentaire (bien faire cuire les aliments, laver soigneusement les fruits et les légumes avant consommation).</li>\n</ul>"
+        },
+        {
+          "title": "Eau",
+          "description": "<p>Il est recommandé de boire de l'eau en bouteille capsulée.</p>"
+        }
+      ]
+    },
+    "localCalendar": {
+      "title": "CALENDRIER DES FÊTES ET ÉVÉNEMENTS À Abidjan",
+      "description": "Chaque année, de nombreuses fêtes ont lieu à Abidjan. En voici les principales :",
+      "events": [
+        {
+          "title": "1er janvier : Jour de l'An (national)"
+        },
+        {
+          "title": "3e mois du calendrier hégirien : Naissance du Prophète Mahomet (Aïd Al Mawlid Annabawi) (national)",
+          "description": "Cette journée est l'une des plus importantes du calendrier musulman. À cette occasion, les Ivoiriens de confession musulmane en profitent pour rappeler les valeurs prônées par le Prophète. L'occasion aussi pour chacun de se retrouver en famille et de partager un repas traditionnel dans une atmosphère de fête."
+        },
+        {
+          "title": "8 mars : Journée de la Femme (national)",
+          "description": "La célébration de la Journée de la Femme donne lieu à de nombreuses manifestations citoyennes à Abidjan (colloques, expositions)."
+        },
+        {
+          "title": "Mars ou avril : Lundi de Pâques (national)",
+          "description": "Cette fête religieuse est un jour de sortie pour les Abidjanais de confession catholique : nombre d'entre eux se retrouvent pour un pique-nique tandis que des concerts sont organisés dans la ville."
+        },
+        {
+          "title": "1er mai : Fête du Travail (national)",
+          "description": "La fête du Travail est un jour férié pour tous les Ivoiriens : cette journée est consacrée aux défilés et manifestations des travailleurs."
+        },
+        {
+          "title": "9e mois du calendrier hégirien : Ramadan (national)",
+          "description": "La Côte d'Ivoire célèbre le Ramadan le 9e mois du calendrier de l'hégire (mois, variable chaque année, durant lequel le Coran a été révélé au Prophète). Le jeûne du Ramadan commence à l'aurore et se termine au coucher du soleil. Durant un mois, Abidjan vit au ralenti la journée et s'anime à la nuit tombée."
+        },
+        {
+          "title": "1er jour du mois de Chawwal : La Korité (Aïd el-Fitr) (national)",
+          "description": "Cette journée marque la fin du Ramadan et de la période de jeûne. C'est l'occasion pour les musulmans d'Abidjan de rendre visite à leurs proches."
+        },
+        {
+          "title": "7 août : Fête nationale(national)",
+          "description": "La Fête nationale célèbre la déclaration d'Indépendance de la Côte d'Ivoire, le 7 août 1960. Au programme : cérémonies officielles, parades militaires, fêtes des écoles, chants et danses."
+        },
+        {
+          "title": "15 août : Assomption (national)",
+          "description": "Chaque année, les Ivoiriens célèbrent avec ferveur la montée de Marie au ciel."
+        },
+        {
+          "title": "Le 10 du mois de Dhou al-hijja, dernier mois du calendrier hégirien : Aïd el-Kebir (national)",
+          "description": "Cette fête commémore la soumission d'Abraham qui, s'apprêtant à sacrifier son fils à Dieu, vit s'approcher de lui, au moment ultime, un mouton envoyé du ciel. Traditionnellement, un mouton est sacrifié ce jour-là et consommé lors d'un grand repas familial."
+        },
+        {
+          "title": "15 novembre : Journée nationale de la paix (national)",
+          "description": "Instituée en 1996 et célébrée chaque 15 novembre, la Journée nationale de la paix a pour objectif de sensibiliser et éduquer les populations au vivre ensemble dans les attitudes et comportements du quotidien. À cette occasion, des concerts de la paix sont organisés partout dans le pays et des milliers d'arbres sont plantés."
+        },
+        {
+          "title": "25 décembre : Noël (national)",
+          "description": "À Noël, les Ivoiriens célèbrent la naissance du Christ : dans ce pays très attaché aux traditions religieuses, la participation à un office est suivie d'un repas en famille."
+        }
+      ]
+    },
+    "administrativeProcedures": [
+      {
+        "title": "Conditions pour entrer sur le territoire de la Côte d’Ivoire",
+        "description": "<p>Un visa biométrique est obligatoire pour entrer en Côte d'Ivoire. La demande de visa (e-visa) se fait sur le site <a href=\"http://snedai.com\" target=\"_blank\" rel=\"noopener\">snedai.com</a>, partenaire de l'ambassade de Côte d'Ivoire en France. Vous pouvez obtenir un visa biométrique à l'aéroport international Félix Houphouët-Boigny d'Abidjan, à condition d'avoir préalablement effectué un pré-enregistrement sur le site de la SNEDAI (<a href=\"http://snedai.com\" target=\"_blank\" rel=\"noopener\">snedai.com</a>).</p>\n<p>Pour voyager sereinement à Abidjan et en Côte d'Ivoire, suivez les conseils aux voyageurs du ministère français des Affaires étrangères : <a href=\"https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/cote-d-ivoire/\" target=\"_blank\" rel=\"noopener\">consulter la fiche sur la Côte d'Ivoire</a>.</p>"
+      }
+    ],
+    "usefulAddresses": [
+      {
+        "title": "Ambassade de Côte d’Ivoire en France (fonctions consulaires assurées par l’Ambassade)",
+        "description": "<ul>\n<li><strong>Adresse</strong> : 102 avenue Raymond Poincaré, 75116 Paris</li>\n<li><strong>Téléphone </strong>: +33 (0)1 53 64 62 62</li>\n<li><strong>Site internet</strong> : <a href=\"https://france.diplomatie.gouv.ci/\" target=\"_blank\" rel=\"noopener\">https://france.diplomatie.gouv.ci</a></li>\n</ul>"
+      },
+      {
+        "title": "Ambassade de France en Côte d’Ivoire",
+        "description": "<ul>\n<li><strong>Adresse </strong>: 17 rue Lecœur, Abidjan</li>\n<li><strong>Téléphone </strong>: +225 20 20 74 00</li>\n<li><strong>Site internet</strong> : <a href=\"https://ci.ambafrance.org\" target=\"_blank\" rel=\"noopener\">https://ci.ambafrance.org</a></li>\n</ul>"
+      },
+      {
+        "title": "Consulat de France à Abidjan",
+        "description": "<ul>\n<li><strong>Adresse </strong>: 17 rue Lecœur, Abidjan</li>\n<li><strong>Téléphone </strong>: +225 20 20 75 00</li>\n<li><strong>Site internet</strong> : <a href=\"https://ci.ambafrance.org/-consulat-\" target=\"_blank\" rel=\"noopener\">https://ci.ambafrance.org/-consulat-</a></li>\n</ul>"
+      }
+    ],
+    "goodToKnow": {
+      "title": "Bon à savoir",
+      "administration": {
+        "title": "ADMINISTRATIONS",
+        "openingHours": "Généralement ouvertes du lundi au vendredi de 8h00 à 17h00"
+      },
+      "banks": {
+        "title": "BANQUES",
+        "openingHours": "Généralement ouvertes du lundi au vendredi de 9h00 à 17h00"
+      },
+      "localIndicative": {
+        "number": "+225",
+        "label": "+ numéro du correspondant"
+      },
+      "daylightSavingTime": "Il n'y a pas de changement d'heure en Côte d'Ivoire.",
+      "plugTypes": [
+        "C",
+        "E"
+      ],
+      "voltage": "220 V / 50 Hz",
+      "tips": "<p><strong>Et les pourboires ?</strong><br />\nÀ Abidjan, il est d'usage de laisser un pourboire dans les restaurants de la ville. Comptez environ 10 % de la note si vous êtes satisfait du service.</p>"
+    },
+    "travelGuide": {
+      "isTravelGuideAvailable": false
+    }
+  }
+}

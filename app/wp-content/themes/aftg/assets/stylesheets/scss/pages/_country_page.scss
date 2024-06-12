@@ -1,0 +1,66 @@
+.destination{
+    &_title{
+        @include cat-title( $af-black, 32px, $raleway-bold);
+        margin-bottom: 25px;
+        &_adresse{
+            @include cat-title($af-black,42px,$raleway-black);
+            margin-bottom: 10px;
+        }
+    }
+    &_info{
+        text-align: center;
+        font-size: 12px;
+        font-family: $raleway-medium ;
+    }
+    &_subtitle{
+        @include preview-title( $af-black, 20px, $playfair-bold);
+        &-medium{
+            @include preview-title( $af-black, 24px, $playfair-bold);
+        }
+    }
+    &_content{
+        font-family: $playfair-regular;
+        font-size: 17px;
+        text-align: center;
+        margin: 20px 0px 5px 20px;
+        strong:first-child{
+            display: block;
+            font-family: $raleway-regular;
+            font-size: 22px;
+            text-transform: uppercase;
+            margin-top: 40px;
+            margin-bottom: 30px;
+        }
+    }
+    &_page-subtitle{
+        a{
+            color: $af-blue-dark;
+            font-family: $raleway-bold;
+            font-size: 14px;
+        }
+    }
+    &_ad{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: $medium-width){
+    .destination{
+        &_title{
+            @include cat-title( $af-black, 20px, $raleway-bold);
+        }
+        &_info{
+            font-size: 10px;
+        }
+        &_subtitle{
+            @include preview-title( $af-black, 15px, $playfair-bold);
+            text-align: left;
+        }
+        &_content{
+            font-size: 15px;
+        }
+    }
+}

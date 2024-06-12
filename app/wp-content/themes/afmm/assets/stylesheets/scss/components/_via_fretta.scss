@@ -1,0 +1,48 @@
+.single {
+  .via-fretta {
+    display: block;
+    float: right;
+    margin-left: 31px;
+    margin-bottom: 28px;
+    &-attr {
+      font-family: $raleway-black;
+    }
+    &-block {
+      border: 2px#F2F2F2 solid;
+      padding: 23px 37px 34px 64px;
+      max-width: 301px;
+    }
+    &-titre {
+      font-family: $playfair-medium !important;
+      text-transform: none !important;
+      font-size: 16px;
+      font-style: italic;
+      color: $af-black;
+      line-height: 1.2;
+      margin-bottom: 16px;
+    }
+    &-map-marker {
+      position: absolute;
+      right : 262px;
+    }
+    &-coordonnees {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      font-family: $raleway-medium;
+      font-size: 16px;
+    }
+  }
+  @media screen and (max-width: $breakpoints-md) {
+    .via-fretta {
+      position: relative;
+      float: unset;
+      margin-bottom: 28px;
+      max-width: 300px;
+      &-map-marker {
+        position: absolute;
+        left : 30px;
+      }
+    }
+  }
+}

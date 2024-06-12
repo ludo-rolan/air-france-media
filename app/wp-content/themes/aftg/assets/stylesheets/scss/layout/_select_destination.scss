@@ -1,0 +1,152 @@
+.multi_select_filter {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(6, 120px);
+  gap: 20px;
+
+  &_hidden {
+    display: none;
+  }
+
+  &_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 15px;
+    border: solid 1px $af-blue;
+    cursor: pointer;
+    background: $af-white;
+    color: $af-blue;
+
+    &--selected {
+      background: $af-blue;
+      color: $af-white;
+    }
+
+    &_img {
+      pointer-events: none;
+      width: 65px;
+      height: 65px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+
+      &--selected {
+        filter: invert(100%) sepia(0%) saturate(7497%) hue-rotate(185deg) brightness(111%) contrast(100%);
+      }
+    }
+
+    p {
+      font-size: 14px;
+      font-family: $raleway-bold;
+    }
+
+    &:hover {
+      .multi_select_filter {
+        &_item_img {
+          filter: invert(100%) sepia(0%) saturate(7497%) hue-rotate(185deg) brightness(111%) contrast(100%);
+        }
+        &_numbers {
+          color: $af-white;
+        }
+      }
+
+      background-color: $af-blue;
+
+      p {
+        color: $af-white;
+      }
+    }
+  }
+
+  &_title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 10px auto;
+
+    h2 {
+      text-transform: uppercase;
+      font-family: $raleway-black;
+      margin-bottom: 20px;
+    }
+  }
+
+  &_result {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+
+    &_content {
+      display: grid;
+      justify-content: center;
+      grid-template-columns: repeat(3, 300px);
+      gap: 20px;
+    }
+
+    h2 {
+      text-transform: uppercase;
+      font-family: $raleway-black;
+    }
+
+    span {
+      font-size: 14px;
+    }
+
+    div > div {
+      span {
+        font-size: 30px;
+        font-family: $raleway-medium;
+        text-transform: uppercase;
+      }
+
+      a {
+        font-size: 15px;
+        font-family: $raleway-bold;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  &_numbers {
+    font-size: 40px;
+    font-family: $raleway-bold;
+    color: $af-blue;
+
+    &--selected {
+      color: $af-white;
+    }
+  }
+
+  &-btn {
+    @include af-btn();
+    padding: 12px 45px;
+    cursor: pointer;
+  }
+
+}
+
+@media screen and (max-width: $breakpoints-md){
+  .multi_select_filter {
+    grid-template-columns: repeat(3, 120px);
+
+    &_result_content {
+      grid-template-columns: repeat(2, 300px);
+    }
+  }
+}
+
+@media screen and (max-width: $breakpoints-sm){
+  .multi_select_filter {
+    grid-template-columns: repeat(2, 120px);
+
+    &_result_content {
+      grid-template-columns: repeat(1, 300px);
+    }
+  }
+}

@@ -1,0 +1,32 @@
+[
+    {
+        "code": "AFR",
+        "label": "Afrique / Océan Indien",
+        "canonicalName": "afrique-ocean-indien"
+    },
+    {
+        "code": "AME",
+        "label": "Amériques",
+        "canonicalName": "ameriques"
+    },
+    {
+        "code": "ASI",
+        "label": "Asie / Moyen Orient",
+        "canonicalName": "asie-moyen-orient"
+    },
+    {
+        "code": "CAR",
+        "label": "Caraïbes",
+        "canonicalName": "caraibes"
+    },
+    {
+        "code": "EUR",
+        "label": "Europe",
+        "canonicalName": "europe"
+    },
+    {
+        "code": "FRA",
+        "label": "France",
+        "canonicalName": "france"
+    }
+]

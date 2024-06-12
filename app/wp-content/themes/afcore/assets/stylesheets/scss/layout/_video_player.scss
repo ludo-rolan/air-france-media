@@ -1,0 +1,30 @@
+.plyr{
+  //.plyr-wrapper
+  &-wrapper{
+    position: relative;
+    color: $af-black;
+    margin: 20px 0;
+    padding: 0 62px;
+    z-index: 1;
+    &::before{
+      @include flipped-text('vidéo',0,84px,0,$playfair-regular);
+      color: $af-black;
+      height: 100%;
+      text-align: center;
+      z-index: 3;
+    }
+  }
+}
+
+@media all and (max-width: $breakpoints-md){
+  .plyr{
+    //.plyr-wrapper
+    &-wrapper{
+      padding: 0 32px;
+      &::before{
+        font-size: 42px;
+      }
+    }
+  }
+}
+

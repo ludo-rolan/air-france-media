@@ -1,0 +1,38 @@
+.wp-block-quote{
+    text-align: center;
+    color:$af-black;
+    p{
+        font-size: 20px;
+        font-family:$raleway-regular;
+        text-transform:uppercase;
+        line-height: 1.2;
+        margin-bottom: 0px;
+    }
+    cite{
+        font-family: $raleway-bold;
+        font-size: 18px;
+        font-style: normal;
+        padding-bottom: 0px;
+    }
+    
+    
+    &::before{
+        content: url("/wp-content/themes/afmm/assets/img/quote-icone.png");
+        display:block;
+        margin: 30px 0 ;
+    }
+    &::after{
+        content: url("/wp-content/themes/afmm/assets/img/quote-icone.png");
+        display:block;
+        margin: 30px 0 ;
+    }
+}
+
+@media screen and (min-width : $breakpoints-md) {
+    .wp-block-quote{
+        &::after{
+            transform: none;
+        }
+    }
+    
+}

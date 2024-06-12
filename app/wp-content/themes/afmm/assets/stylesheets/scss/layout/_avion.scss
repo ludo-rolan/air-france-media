@@ -1,0 +1,256 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the avion page "article flotte"
+// -----------------------------------------------------------------------------
+
+.avion {
+    margin-bottom: 15px;
+    img {
+        margin-bottom: 0;
+    }
+    border: 1px solid rgba($af-grey, .2);
+    &_pub {
+        width: 300px;
+        height: 600px;
+        background-color: $af-grey;
+    }
+    &_second_title { //.avion_second_title
+        padding-left: 4px;
+        margin: 15px 0;
+        letter-spacing: 0.025rem;
+        font-family: $raleway-medium;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 16px;
+    }
+    &_carousel {  //.avion_carousel
+        width: 90% !important;
+        margin-left: 40px;
+        & img { 
+            padding: 20px 0 20px 30px;
+        }
+    }
+    &_slider{ //.avion_slider
+        padding: 0;
+        padding-top: 40px;
+        border-bottom: 1px solid rgba($af-grey, .2);
+        position: relative;
+        &_cercle{ //.avion_slider_cercle
+            height: 50px; 
+            width: 50px; 
+            background-color: $af-red;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            position: absolute;
+            z-index: 10;
+            top: 50%;
+            transform: translateY(-50%);
+            &-left{ //.avion_slider_cercle-left
+                @extend .avion_slider_cercle;
+                left: 20px;
+            }
+            &-right{ //.avion_slider_cercle-left
+                @extend .avion_slider_cercle;
+                right: 20px;
+            }
+        }
+    }
+    &_infos { //.avion_infos
+        display: flex;
+        flex-direction: column;
+        padding: 10px 30px 30px;
+        &_wrapper { //.avion_infos_wrapper
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    &_trait //.avion_trait
+    {
+        border-top: 2px solid #000;
+        width : 52px;
+        align-self: center;
+        margin: 34px 16px 10px 16px;
+        &_curItem{
+            font-family: $raleway-bold;
+            font-size: 16px;
+            color: $af-red;
+
+        }
+        &_totalItems{
+            font-family: $raleway-bold;
+            font-size: 16px;
+            color: $af-grey;
+        }
+        &_parent {
+            display: flex;
+            align-items: end;
+            font-family: $raleway-bold;
+            font-size : 16px;
+        }
+        
+    }
+    
+    &_btn { //.avion_btn
+        align-self: center;
+        width: 250px;
+        margin:0 auto;
+        text-decoration: none;
+        &-cabine {
+            @include af-btn($background-color: $af-black, $color: $af-white, $fontSize: 14px, $margin-top: 15px);
+            padding: 14px 14px 12px;
+            @extend .avion_btn;
+        }
+        &-vol {
+            @include af-btn($background-color: $af-red, $color: $af-white, $fontSize: 14px, $margin-top: 15px);
+            padding: 14px 14px 12px;
+            @extend .avion_btn;
+        }
+    }
+    
+    &-num{  //.avion-num
+        font-family: $playfair-regular;
+        font-weight: 400;
+        font-style: italic;
+    }
+    &-title {  //.avion-title
+        margin-top: 10px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        a{
+            text-decoration: none;
+            color: $af-black;
+            font-weight: bold;
+            font-family: $montserrat-black;
+            font-size: 22px;
+        }
+    }
+    &-bullets{ //.avion-bullets
+        font-family: $raleway-medium;
+        font-size:16px;
+        color: $af-black;
+        list-style-type: none;
+        padding: 0;
+        text-transform: uppercase;
+    }
+    &_metas_name { //.avion_metas_name
+        font-family: $raleway-black;
+        text-transform: none;        
+    }
+    &_close { //.avion_close
+        width: 42px;
+        height: 42px;
+        border-radius: 50%;
+        color: $af-white;
+        background-color: $af-red !important;
+        position: absolute;
+        right: -5px;
+        top: -7px;
+        opacity: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.8rem;
+        font-weight: normal;
+        text-shadow: none;
+    }
+    &_modal_header { //.avion_modal_header
+        padding: 0;
+        border-bottom: none;
+    }
+}
+@media screen and (max-width: 768px) {
+    .avion {
+        &_second_title { //.avion_second_title
+            letter-spacing: 0.01rem;
+        }
+        &_carousel {  //.avion_carousel
+            width: 75% !important;
+            & img {
+                padding-top: 26px;
+            }
+        }
+        &_slider{ //.avion_slider
+            padding-top: 0;
+            border-bottom: 1px solid rgba($af-grey, .2);
+            border-right: none;
+            &_cercle{ //.avion_slider_cercle
+                height: 30px;
+                width: 30px;
+                &_arrow {
+                    width: 30%;
+                }
+                &-left{
+                    margin-left: 0;
+                    margin-right: 0;
+                    @extend .avion_slider_cercle;
+
+                }
+                &-right{
+                    @extend .avion_slider_cercle;
+                    margin-right: 0;
+                }
+            }
+        }
+        &_trait //.avion_trait
+        {
+            width: 190px;
+            &_parent {
+                justify-content: center;
+            }
+        }
+       
+        &_data {
+            display: block;
+            padding-left: 0;
+            &_bloc {
+                max-width: 100%;
+            }
+        }
+        &_infos { //.avion_infos
+            padding: 0 0 30px;
+            width: 100%;
+            &_wrapper { //.avion_infos_wrapper
+                align-self: center;
+            }
+        }
+        &_btn{
+            width: 240px;
+            &_wrapper {
+                display: block;
+            }
+        }
+        &_close {
+            width: 15px;
+            height: 15px;
+            right: 10px;
+            top: 8px;
+            font-size: .9rem;
+            padding: 0 !important;
+        }
+        &-bullets{ //.avion-bullets
+            margin-bottom: 0;
+        }
+
+    }
+}
+        
+@media screen and (max-width: $breakpoints-xs) {
+    .avion {
+        &_trait {
+            width: 170px;
+        }
+        &_slider_cercle-left{
+            left: 10px;
+        }
+        &_slider_cercle-right{
+            right: 10px;
+        }
+        &_carousel {
+            img{
+                padding: 30px 5px 25px 5px;
+            }
+        }
+    }
+}

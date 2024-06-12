@@ -1,0 +1,99 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the site/application.
+// -----------------------------------------------------------------------------
+footer {
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    ul {
+        margin-bottom: 0px;
+        & li {
+            margin: 0 10px;
+            font-family: $raleway-bold;
+            text-transform: uppercase;
+            display: inline-block;
+        }
+    }
+    .bandeau {
+        background-color: $af-blue;
+        padding: 40px;
+        &_logo {
+            padding: 0;
+            img{
+                width: 300px;
+                height: 90px;
+            }
+        }
+        &_name {
+            font-family: $raleway-bold;
+            font-size: 32px;
+            color: $af-white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        &_footer {
+            padding: 0px 10px;
+            text-align: center;
+            li {
+                width: 61px;
+                height: 61px;
+                background-repeat: no-repeat;
+                background-position: center;
+                border: 1px solid white;
+                margin: 0px;
+                padding-top: 15px;
+            }
+            a {
+                font-size: 20px;
+                color: transparent;
+            }
+            &_instagram {
+                background-image: url("/wp-content/themes/afmm/assets/img/instagram-logo2.png");
+            }
+            &_facebook {
+                background-image: url("/wp-content/themes/afmm/assets/img/facebook-logo.png");
+            }
+            &_pinterest {
+                background-image: url("/wp-content/themes/afmm/assets/img/pinterest-logo.png");
+            }
+            &_twitter {
+                background-image: url("/wp-content/themes/afmm/assets/img/ico-twitter.svg");
+                background-size: 40%;
+            }
+        }
+    }
+    .footer_2 {
+        padding: 20px 10px;
+        text-align: center;
+        background-color: $af-blue;
+        a {
+            color: $af-white;
+            font-size: 16px;
+        }
+    }
+    .footer_3 {
+        background-color: $af-white;
+        padding: 20px 10px;
+        text-align: center;
+        li {
+            margin: 0 5px;
+        }
+        a {
+            color: $af-black;
+            font-size: 14px;
+        }
+    }
+}
+@media screen and (max-width: $breakpoints-xs) {
+footer {
+    .bandeau{
+        &_logo {
+            img{
+                width: 220px;
+                height: 60px;
+            }
+        }
+    }
+}
+}

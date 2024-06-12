@@ -1,0 +1,9 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+.af-btn {
+    @include af-btn();
+}
+.newsletter-btn {
+    @include af-btn();
+}

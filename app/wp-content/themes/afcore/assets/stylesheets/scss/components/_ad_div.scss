@@ -1,0 +1,22 @@
+.ad{
+    &_horizontally{
+        width: 100%;
+        max-width: 970px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    &_vertically{
+        float: right;
+        width: 100%;
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width : $medium-width){
+    .ad{
+        &_vertically{
+            display: none;
+        }
+    }
+}

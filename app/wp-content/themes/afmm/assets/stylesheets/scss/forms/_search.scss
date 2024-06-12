@@ -1,0 +1,92 @@
+.rechercher {
+    padding-top: 76px;
+    font-family: $raleway-bold;
+    pointer-events: none;
+    & .modal {
+        &-content {
+            border-radius: 0px;
+            border: none;
+            border-top: 1px solid rgba(0, 0, 0, 0.2);
+        }
+        &-dialog {
+            min-width: 100%;
+            width: 100%;
+        }
+    }
+    &-input {
+        border: none;
+        outline: transparent;
+        width: calc(100% - 55px);
+        &::placeholder {
+            font-weight: 600;
+        }
+
+        &-btn {
+            background: none;
+            border: none;
+        }
+    }
+    & .close {
+        display: none;
+    }
+    &-btn {
+        display: none !important;
+        padding: 0 5px;
+        cursor:pointer;
+    }
+
+    &-pop {
+        padding-top: 25px;
+        padding-left: 5px;
+        &-title {
+            font-size: 18px;
+            border-bottom: 1px solid #efefef;
+            padding-bottom: 12px;
+        }
+        &-results {
+            border-bottom: 1px solid #efefef;
+            padding: 12px 0;
+            display: flex;
+            justify-content: space-between;
+            cursor: pointer;
+            & span:first-child{
+                font-size:16px;
+            }
+            & span:last-child{
+                font-size:12px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: $breakpoints-lg) {
+    .rechercher {
+        opacity: 0.96;
+        margin-top: 0;
+        padding: 0;
+        &-container {
+            padding-top: 100px;
+            font-size: 32px;
+        }
+        & .modal {
+            &-content {
+                padding-top: 100px;
+                display: flex;
+                align-items: center;
+                border-top: none;
+            }
+            &-body {
+                min-width: 900px;
+            }
+        }
+
+        & .close {
+            display: block;
+            margin-right: 15px;
+            font-size: 28px;
+        }
+        &-btn {
+            display: block !important;
+        }
+    }
+}

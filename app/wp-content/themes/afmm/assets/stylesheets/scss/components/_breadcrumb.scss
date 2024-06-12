@@ -1,0 +1,36 @@
+.crumbs{
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: $raleway-bold;
+    a{
+        padding : 0 5px;
+    }
+    .cat_name {
+        padding-top: 10px;
+        font-size: 37px;
+    }
+    .page-name{
+        font-size: 37px; 
+        font-family: $raleway-black;
+        margin-top: 12px;
+        &-prefixed {
+            @extend .page-name;
+            &:after {
+                content: url("/wp-content/themes/afmm/assets/img/category_prefix.png");
+                -webkit-text-stroke-width: 0px;
+            }
+        }
+    }
+}
+@media screen and (max-width:$breakpoints-md) {
+    .crumbs{    
+        .cat_name {
+            font-size: 29px;
+        }
+        .page-name{
+            font-size: 29px; 
+        }
+    }
+}

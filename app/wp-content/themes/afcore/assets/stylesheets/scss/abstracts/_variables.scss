@@ -1,0 +1,77 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+
+
+
+
+/// Regular font family
+/// @type List
+$text-font-stack: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+
+/// Code (monospace) font family
+/// @type List
+$code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
+
+$af-white: #FFFFFF ;
+$af-red: #FF0000 ;
+$af-black : #000000;
+$af-green : #51BBA7;
+$af-blue-light:#7BBECB;
+$af-blue-dark: #116ce8;
+$af-blue: #061132;
+$af-grey: #90939B;
+$af-light-grey:#c5c7cf;
+$af-lighter-grey:#CCCCCC;
+$af-light-grey-submenu: #838899;
+$af-podcast-bg: #283583;
+$af-whitsmoke: #f5f5f5;
+$raleway-regular: 'Raleway-Regular';
+$raleway-medium : 'Raleway-Medium';
+$raleway-bold : 'Raleway-Bold';
+$raleway-black: 'Raleway-Black';
+$raleway-semibold:'Raleway-SemiBold';
+$playfair-regular: 'PlayfairDisplay-Regular';
+$playfair-bold : 'PlayfairDisplay-Bold';
+$playfair-medium : 'PlayfairDisplay-Medium';
+$playfair-medium-italic : 'PlayfairDisplay-MediumItalic';
+$montserrat-black :'Montserrat-Black';
+$dmserifdisplay-regular:'DMSerifDisplay-Regular';
+$montserrat-bold :'Montserrat-Bold';
+/// Container's maximum width
+/// @type Length
+$max-width: 1180px !default;
+$small-width: 320px !default;
+$medium-width: 768px !default;
+$large-width: 1024px !default;
+
+
+
+
+/// Breakpoints map
+/// @prop {String} keys - Keys are identifiers mapped to a given length
+/// @prop {Map} values - Values are actual breakpoints expressed in pixels
+$breakpoints: (
+  'small': 320px,
+  'medium': 768px,
+  'large': 1024px,
+) !default;
+$breakpoints-xs : 425px;
+$breakpoints-sm : 576px;
+$breakpoints-md : 768px;
+$breakpoints-lg : 992px;
+$breakpoints-md-lg : 1024px;
+$breakpoints-xl : 1200px;
+$breakpoints-xxl : 1440px;
+
+
+
+
+
+
+/// Relative or absolute URL where all assets are served from
+/// @type String
+/// @example scss - When using a CDN
+///   $base-url: 'http://cdn.example.com/assets/';
+$base-url: '/assets/' !default;

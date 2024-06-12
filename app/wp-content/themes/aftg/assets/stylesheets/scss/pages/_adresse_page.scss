@@ -1,0 +1,64 @@
+.adresse
+ {
+    &_title {
+        font-family: $raleway-black;
+        margin-top: 20px;
+        color: #000000;
+        text-transform: uppercase;
+        font-size: 28px;
+        margin-bottom: 25px;
+        padding-left: 18px;
+    }
+}
+.bloc-tri{
+    margin-top: 12px;
+    font-size: 32px;
+    margin-bottom: 25px;
+    padding-right: 8px;
+    label{
+        font-family: $raleway-bold;
+        color: $af-blue;
+        font-size: 14px;
+    }
+    &-select{
+        font-family: $raleway-bold;
+        border: 2px solid $af-blue;
+        background-color: $af-white;
+        text-transform: uppercase;
+        padding: 8px 24px 8px 4px;
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: $medium-width) {
+    .adresse
+ {
+    &_title {
+        font-size: 32px;
+    }
+}
+    .bloc-tri{
+        padding-right: 8px;
+        
+    }
+}
+@media screen and (max-width:$breakpoints-sm) {
+    .bloc-tri{
+        padding-right: 100px;
+        label{
+            font-size: 10px;
+        }
+        &-select{
+            font-size: 10px;
+        }
+    }
+    .adresse
+    {
+        &_title {
+            font-size: 28px;
+        }
+    }
+}
+@media screen and (max-width: 576px){
+    .bloc-tri{
+        padding-right: 0px;}
+}

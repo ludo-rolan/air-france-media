@@ -1,0 +1,12 @@
+.adresse{
+    &_breadcrumb{
+        text-align: center;
+        margin: 15px 0px 0px 0px;
+        a{
+            font-family: $raleway-bold;
+            font-size: 14px;
+            text-transform: uppercase;
+            padding: 5px;
+        }
+    }
+}

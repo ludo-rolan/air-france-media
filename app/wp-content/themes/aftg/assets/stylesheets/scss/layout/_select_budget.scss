@@ -1,0 +1,132 @@
+.select_budget {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  &_container {
+    padding: 30px;
+    margin-right: 15px;
+    margin-left: 10rem;
+    border: 1px solid $af-blue;
+    min-height: 180px;
+
+    &--second {
+      margin-left: 15px;
+      margin-right: 10rem;
+    }
+  }
+
+  &_img {
+    width: 60px;
+    height: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &_control {
+    width: 100%;
+    margin-top: 15px;
+
+    a,
+    div > span {
+      font-family: $raleway-bold;
+    }
+  }
+
+  &_range {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+    &-slider {
+      text-align: center;
+      position: relative;
+      @include af-custom-runnable-slider();
+    }
+
+    &_value_1,
+    &_value_2 {
+      font-size: 15px;
+      font-family: $raleway-black;
+    }
+
+    &_value_1 {
+      position: relative;
+      top: 12px;
+    }
+
+    &_value_2 {
+      margin-bottom: 10px;
+      &:before {
+        content: "+";
+        position: relative;
+        top: 5px;
+        margin-right: 2px;
+        font-size: 25px;
+      }
+    }
+
+  }
+
+  &_notice_sentence {
+    font-family: $raleway-semibold;
+    font-size: 12px;
+  }
+
+  .decrement_num,
+  .increment_num {
+    font-size: 30px;
+  }
+
+  .passenger_content span {
+    font-size: 16px;
+  }
+
+  &_container:hover {
+    background-color: $af-blue;
+
+    .select_budget {
+      &_control {
+        a,
+        div > span {
+          color: $af-white;
+        }
+      }
+
+      &_img {
+        filter: invert(100%) sepia(0%) saturate(7497%) hue-rotate(185deg) brightness(111%) contrast(100%);
+      }
+
+      &_range {
+        &-slider {
+          @include af-custom-runnable-slider($af-white);
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $breakpoints-md) {
+  .select_budget {
+    flex-direction: column;
+
+    &_container {
+      margin-bottom: 15px;
+      margin-right: 0;
+      margin-left: 0;
+
+      &--second {
+        margin-top: 15px;
+        margin-right: 0;
+        margin-left: 0;
+      }
+    }
+
+    &_control {
+      flex-direction: row !important;
+    }
+  }
+}

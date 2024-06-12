@@ -1,0 +1,317 @@
+[
+    {
+        "code": "ZA",
+        "label": "AFRIQUE DU SUD",
+        "canonicalName": "afrique-du-sud"
+    },
+    {
+        "code": "DE",
+        "label": "ALLEMAGNE",
+        "canonicalName": "allemagne"
+    },
+    {
+        "code": "AR",
+        "label": "ARGENTINE",
+        "canonicalName": "argentine"
+    },
+    {
+        "code": "AT",
+        "label": "AUTRICHE",
+        "canonicalName": "autriche"
+    },
+    {
+        "code": "DZ",
+        "label": "Algérie",
+        "canonicalName": "algerie"
+    },
+    {
+        "code": "BR",
+        "label": "Brésil",
+        "canonicalName": "bresil"
+    },
+    {
+        "code": "CM",
+        "label": "CAMEROUN",
+        "canonicalName": "cameroun"
+    },
+    {
+        "code": "CL",
+        "label": "CHILI",
+        "canonicalName": "chili"
+    },
+    {
+        "code": "CN",
+        "label": "CHINE",
+        "canonicalName": "chine"
+    },
+    {
+        "code": "CO",
+        "label": "COLOMBIE",
+        "canonicalName": "colombie"
+    },
+    {
+        "code": "CR",
+        "label": "COSTA RICA",
+        "canonicalName": "costa-rica"
+    },
+    {
+        "code": "CU",
+        "label": "CUBA",
+        "canonicalName": "cuba"
+    },
+    {
+        "code": "CA",
+        "label": "Canada",
+        "canonicalName": "canada"
+    },
+    {
+        "code": "KR",
+        "label": "Corée",
+        "canonicalName": "coree-du-sud"
+    },
+    {
+        "code": "CI",
+        "label": "Côte d Ivoire",
+        "canonicalName": "cote-ivoire"
+    },
+    {
+        "code": "DK",
+        "label": "DANEMARK",
+        "canonicalName": "danemark"
+    },
+    {
+        "code": "EG",
+        "label": "EGYPTE",
+        "canonicalName": "egypte"
+    },
+    {
+        "code": "AE",
+        "label": "EMIRATS ARABES UNIS",
+        "canonicalName": "emirats-arabes-unis"
+    },
+    {
+        "code": "ES",
+        "label": "ESPAGNE",
+        "canonicalName": "espagne"
+    },
+    {
+        "code": "EC",
+        "label": "Equateur",
+        "canonicalName": "equateur"
+    },
+    {
+        "code": "FR",
+        "label": "France",
+        "canonicalName": "france"
+    },
+    {
+        "code": "GP",
+        "label": "GUADELOUPE",
+        "canonicalName": "guadeloupe"
+    },
+    {
+        "code": "GR",
+        "label": "Grèce",
+        "canonicalName": "grece"
+    },
+    {
+        "code": "GF",
+        "label": "Guyane Française",
+        "canonicalName": "guyane-francaise"
+    },
+    {
+        "code": "HK",
+        "label": "HONG KONG, CHINE",
+        "canonicalName": "hong-kong"
+    },
+    {
+        "code": "HU",
+        "label": "HONGRIE",
+        "canonicalName": "hongrie"
+    },
+    {
+        "code": "IN",
+        "label": "INDE",
+        "canonicalName": "inde"
+    },
+    {
+        "code": "IE",
+        "label": "IRLANDE",
+        "canonicalName": "irlande"
+    },
+    {
+        "code": "MU",
+        "label": "Ile Maurice",
+        "canonicalName": "ile-maurice"
+    },
+    {
+        "code": "IL",
+        "label": "Israël",
+        "canonicalName": "israel"
+    },
+    {
+        "code": "IT",
+        "label": "Italie",
+        "canonicalName": "italie"
+    },
+    {
+        "code": "JP",
+        "label": "JAPON",
+        "canonicalName": "japon"
+    },
+    {
+        "code": "KE",
+        "label": "KENYA",
+        "canonicalName": "kenya"
+    },
+    {
+        "code": "LB",
+        "label": "LIBAN",
+        "canonicalName": "liban"
+    },
+    {
+        "code": "MV",
+        "label": "MALDIVES",
+        "canonicalName": "maldives"
+    },
+    {
+        "code": "MQ",
+        "label": "MARTINIQUE",
+        "canonicalName": "martinique"
+    },
+    {
+        "code": "MG",
+        "label": "Madagascar",
+        "canonicalName": "madagascar"
+    },
+    {
+        "code": "MA",
+        "label": "Maroc",
+        "canonicalName": "maroc"
+    },
+    {
+        "code": "MX",
+        "label": "Mexique",
+        "canonicalName": "mexique"
+    },
+    {
+        "code": "NO",
+        "label": "Norvège",
+        "canonicalName": "norvege"
+    },
+    {
+        "code": "NC",
+        "label": "Nouvelle Calédonie",
+        "canonicalName": "nouvelle-caledonie"
+    },
+    {
+        "code": "PA",
+        "label": "PANAMA",
+        "canonicalName": "panama"
+    },
+    {
+        "code": "NL",
+        "label": "PAYS BAS",
+        "canonicalName": "pays-bas"
+    },
+    {
+        "code": "PL",
+        "label": "POLOGNE",
+        "canonicalName": "pologne"
+    },
+    {
+        "code": "PF",
+        "label": "Polynésie française",
+        "canonicalName": "polynesie-francaise"
+    },
+    {
+        "code": "PT",
+        "label": "Portugal",
+        "canonicalName": "portugal"
+    },
+    {
+        "code": "PE",
+        "label": "Pérou",
+        "canonicalName": "perou"
+    },
+    {
+        "code": "DO",
+        "label": "REP DOMINICAINE",
+        "canonicalName": "republique-dominicaine"
+    },
+    {
+        "code": "RU",
+        "label": "RUSSIE",
+        "canonicalName": "russie"
+    },
+    {
+        "code": "CZ",
+        "label": "Rep Tchèque",
+        "canonicalName": "republique-tcheque"
+    },
+    {
+        "code": "RE",
+        "label": "Reunion",
+        "canonicalName": "la-reunion"
+    },
+    {
+        "code": "GB",
+        "label": "Royaume-Uni",
+        "canonicalName": "royaume-uni"
+    },
+    {
+        "code": "SC",
+        "label": "SEYCHELLES",
+        "canonicalName": "seychelles"
+    },
+    {
+        "code": "SG",
+        "label": "SINGAPOUR",
+        "canonicalName": "singapour"
+    },
+    {
+        "code": "CH",
+        "label": "SUISSE",
+        "canonicalName": "suisse"
+    },
+    {
+        "code": "SX",
+        "label": "Saint Martin",
+        "canonicalName": "saint-martin"
+    },
+    {
+        "code": "SE",
+        "label": "Suède",
+        "canonicalName": "suede"
+    },
+    {
+        "code": "SN",
+        "label": "Sénégal",
+        "canonicalName": "senegal"
+    },
+    {
+        "code": "TH",
+        "label": "THAILANDE",
+        "canonicalName": "thailande"
+    },
+    {
+        "code": "TN",
+        "label": "TUNISIE",
+        "canonicalName": "tunisie"
+    },
+    {
+        "code": "TR",
+        "label": "TURQUIE",
+        "canonicalName": "turquie"
+    },
+    {
+        "code": "VN",
+        "label": "VIETNAM",
+        "canonicalName": "vietnam"
+    },
+    {
+        "code": "US",
+        "label": "États-Unis",
+        "canonicalName": "etats-unis"
+    }
+]

@@ -1,0 +1,56 @@
+// CSS for the header burger menu in mobile devices.
+@media screen and (max-width: 992px) {
+    .nav {
+        &-mobile {
+          &-burger {
+            &-icon {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              transition: all .5s ease-in-out;
+              &.open {
+                & .nav-mobile-burger-out-top, & .nav-mobile-burger-out-bottom {
+                  transform: rotate(45deg);
+                  background: transparent;
+                  box-shadow: none;
+                }
+                & .nav-mobile-burger-in-top {
+                  transform: rotate(45deg);
+                }
+                & .nav-mobile-burger-in-bottom {
+                  transform: rotate(-45deg);
+                }
+              }
+            }
+            &-out {
+              position: absolute;
+              width: 27px;
+              height: 2px;
+              background: black;
+              border-radius: 5px;
+              transition: all .5s ease-in-out;
+              &-top {
+                transform: translateY(-12px);
+              }
+              &-bottom {
+                transform: translateY(12px);
+              }
+            }
+            &-in {
+              position: absolute;
+              width: 37px;
+              height: 2px;
+              background: black;
+              border-radius: 5px;
+              transition: all .5s ease-in-out;
+              &-top {
+                transform: translateY(-4px);
+              }
+              &-bottom {
+                transform: translateY(4px);
+              }
+            }
+          }
+        }
+    }
+}

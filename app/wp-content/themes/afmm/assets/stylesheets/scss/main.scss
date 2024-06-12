@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+// 1. Configuration and helpers
+@import
+'abstracts/variables',
+'abstracts/functions',
+'abstracts/mixins';
+
+// 2. Vendors
+@import
+'../../../../afcore/assets/stylesheets/scss/vendors/normalize',
+'../../../../afcore/assets/stylesheets/scss/vendors/bootstrap/bootstrap';
+
+
+// 3. Base stuff
+@import
+'../../../../afcore/assets/stylesheets/scss/base/base',
+'base/fonts',
+'base/dfp',
+'../../../../afcore/assets/stylesheets/scss/base/typography',
+'../../../../afcore/assets/stylesheets/scss/base/helpers';
+
+
+// 4. Layout-related sections
+@import
+'../../../../afcore/assets/stylesheets/scss/layout/header',
+'../../../../afcore/assets/stylesheets/scss/layout/burger',
+'../../../../afcore/assets/stylesheets/scss/layout/footer',
+'layout/post_preview',
+'layout/cat_name',
+'layout/newsletter',
+'layout/avion',
+'layout/instagram',
+'layout/quotes',
+'layout/podcast',
+'layout/video',
+'../../../../afcore/assets/stylesheets/scss/layout/video_player',
+'layout/sidebar',
+'layout/podcast_article',
+'../../../../afcore/assets/stylesheets/scss/layout/visiter_endroit',
+'layout/gallery_carousel',
+'../../../../afcore/assets/stylesheets/scss/components/pagination',
+'components/article_plus_lus',
+'components/a_lire_aussi';
+
+
+// 5. Components
+@import
+'../../../../afcore/assets/stylesheets/scss/components/button',
+'components/breadcrumb',
+'components/via_fretta',
+'components/tg_bandeau',
+'../../../../afcore/assets/stylesheets/scss/components/ad_div',
+'../../../../afcore/assets/stylesheets/scss/components/share';
+
+// 6. Page-specific styles
+@import
+'pages/home',
+'pages/search',
+'pages/category',
+'pages/sub_category',
+'pages/single',
+'../../../../afcore/assets/stylesheets/scss/pages/single',
+'pages/fluxpage',
+'pages/page_statique',
+'pages/newsletter',
+'../../../../afcore/assets/stylesheets/scss/pages/page404',
+'pages/habillage',
+'pages/contact';
+
+// 7. Forms
+@import 
+'../../../../afcore/assets/stylesheets/scss/forms/embarquement',
+'forms/search';
+
+

@@ -1,0 +1,10 @@
+@media screen and (max-width:$breakpoints-md) {
+    .single{
+        .resize {
+        &_thumb {
+            height: 470px;
+            background-position: top !important;
+        }
+        }
+    }
+}

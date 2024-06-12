@@ -1,0 +1,19 @@
+.tg-bandeau {
+    width:100%;
+    background-color: $af-blue;
+    position: relative;
+    text-align: center;
+    height: 80px;
+    padding: 20px 20px;
+    font-family: $raleway-bold;
+    text-transform: uppercase;
+    &_name {
+        font-size: 30px;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: white;
+        color: white;
+        &:after {
+            content:url("/wp-content/themes/afmm/assets/img/category_prefix_white.png") ;
+}
+    }
+}

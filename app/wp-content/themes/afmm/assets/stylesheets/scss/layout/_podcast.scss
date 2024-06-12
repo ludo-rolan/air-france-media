@@ -1,0 +1,228 @@
+.podcast {
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  margin-top: 20px;
+  .row {
+    overflow: hidden
+  }
+
+  &-carousel {
+    .card {
+      background-color: transparent;
+      border: 0;
+      border-radius: 0;
+    }
+
+    &-card {
+      &__container {
+        text-align: center;
+        margin-top: 65px;
+      }
+    }
+
+    &-article {
+      &__head {
+        margin: 0 auto;
+        max-width: 361px;
+        max-height: 360px;
+      }
+
+      &__img {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        width: 358px;
+        height: 358px;
+        border-radius: 50%;
+        background-size: cover;
+        background-position: 65%;
+      }
+
+      &__cat {
+        position: relative;
+        top: 5px;
+        color: white;
+        font-size: 16px;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: $raleway-bold;
+      }
+
+      &__title {
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        font-family: $playfair-bold;
+        line-height: 1.25em;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      &__microphone {
+        width: 101px;
+        height: 101px;
+        background: white;
+        border-radius: 50%;
+
+        &__img {
+          display: unset !important;
+          width: 35px !important;
+          margin-top: 15px;
+        }
+      }
+    }
+
+    .owl {
+      &-item {
+        opacity: 0.5;
+        transition: all 0.3s;
+        transition-delay: 0.4s;
+
+        &.active.center {
+          opacity: 1;
+        }
+
+        &:first-child:before {
+          @include flipped-text("à visiter", -145px, 115px, 100px, $playfair-regular);
+        }
+        &:first-child:lang(en):before {
+          @include flipped-text("to visit", -145px, 115px, 100px, $playfair-regular);
+        }
+      }
+
+      &-nav {
+        display: none;
+      }
+
+      &-next--podcast, &-prev--podcast {
+        width: 10px !important;
+      }
+    }
+
+    .progress {
+      background-color: #ffffff75;
+      margin-top: 15px;
+      height: 2px;
+      opacity: 0;
+      width: 90%;
+      &-container {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5px;
+        span {
+          color: $af-white;
+          font-size: 16px;
+          font-weight: $raleway-bold;
+          opacity: 0;
+        }
+      }
+      &-bar {
+        background-color: white;
+      }
+    }
+
+    .af {
+      &-btn--podcast {
+        @include af-btn($af-white, #6b6d9d, 15px, 15px);
+      }
+
+      &__owl-nav {
+        display: flex;
+        justify-content: space-between;
+        opacity: 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .podcast {
+    &-carousel {
+      .af__owl-nav,
+      .progress,
+      .progress-container span,
+      .af-btn--podcast,
+      .owl-item:first-child:before {
+        display: none;
+      }
+      .owl-item:first-child:lang(en):before{
+        display: none !important;
+      }
+      &-article {
+        &__img {
+          width: 165px;
+          height: 165px;
+          background-size: cover;
+        }
+
+        &__microphone {
+          width: 55px;
+          height: 55px;
+
+          &__img {
+            width: 18px !important;
+            margin-top: 10px;
+          }
+        }
+
+        &__cat {
+          top: 0;
+          font-size: 14px;
+        }
+
+        &__title {
+          font-size: 22px;
+          margin-top: 8px;
+          //margin-bottom: 56px;
+        }
+      }
+
+      &-card__container {
+        margin-top: 20px;
+      }
+    }
+
+    &-mobile {
+      display: block;
+      background-repeat: no-repeat !important;
+      background-size: cover !important;
+      margin-left: 15px;
+      margin-right: 15px;
+      
+      &__head {
+        display: block;
+        color: $af-white;
+        font-family: $playfair-regular;
+        text-transform: uppercase;
+        font-size: 60px;
+        text-align: left;
+      }
+    }
+
+    .af-btn--podcast--mobile {
+      @include af-btn($af-white, #6b6d9d, 15px, 15px);
+      margin-bottom: 15px;
+      padding: 8px 25px;
+    }
+  }
+}
+
+@media screen and (max-width: 425px) {
+  section.podcast{
+    padding-top: 20px;
+  }
+  .podcast {
+    &-carousel {
+      &-article {
+        &__title {
+          margin-bottom: 10px;
+        }
+      }
+
+      .owl-stage {
+        padding-left: 0 !important;
+      }
+    }
+  }
+}

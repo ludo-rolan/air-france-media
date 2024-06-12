@@ -1,0 +1,211 @@
+@mixin gallery-slider-arrow {
+  height: 50px; 
+  width: 50px; 
+  background-color: $af-red;
+  color: $af-white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.gallery-slider{
+  &-arrow{
+    &-left {
+      @include gallery-slider-arrow;
+      margin-left: 20px;
+      z-index: 1;
+      & img {
+        margin-bottom: 0 !important;
+      }
+    }
+
+    &-right {
+      @include gallery-slider-arrow;
+      margin-right: 20px;
+      right: 0;
+      & img {
+        margin-bottom: 0 !important;
+      }
+    }
+
+    &-blur {
+      opacity: 50%;
+      cursor: default;
+      pointer-events: none;
+
+    }
+  }
+
+  &-container {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    height:500px;
+  }
+
+  &-count {
+    &-container {
+      padding: 0 0 10px 20px;
+      font-family: $raleway-bold;
+      font-size : 16px;
+      text-align: start;
+    }
+
+    &-current {
+      font-family: $raleway-bold;
+      font-size: 16px;
+      color: $af-red;
+    }
+
+    &-total {
+      font-family: $raleway-bold;
+      font-size: 16px;
+      color: $af-grey;
+    }
+
+    &-line {
+      width : 190px;
+      background-color: $af-black;
+      margin: 0 16px 4px 16px;
+      display: inline-block;
+      height: 2px;
+      &-monetisation {
+        @extend .gallery-slider-count-line;
+        width : 50px;
+      }
+    }
+  }
+
+  &-monetisation {
+    &-next {
+      font-family: $raleway-bold;
+      font-size: 22px;
+      background-color: $af-red;
+    }
+
+    &-prev {
+      font-family: $raleway-bold;
+      font-size: 22px;
+      background-color: $af-grey;
+    }
+  }
+}
+
+.wp-block-gallery {
+  border: 1px solid rgba($af-grey, .2);
+  display: block !important;
+  margin-bottom: 20px;
+
+  & .blocks-gallery {
+    &-grid {
+      position: relative;
+      left: 0;
+      -webkit-transition: 0.5s left;
+      -moz-transition: 0.5s left;
+      -ms-transition: 0.5s left;
+      -o-transition: 0.5s left;
+      justify-content: center;
+      align-items: center;
+      height:100%;
+    }
+
+    &-item{
+      float: left;
+      display: list-item;
+      margin: 0;
+      margin-right: 0 !important;
+      height: 100%;
+      img{
+        object-fit: contain !important;
+      }
+      &__caption{
+        display: none;
+      }
+    }
+    
+    &-caption {
+      text-align: start;
+      padding: 20px;
+      &:empty {
+        padding: 0;
+      }
+      h3 {
+        font-weight: bold;
+        font-size: 22px;
+        color: $af-black;
+        font-family: $montserrat-bold;
+        word-break: break-word;
+      }
+      p {
+        font-size: 14px;
+        font-family: $raleway-medium;
+        br {
+          content: " ";
+          display: block;
+          margin: 16px 0;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width : $breakpoints-sm) {
+  @mixin gallery-slider-arrow {
+    height: 30px; 
+    width: 30px; 
+  }
+  .gallery-slider{
+    &-arrow {
+      &-left {
+        @include gallery-slider-arrow;
+      }
+      &-right {
+        @include gallery-slider-arrow;
+      }
+    }
+    &-monetisation {  
+      &-next, &-prev{
+        font-size: 16px;
+      }
+    }
+    &-count {
+      &-line {
+        width: 160px;
+        &-monetisation {
+          width : 50px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width : $breakpoints-md) {
+  .gallery {
+    &-slider {
+      &-container {
+        height: 100%
+        ;
+      }
+    }
+  }
+}
+
+@media screen and (min-width : $breakpoints-md) {
+  .diapo {
+    &-container {
+      position: relative;
+    }
+    &-sidebar {
+      position: absolute;
+      right: 0;
+      top: 630px;
+    }
+
+  }
+}

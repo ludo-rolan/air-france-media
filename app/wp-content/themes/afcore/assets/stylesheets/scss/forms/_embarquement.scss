@@ -1,0 +1,156 @@
+.inspirations {
+    &-row {
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+    }
+    &-content {
+        flex: 1;
+        display: flex;
+    }
+    &-col {
+        flex-direction: column;
+        flex: 1;
+    }
+    &-form {
+        border: 1px solid $af-red;
+        color: black;
+        margin: 8px  15px;
+        padding: 12px;
+        background-color: $af-white;
+        &-title {
+            text-align: center;
+            font-family: $raleway-bold;
+            font-size: 29px;
+        }
+    }
+    &-label {
+        font-size: 14px;
+        font-family: $raleway-bold;
+        margin-bottom: 0px;
+        margin-top: 20px;
+        width: 100%;
+    }
+    &-control {
+        border: none;
+        border-radius: 0;
+        font-size: 16px;
+        font-family: $raleway-bold;
+        color: $af-black;
+        width: calc(100% - 25px);
+        padding-left: 0;
+        &:focus {
+            color: $af-black;
+            background-color: #fff;
+            border-color: black;
+            box-shadow: none;
+            border: none;
+        }
+    }
+    &-select {
+        @extend .inspirations-control;
+        border-bottom: 1px solid $af-black;
+        background: url(../../../assets/img/arrow-down.png) no-repeat right !important;
+        background-size: 12px 12px !important;
+        width: 100%;
+    }
+    &-input {
+        padding: 3px 5px;
+        @extend .inspirations-control;
+        &::placeholder{
+            color: black;
+            opacity: 1;
+        }
+
+        &-container {
+            @include icon-form( $padding: 0px, $margin-right: auto);
+            width: 100%;
+            position: relative;
+
+            img {
+                width: 16px;
+            }
+        }
+
+        &-datalist {
+            position: absolute;
+            background-color: $af-white;
+            z-index: 1;
+            width: calc( 100% - 20px);
+            max-height: 300px;
+            overflow: auto;
+            box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+            padding: 10px;
+            margin-left: 20px;
+            display: none;
+
+            
+            &-option {
+                border-bottom: solid 1px #dee2e6;
+                display: block;
+                padding: 10px 5px;
+                font-size: 14px;
+                cursor: pointer;
+                
+                &:last-child {
+                    border-bottom: none;
+                }
+            }
+        }
+
+        &-warning {
+            color: $af-red;
+            font-size: 12px;
+            padding-top: 5px;
+            display: none;
+        }
+
+        &::-webkit-calendar-picker-indicator {
+            opacity: 0;
+        }
+    }
+    &-avion {
+        display: block;
+        margin: 0 auto;
+        padding: 40px 0;
+        width: 72px;
+    }
+    &-btn {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        @include af-btn($margin-top: 32px);
+    }
+    &-datepicker {
+        width: calc(50% - 25px);
+    }
+}
+@media screen and (min-width: $breakpoints-md) {
+    .inspirations {
+
+        &-row{
+            flex-direction: row;
+        }
+        &-col{
+            display: flex;
+            flex-direction: column;
+            align-items: baseline;
+        }
+        &-form {
+            margin: 8px 20px 8px 28px;
+        }
+    }
+}
+@media screen and (min-width: $breakpoints-lg) {
+    .inspirations {
+
+        &-row{
+            flex-direction: row;
+        }
+        &-col{
+            flex-direction: column;
+            align-items: normal;
+        }
+    }
+}
+#ui-datepicker-div { font-size:11px; }

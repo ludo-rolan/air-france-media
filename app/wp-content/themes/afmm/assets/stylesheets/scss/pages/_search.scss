@@ -1,0 +1,33 @@
+
+.rechercher {
+    &-resultat {
+        &-title {
+            font-size: 29px; 
+            font-family: $raleway-black;
+        }
+        &-ad {
+            width: 300px; 
+            margin: auto;
+            margin-bottom: 20px;
+            
+            &-large {
+                height: 600px; 
+            }
+
+            &-small {
+                height: 250px; 
+            }
+        }
+    }
+}
+
+@media screen and (min-width: $breakpoints-md) {
+    .rechercher {
+        &-resultat {
+            &-post {
+                min-height: 280px;
+                max-width: 350px;
+            }
+        }
+    }
+}

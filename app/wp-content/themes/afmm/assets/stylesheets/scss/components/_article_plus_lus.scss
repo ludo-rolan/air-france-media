@@ -1,0 +1,43 @@
+.sidebar{
+    &_title {
+        color: $af-black;
+        font-family: $raleway-bold;
+        font-size: 32px;
+        padding-top: 20px;
+    }
+    &_plusLus {
+        display: flex;
+        flex-direction: row;
+        color: $af-black;
+        padding: 8px 20px;
+        &_image {
+            position: relative;
+            z-index: -1;
+            width: 146px;
+            height: 81px;
+            flex: 0 0 auto;
+            object-fit: cover;
+            padding: 0;
+            margin-top: 10px;
+        }
+        &_cat {
+            font-family: $raleway-bold;
+            font-size: 12px;
+            text-transform: uppercase;
+        }
+        &_title {
+            font-family: $playfair-bold;
+            font-size: 14px;
+            text-align: left;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 3; /* number of lines to show */
+            -webkit-box-orient: vertical;
+        }
+        &_info {
+            padding-left: 10px;
+        }    
+    }
+
+}

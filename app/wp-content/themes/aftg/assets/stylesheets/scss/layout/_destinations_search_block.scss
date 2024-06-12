@@ -1,0 +1,180 @@
+.dest-search {
+  position: relative;
+  top: -50px;
+  width: 100%;
+  transition-property: background-position;
+  background-image: url("/wp-content/themes/aftg/assets/img/fond_hp.jpeg"), linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+  background-size: cover;
+  background-position: center 35%;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  &_title_home{
+    margin-top: -15px !important;
+  }
+
+  &-title {
+    @include preview-title( $color: $af-white, $fontSize: 30px, $font-family:$raleway-bold);
+
+    &-sub {
+      font-family: $raleway-bold;
+      font-size: 15px;
+    }
+  }
+
+  &-input {
+    position: relative;
+    display: inline-flex;
+    border: 1px solid $af-white;
+    padding: 10px;
+    width: 45%;
+
+    i {
+      @-moz-document url-prefix() {
+        padding: 0 10px 0 10px;
+      }
+      padding: 5px 10px 0 10px;
+      color: white;
+    }
+
+    input {
+      background: transparent;
+      border: none;
+      color: $af-white;
+      width: 100%;
+      @include placeholder-color($color: $af-white);
+
+      &:focus-visible {
+        outline: none;
+      }
+    }
+  }
+
+  &-suggestions {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: $af-white;
+    width: 100%;
+    z-index: 2;
+
+    .suggestions-opening {
+      display: none;
+      padding: 20px;
+      list-style-type: none;
+      font-family: $raleway-bold;
+
+      &:last-child {
+        font-family: $raleway-medium;
+        background-color: $af-whitsmoke;
+
+        a {
+          text-decoration: underline;
+          text-decoration-color: $af-red;
+        }
+      }
+    }
+
+    ul {
+      position: relative;
+      width: 100% !important;
+      top: 0 !important;
+      left: 0 !important;
+      display: none;
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      max-height: 200px;
+      overflow-y: auto;
+
+      li {
+        padding: 20px;
+        font-family: $raleway-medium;
+        cursor: pointer;
+        &:hover {
+          color: $af-white;
+          background-color: $af-blue;
+
+        }
+      }
+
+      &.has-suggestions {
+        display: block;
+        overflow-y: hidden;
+      }
+    }
+  }
+  &-loader{
+    background-color:rgba(255,255,255,.96);;
+    text-align: center;
+    font-family: "Raleway-Bold";
+    font-size: 22px;
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    img{
+      max-width: 250px;
+      display: block;
+      margin: 150px auto 20px auto ;
+    }
+  }
+  &-breaker {
+    display: flex;
+    margin-top: 3em;
+    align-items: center;
+
+    hr {
+      width: 60%;
+      background-color: $af-white;
+    }
+
+    span {
+      font-size: 20px;
+      font-family: $raleway-black;
+      padding-left: 15px;
+      padding-right: 15px;
+      color: $af-white;
+    }
+  }
+
+  &-result {
+    @include af-btn($af-light-grey-submenu);
+    pointer-events: none;
+  }
+}
+
+@media screen and (max-width: $breakpoints-lg ){
+  .dest-search {
+    &-input {
+      width: 80%;
+    }
+  }
+}
+
+@media screen and (max-width: $medium-width) {
+  .dest-search {
+    background-image: url("/wp-content/themes/aftg/assets/img/fond_hp_mobile.webp"), linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+    &-label {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .dest-search {
+    background-image: url("/wp-content/themes/aftg/assets/img/fond_hp_mobile.webp"), linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+    &-label {
+      width: 100%;
+
+      input {
+        max-width: 200px;
+      }
+    }
+  }
+}

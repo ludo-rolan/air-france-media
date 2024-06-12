@@ -1,0 +1,53 @@
+.single {
+    .address_carte {
+      display: block;
+      float: right;
+      margin-left: 31px;
+      margin-bottom: 28px;
+      &-attr {
+        font-family: $raleway-black;
+      }
+      &-block {
+        border: 2px#F2F2F2 solid;
+        padding: 23px 37px 34px 64px;
+        max-width: 301px;
+        position: relative;
+        img {
+          width: auto !important;
+          height: 50px;
+        }
+        ul {
+          list-style-type: none;
+          padding: 0;
+          margin: 0;
+          font-family: $raleway-medium;
+          font-size: 16px;
+        }
+      }
+      &-titre {
+        font-family: $playfair-medium-italic !important;
+        text-transform: none !important;
+        font-size: 20px;
+        color: $af-black;
+        line-height: 1.2;
+        margin-top: 8px;
+        margin-bottom: 16px;
+      }
+      &-content {
+        font-size: 16px;
+      }
+      &-map-marker {
+        position: absolute;
+        left : 10px;
+      }
+    }
+  @media screen and (max-width: $breakpoints-md) {
+    .address_carte {
+      position: relative;
+      float: unset;
+      margin-bottom: 28px;
+      max-width: 300px;
+    }
+  }
+  }
+  

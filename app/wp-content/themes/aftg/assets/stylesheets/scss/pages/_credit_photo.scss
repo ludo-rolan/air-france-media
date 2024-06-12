@@ -1,0 +1,72 @@
+.credits {
+  li:first-child {
+    color:white;
+    background-color: $af-blue;
+    &:hover {
+      color:white;
+    }
+  }
+  &-photo {
+    &__title {
+      text-transform: uppercase;
+      text-align: center;
+      display: block;
+      font-size: 14px;
+      font-family: $raleway-bold;
+      margin-top: 15px;
+    }
+    &__alphabet {
+      display: contents;
+      position: fixed;
+    }
+    &-body {
+      margin-top: 40px;
+      &__title {
+        display: block;
+        text-align: center;
+        font-size: 16px;
+        font-family: $raleway-semibold;
+        text-transform: uppercase;
+      }
+
+      &__index {
+        display: block;
+        text-align: start;
+        background: $af-blue;
+        color: $af-white;
+        padding: 12px;
+        font-family: "Raleway-SemiBold";
+        font-size: 16px;
+        text-transform: uppercase;
+      }
+
+      .collapse-menu {
+        a {
+          margin-left: 15px;
+          width: 100%;
+          display: block;
+        }
+        &:before {
+          content: unset;
+        }
+        &:hover {
+          a {
+            margin-left: 15px;
+            width: auto;
+            color: red;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $breakpoints-md) {
+  .credits-photo {
+    &-body {
+      ul {
+        padding-left: 0;
+      }
+    }
+  }
+}

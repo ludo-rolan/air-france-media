@@ -1,0 +1,187 @@
+.infosPratiques{
+    padding-top: 12px;
+    &_pageTitle {
+        h1 {
+            font-size: 37px;
+            font-family: $raleway-black;
+            margin-top: 12px;
+            color: $af-black;
+            text-transform: uppercase;
+            text-align: center;
+        }
+    }
+    &_wrapper {
+        margin-top: 25px;
+        h4 {
+            font-size: 16px;
+            color: $af-black;
+            font-family: $raleway-bold;
+            margin-top: 20px;
+        }
+    }
+    &_title {
+        font-family: $raleway-bold;
+        font-size: 22px;
+        text-transform: uppercase;
+        color: $af-black;
+        margin-top: 20px;
+    }
+    &_description p {
+        margin-bottom: 0;
+    }
+    &_description,&_intro {
+        font-family: $raleway-regular;
+        font-size: 16px;
+        color: $af-black;
+        h3 {
+            font-size: 20px;
+        }
+        h4 {
+            text-transform: uppercase;
+        }
+        a {
+            text-decoration: underline;
+            text-decoration-color: #0062e6;
+            word-break: break-word;
+            text-decoration-thickness: 2px;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        & > ul > li {
+            & > ul {
+                li::before{
+                    content: '- ';
+                }
+            }
+        }
+    }
+    &_buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+       a {
+        width: 100%;
+        margin-bottom: 10px;
+       }
+        &_blue{
+            @include af-btn($af-blue);
+        }
+    }
+    &_menu {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        ul {
+            margin: 0;
+            padding: 0;
+        }
+        .hideElem{
+            display: none;
+        }
+        li.collapse-menu{
+            &::before {
+                content: none;
+            }
+        }
+        .hovered_li{
+            background-color: $af-blue;
+        }
+        .collapse-container {
+            height: auto;
+            a{
+                padding-left: 10px;
+                line-height: 1.2em;
+                display: inline-block;
+                padding-top: 12px;
+                padding-bottom: 12px;
+            }
+            .active_inf {
+                color: $af-white;
+            }
+        }
+        
+    }
+    ul:first-child {
+        margin-bottom: 0;
+    }
+    &_breadcrumb{
+        .crumbs {
+            top: 0;
+            &-elements {
+                padding: 0;
+            }
+        }
+        .destination_ad {
+            margin-bottom: 30px;
+        }
+    }
+}
+.meteo_table {
+    font-size: 12px;
+    font-family: $raleway-semibold;
+    margin: 20px auto;
+    thead {
+        background-color: $af-blue;
+        color: $af-white;
+        th:first-child {
+            text-align: left;
+            vertical-align: middle;
+            font-family: $raleway-semibold;
+        }
+    }
+    
+    th {
+        text-transform: uppercase;
+        text-align: center;
+        vertical-align: middle;
+        padding: 0.5em;
+        
+    }
+    tbody {
+        td {
+            text-align: center;
+            vertical-align: middle;
+            padding: 0.5em;
+            border-bottom: 1px solid $af-black;
+        }
+        tr{
+            th:first-child {
+                font-family: $raleway-bold;
+                text-align: left;
+                font-size: 14px;
+                border-bottom: 1px solid $af-black;
+
+            }
+        }
+    }
+    
+}
+
+@media screen and (max-width: $breakpoints-md) {    
+    .meteo_table {
+        font-size: 9px;
+        margin: 16px auto;
+        tr {
+            padding: 2px;
+        }
+        th {
+            padding: 2px;
+        }
+        tbody {
+            td {
+               
+                padding: 2px;
+            }
+            tr{
+                th:first-child {
+                    font-size: 9px;
+                }
+            }
+        }
+        
+    }
+}

@@ -1,0 +1,99 @@
+.cat {
+    font-family: $raleway-bold;
+    text-transform: uppercase;
+    &_container {
+        &-envol {
+            max-width: 100%;
+            background-color: $af-blue;
+        }
+    }
+    &-envol {
+        @extend .cat;
+        background-color: $af-blue;
+    }
+    &-rouge {
+        @extend .cat;
+    }
+
+
+    &_name {
+        font-size: 28px;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+        &:after {
+            content: url("/wp-content/themes/afmm/assets/img/category_prefix.png");
+            -webkit-text-stroke-width: 0px;
+            font-family: $raleway-regular;
+        }
+        &-envol {
+            @extend .cat_name;
+            color: $af-white;
+            -webkit-text-stroke-color: $af-white;
+            &:after {
+                content: url("/wp-content/themes/afmm/assets/img/category_prefix_white.png");
+                -webkit-text-stroke-width: 0px;
+                font-family: $raleway-regular;
+            }
+        }
+        &-rouge {
+            @extend .cat_name;
+            
+        }
+    
+    }
+    &_link {
+        color: $af-black;
+        font-size: 12px;
+        padding: 3px;
+        align-items: center;
+        display: none;
+        &:after {
+            content: "";
+            flex: 1;
+            margin-left: 1rem;
+            height: 1px;
+            background-color: $af-black;
+        }
+        &:hover {
+            color: $af-red;
+            &:after {
+                background-color: $af-red;
+            }
+        }
+        &-envol {
+            @extend .cat_link;
+            color: $af-white;
+            padding-right: 7px;
+            &:after {
+                background-color: $af-white;
+            }
+        }
+        &-rouge {
+            @extend .cat_link;
+            color: $af-red;
+            padding-right: 7px;
+            &:after {
+                background-color: $af-red;
+            }
+            &:hover{
+                color: $af-red;
+
+            }
+        }
+    }
+
+}
+
+
+@media screen and (min-width: $medium-width) {
+    .cat {
+        &_link {
+            display: flex;
+        }
+        &-envol {
+            @extend .cat;
+            max-width: 1180px;
+            margin: auto;
+        }    
+    }
+}

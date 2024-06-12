@@ -1,0 +1,938 @@
+{
+    "CI": {
+        "code": "CI",
+        "label": "Côte D'ivoire",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/CI/CI-1_1-768x768.jpg",
+        "latitude": "8",
+        "longitude": "-5",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/cote-ivoire"
+        },
+        "destinations": [
+            "ABJ"
+        ]
+    },
+    "FR": {
+        "code": "FR",
+        "label": "France",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/regions/FRA/FRA-1_1-1024x1024.jpg",
+        "latitude": "46",
+        "longitude": "2",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/france"
+        },
+        "destinations": [
+            "AJA",
+            "BIA",
+            "BIQ",
+            "BOD",
+            "BES",
+            "LYS",
+            "MRS",
+            "MPL",
+            "NTE",
+            "NCE",
+            "PAR",
+            "PUF",
+            "SXB",
+            "TLN",
+            "TLS"
+        ]
+    },
+    "DZ": {
+        "code": "DZ",
+        "label": "Algérie",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/DZ/DZ-1_1-768x768.jpg",
+        "latitude": "28",
+        "longitude": "3",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/algerie"
+        },
+        "destinations": [
+            "ALG",
+            "ORN"
+        ]
+    },
+    "NL": {
+        "code": "NL",
+        "label": "Pays Bas",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/NL/NL-1_1-768x768.jpg",
+        "latitude": "52",
+        "longitude": "5",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/pays-bas"
+        },
+        "destinations": [
+            "AMS"
+        ]
+    },
+    "MG": {
+        "code": "MG",
+        "label": "Madagascar",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/MG/MG-1_1-768x768.jpg",
+        "latitude": "-20",
+        "longitude": "47",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/madagascar"
+        },
+        "destinations": [
+            "TNR"
+        ]
+    },
+    "GR": {
+        "code": "GR",
+        "label": "Grèce",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/GR/GR-1_1-768x768.jpg",
+        "latitude": "39",
+        "longitude": "22",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/grece"
+        },
+        "destinations": [
+            "ATH"
+        ]
+    },
+    "TH": {
+        "code": "TH",
+        "label": "Thailande",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/TH/TH-1_1-768x768.jpg",
+        "latitude": "15",
+        "longitude": "100",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/thailande"
+        },
+        "destinations": [
+            "BKK"
+        ]
+    },
+    "ES": {
+        "code": "ES",
+        "label": "Espagne",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/ES/ES-1_1-768x768.jpg",
+        "latitude": "40",
+        "longitude": "-4",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/espagne"
+        },
+        "destinations": [
+            "BCN",
+            "MAD",
+            "PMI"
+        ]
+    },
+    "CN": {
+        "code": "CN",
+        "label": "Chine",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/CN/CN-1_1-768x768.jpg",
+        "latitude": "35",
+        "longitude": "105",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/chine"
+        },
+        "destinations": [
+            "BJS",
+            "SHA"
+        ]
+    },
+    "DE": {
+        "code": "DE",
+        "label": "Allemagne",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/DE/DE-1_1-768x768.jpg",
+        "latitude": "51",
+        "longitude": "9",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/allemagne"
+        },
+        "destinations": [
+            "BER",
+            "FRA",
+            "HAM",
+            "MUC"
+        ]
+    },
+    "LB": {
+        "code": "LB",
+        "label": "Liban",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/LB/LB-1_1-768x768.jpg",
+        "latitude": "33",
+        "longitude": "35",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/liban"
+        },
+        "destinations": [
+            "BEY"
+        ]
+    },
+    "CO": {
+        "code": "CO",
+        "label": "Colombie",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/CO/CO-1_1-768x768.jpg",
+        "latitude": "4",
+        "longitude": "-72",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/colombie"
+        },
+        "destinations": [
+            "BOG"
+        ]
+    },
+    "IT": {
+        "code": "IT",
+        "label": "Italie",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/IT/IT-1_1-768x768.jpg",
+        "latitude": "42",
+        "longitude": "12",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/italie"
+        },
+        "destinations": [
+            "BLQ",
+            "CTA",
+            "FLR",
+            "MIL",
+            "NAP",
+            "ROM",
+            "VCE"
+        ]
+    },
+    "US": {
+        "code": "US",
+        "label": "États-Unis",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/US/US-1_1-768x768.jpg",
+        "latitude": "41",
+        "longitude": "-97",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/etats-unis"
+        },
+        "destinations": [
+            "BOS",
+            "CHI",
+            "DFW",
+            "HOU",
+            "LAX",
+            "MIA",
+            "NYC",
+            "SFO",
+            "SEA",
+            "WAS"
+        ]
+    },
+    "HU": {
+        "code": "HU",
+        "label": "Hongrie",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/HU/HU-1_1-768x768.jpg",
+        "latitude": "47",
+        "longitude": "20",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/hongrie"
+        },
+        "destinations": [
+            "BUD"
+        ]
+    },
+    "AR": {
+        "code": "AR",
+        "label": "Argentine",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/AR/AR-1_1-768x768.jpg",
+        "latitude": "-34",
+        "longitude": "-64",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/argentine"
+        },
+        "destinations": [
+            "BUE"
+        ]
+    },
+    "MX": {
+        "code": "MX",
+        "label": "Mexique",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/MX/MX-1_1-768x768.jpg",
+        "latitude": "23",
+        "longitude": "-102",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/mexique"
+        },
+        "destinations": [
+            "CUN",
+            "MEX"
+        ]
+    },
+    "MA": {
+        "code": "MA",
+        "label": "Maroc",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/MA/MA-1_1-768x768.jpg",
+        "latitude": "32",
+        "longitude": "-5",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/maroc"
+        },
+        "destinations": [
+            "CMN",
+            "RAK",
+            "RBA"
+        ]
+    },
+    "GF": {
+        "code": "GF",
+        "label": "Guyane Française",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/GF/GF-1_1-768x768.jpg",
+        "latitude": "4",
+        "longitude": "-53",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/guyane-francaise"
+        },
+        "destinations": [
+            "CAY"
+        ]
+    },
+    "DK": {
+        "code": "DK",
+        "label": "Danemark",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/DK/DK-1_1-768x768.jpg",
+        "latitude": "56",
+        "longitude": "10",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/danemark"
+        },
+        "destinations": [
+            "CPH"
+        ]
+    },
+    "SN": {
+        "code": "SN",
+        "label": "Sénégal",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/SN/SN-1_1-768x768.jpg",
+        "latitude": "14",
+        "longitude": "-14",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/senegal"
+        },
+        "destinations": [
+            "DKR"
+        ]
+    },
+    "IN": {
+        "code": "IN",
+        "label": "Inde",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/IN/IN-1_1-768x768.jpg",
+        "latitude": "20",
+        "longitude": "77",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/inde"
+        },
+        "destinations": [
+            "DEL",
+            "BOM"
+        ]
+    },
+    "CM": {
+        "code": "CM",
+        "label": "Cameroun",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/CM/CM-1_1-768x768.jpg",
+        "latitude": "6",
+        "longitude": "12",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/cameroun"
+        },
+        "destinations": [
+            "DLA"
+        ]
+    },
+    "AE": {
+        "code": "AE",
+        "label": "Emirats Arabes Unis",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/AE/AE-1_1-768x768.jpg",
+        "latitude": "24",
+        "longitude": "54",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/emirats-arabes-unis"
+        },
+        "destinations": [
+            "DXB"
+        ]
+    },
+    "IE": {
+        "code": "IE",
+        "label": "Irlande",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/IE/IE-1_1-768x768.jpg",
+        "latitude": "53",
+        "longitude": "-8",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/irlande"
+        },
+        "destinations": [
+            "DUB"
+        ]
+    },
+    "GB": {
+        "code": "GB",
+        "label": "Royaume-Uni",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/GB/GB-1_1-768x768.jpg",
+        "latitude": "54",
+        "longitude": "2",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/royaume-uni"
+        },
+        "destinations": [
+            "EDI",
+            "GLA",
+            "LON",
+            "MAN"
+        ]
+    },
+    "PT": {
+        "code": "PT",
+        "label": "Portugal",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/PT/PT-1_1-768x768.jpg",
+        "latitude": "39",
+        "longitude": "-8",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/portugal"
+        },
+        "destinations": [
+            "FAO",
+            "LIS",
+            "OPO"
+        ]
+    },
+    "MQ": {
+        "code": "MQ",
+        "label": "Martinique",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/MQ/MQ-1_1-768x768.jpg",
+        "latitude": "14",
+        "longitude": "-61",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/martinique"
+        },
+        "destinations": [
+            "FDF"
+        ]
+    },
+    "BR": {
+        "code": "BR",
+        "label": "Brésil",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/BR/BR-1_1-768x768.jpg",
+        "latitude": "-10",
+        "longitude": "-55",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/bresil"
+        },
+        "destinations": [
+            "FOR",
+            "RIO",
+            "SAO"
+        ]
+    },
+    "CH": {
+        "code": "CH",
+        "label": "Suisse",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/CH/CH-1_1-768x768.jpg",
+        "latitude": "47",
+        "longitude": "8",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/suisse"
+        },
+        "destinations": [
+            "GVA",
+            "ZRH"
+        ]
+    },
+    "VN": {
+        "code": "VN",
+        "label": "Vietnam",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/VN/VN-1_1-768x768.jpg",
+        "latitude": "16",
+        "longitude": "107",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/Vietnam"
+        },
+        "destinations": [
+            "HAN",
+            "SGN"
+        ]
+    },
+    "HK": {
+        "code": "HK",
+        "label": "Hong Kong, Chine",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/HK/HK-1_1-768x768.jpg",
+        "latitude": "22",
+        "longitude": "114",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/hong-kong"
+        },
+        "destinations": [
+            "HKG"
+        ]
+    },
+    "TR": {
+        "code": "TR",
+        "label": "Turquie",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/TR/TR-1_1-768x768.jpg",
+        "latitude": "39",
+        "longitude": "35",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/turquie"
+        },
+        "destinations": [
+            "IST"
+        ]
+    },
+    "ZA": {
+        "code": "ZA",
+        "label": "Afrique Du Sud",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/ZA/ZA-1_1-768x768.jpg",
+        "latitude": "-29",
+        "longitude": "24",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/afrique-du-sud"
+        },
+        "destinations": [
+            "JNB",
+            "CPT"
+        ]
+    },
+    "CU": {
+        "code": "CU",
+        "label": "Cuba",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/CU/CU-1_1-768x768.jpg",
+        "latitude": "21",
+        "longitude": "-80",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/cuba"
+        },
+        "destinations": [
+            "HAV"
+        ]
+    },
+    "EG": {
+        "code": "EG",
+        "label": "Egypte",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/EG/EG-1_1-768x768.jpg",
+        "latitude": "27",
+        "longitude": "30",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/egypte"
+        },
+        "destinations": [
+            "CAI"
+        ]
+    },
+    "PE": {
+        "code": "PE",
+        "label": "Pérou",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/PE/PE-1_1-768x768.jpg",
+        "latitude": "-10",
+        "longitude": "-76",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/perou"
+        },
+        "destinations": [
+            "LIM"
+        ]
+    },
+    "SC": {
+        "code": "SC",
+        "label": "Seychelles",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/SC/SC-1_1-768x768.jpg",
+        "latitude": "-4",
+        "longitude": "55",
+        "travelGuide": {
+            "isTravelGuideAvailable": false,
+            "travelGuideUrl": ""
+        },
+        "destinations": [
+            "SEZ"
+        ]
+    },
+    "MV": {
+        "code": "MV",
+        "label": "Maldives",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/MV/MV-1_1-768x768.jpg",
+        "latitude": "3",
+        "longitude": "73",
+        "travelGuide": {
+            "isTravelGuideAvailable": false,
+            "travelGuideUrl": ""
+        },
+        "destinations": [
+            "MLE"
+        ]
+    },
+    "CA": {
+        "code": "CA",
+        "label": "Canada",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/CA/CA-1_1-768x768.jpg",
+        "latitude": "47",
+        "longitude": "-80",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/canada"
+        },
+        "destinations": [
+            "YMQ",
+            "YTO",
+            "YVR"
+        ]
+    },
+    "RU": {
+        "code": "RU",
+        "label": "Russie",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/RU/RU-1_1-768x768.jpg",
+        "latitude": "60",
+        "longitude": "100",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/russie"
+        },
+        "destinations": [
+            "MOW",
+            "LED"
+        ]
+    },
+    "KE": {
+        "code": "KE",
+        "label": "Kenya",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/KE/KE-1_1-768x768.jpg",
+        "latitude": "1",
+        "longitude": "38",
+        "travelGuide": {
+            "isTravelGuideAvailable": false,
+            "travelGuideUrl": ""
+        },
+        "destinations": [
+            "NBO"
+        ]
+    },
+    "NC": {
+        "code": "NC",
+        "label": "Nouvelle Calédonie",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/NC/NC-1_1-768x768.jpg",
+        "latitude": "-21",
+        "longitude": "165",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/nouvelle-caledonie"
+        },
+        "destinations": [
+            "NOU"
+        ]
+    },
+    "JP": {
+        "code": "JP",
+        "label": "Japon",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/JP/JP-1_1-768x768.jpg",
+        "latitude": "36",
+        "longitude": "138",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/japon"
+        },
+        "destinations": [
+            "OSA",
+            "TYO"
+        ]
+    },
+    "NO": {
+        "code": "NO",
+        "label": "Norvège",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/NO/NO-1_1-768x768.jpg",
+        "latitude": "62",
+        "longitude": "10",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/norvege"
+        },
+        "destinations": [
+            "OSL"
+        ]
+    },
+    "PA": {
+        "code": "PA",
+        "label": "Panama",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/PA/PA-1_1-768x768.jpg",
+        "latitude": "9",
+        "longitude": "-80",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/panama"
+        },
+        "destinations": [
+            "PTY"
+        ]
+    },
+    "GP": {
+        "code": "GP",
+        "label": "Guadeloupe",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/GP/GP-1_1-768x768.jpg",
+        "latitude": "16",
+        "longitude": "-61",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/guadeloupe"
+        },
+        "destinations": [
+            "PTP"
+        ]
+    },
+    "CZ": {
+        "code": "CZ",
+        "label": "Rep Tchèque",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/CZ/CZ-1_1-768x768.jpg",
+        "latitude": "49",
+        "longitude": "15",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/republique-tcheque"
+        },
+        "destinations": [
+            "PRG"
+        ]
+    },
+    "EC": {
+        "code": "EC",
+        "label": "Equateur",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/EC/EC-1_1-768x768.jpg",
+        "latitude": "-2",
+        "longitude": "-77",
+        "travelGuide": {
+            "isTravelGuideAvailable": false,
+            "travelGuideUrl": ""
+        },
+        "destinations": [
+            "UIO"
+        ]
+    },
+    "RE": {
+        "code": "RE",
+        "label": "Reunion",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/RE/RE-1_1-768x768.jpg",
+        "latitude": "-21",
+        "longitude": "55",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/la-reunion"
+        },
+        "destinations": [
+            "RUN"
+        ]
+    },
+    "DO": {
+        "code": "DO",
+        "label": "Rep Dominicaine",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/DO/DO-1_1-768x768.jpg",
+        "latitude": "19",
+        "longitude": "-70",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/republique-dominicaine"
+        },
+        "destinations": [
+            "SDQ"
+        ]
+    },
+    "SX": {
+        "code": "SX",
+        "label": "Saint Martin",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/SX/SX-1_1-768x768.jpg",
+        "latitude": "18",
+        "longitude": "-63",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/saint-martin"
+        },
+        "destinations": [
+            "SXM"
+        ]
+    },
+    "CR": {
+        "code": "CR",
+        "label": "Costa Rica",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/CR/CR-1_1-768x768.jpg",
+        "latitude": "10",
+        "longitude": "-84",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/costa-rica"
+        },
+        "destinations": [
+            "SJO"
+        ]
+    },
+    "CL": {
+        "code": "CL",
+        "label": "Chili",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/CL/CL-1_1-768x768.jpg",
+        "latitude": "-30",
+        "longitude": "-71",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/chili"
+        },
+        "destinations": [
+            "SCL"
+        ]
+    },
+    "SG": {
+        "code": "SG",
+        "label": "Singapour",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/SG/SG-1_1-768x768.jpg",
+        "latitude": "1",
+        "longitude": "103",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/singapour"
+        },
+        "destinations": [
+            "SIN"
+        ]
+    },
+    "SE": {
+        "code": "SE",
+        "label": "Suède",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/SE/SE-1_1-768x768.jpg",
+        "latitude": "62",
+        "longitude": "15",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/suede"
+        },
+        "destinations": [
+            "STO"
+        ]
+    },
+    "KR": {
+        "code": "KR",
+        "label": "Corée",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/KR/KR-1_1-768x768.jpg",
+        "latitude": "37",
+        "longitude": "127",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/coree-du-sud"
+        },
+        "destinations": [
+            "SEL"
+        ]
+    },
+    "PF": {
+        "code": "PF",
+        "label": "Polynésie Française",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/PF/PF-1_1-768x768.jpg",
+        "latitude": "-15",
+        "longitude": "-140",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/polynesie-francaise"
+        },
+        "destinations": [
+            "PPT"
+        ]
+    },
+    "IL": {
+        "code": "IL",
+        "label": "Israël",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/IL/IL-1_1-768x768.jpg",
+        "latitude": "31",
+        "longitude": "34",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/israel"
+        },
+        "destinations": [
+            "TLV"
+        ]
+    },
+    "TN": {
+        "code": "TN",
+        "label": "Tunisie",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/TN/TN-1_1-768x768.jpg",
+        "latitude": "34",
+        "longitude": "9",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/tunisie"
+        },
+        "destinations": [
+            "TUN"
+        ]
+    },
+    "PL": {
+        "code": "PL",
+        "label": "Pologne",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/PL/PL-1_1-768x768.jpg",
+        "latitude": "52",
+        "longitude": "20",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/pologne"
+        },
+        "destinations": [
+            "WAW"
+        ]
+    },
+    "AT": {
+        "code": "AT",
+        "label": "Autriche",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/AT/AT-1_1-768x768.jpg",
+        "latitude": "47",
+        "longitude": "13",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/autriche"
+        },
+        "destinations": [
+            "VIE"
+        ]
+    },
+    "MU": {
+        "code": "MU",
+        "label": "Ile Maurice",
+        "pictureUrl": "//objects.airfrance.com/FR/common/common/img/tbaf/countries/MU/MU-1_1-768x768.jpg",
+        "latitude": "-20",
+        "longitude": "57",
+        "travelGuide": {
+            "isTravelGuideAvailable": true,
+            "travelGuideUrl": "https://www.airfrance.fr/guide-voyage/ile-maurice"
+        },
+        "destinations": [
+            "MRU"
+        ]
+    }
+}
